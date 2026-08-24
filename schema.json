@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hackathon.acelabusa.com/schema.json",
+  "title": "AEC Hackathon submission output (output.json)",
+  "description": "What run.sh must write to $OUTPUT_PATH. Duplicate reports of the same error do not raise recall and they lower precision.",
+  "type": "object",
+  "required": ["errors"],
+  "properties": {
+    "errors": {
+      "type": "array",
+      "maxItems": 1000,
+      "items": {
+        "type": "object",
+        "required": ["document", "category", "description"],
+        "properties": {
+          "document": {
+            "type": "string",
+            "minLength": 1,
+            "description": "File name of the document that contains the INCORRECT information."
+          },
+          "category": {
+            "type": "string",
+            "enum": ["cross-document-conflict", "code-violation", "unit-error", "missing-item"]
+          },
+          "location": {
+            "type": "string",
+            "description": "Where the error appears: page, section, table, or equipment mark. Page numbers and distinctive values here help your report match the answer key."
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1,
+            "description": "One sentence. Quote the wrong value and the correct value — the grader matches on the distinctive strings you mention."
+          },
+          "id": {
+            "type": "string",
+            "description": "Optional. If you somehow know the answer-key id, echoing it guarantees the match."
+          }
+        }
+      }
+    }
+  }
+}

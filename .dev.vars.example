@@ -1,0 +1,15 @@
+# Copy this file to .dev.vars and fill in the values.
+# .dev.vars is gitignored. In production, set these with `wrangler secret put`.
+
+# The real OpenRouter API key. The outbound proxy injects it.
+# Teams never see this value.
+OPENROUTER_API_KEY=sk-or-v1-replace-me
+
+# Token for the /admin.html page and /api/admin/* endpoints.
+ADMIN_TOKEN=replace-me
+
+# DEV_MODE=1 relaxes two rules for local testing:
+# - The runner accepts direct tarball URLs (http://host.docker.internal:8123/...).
+# - The sandbox may reach host.docker.internal.
+# Do NOT set this in production.
+DEV_MODE=1

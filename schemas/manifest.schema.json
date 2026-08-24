@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hackathon.acelabusa.com/schemas/manifest.schema.json",
+  "title": "AEC Hackathon answer key (manifest.json)",
+  "description": "Ground truth for one dataset. Lives next to the documents as manifest.json. It never enters the sandbox. A reported error matches a manifest entry when document and category match AND (the report's location/description contains the page number, or contains one of the keywords, or the report echoes the entry id). Matching is one-to-one.",
+  "type": "object",
+  "required": ["errors"],
+  "additionalProperties": false,
+  "properties": {
+    "errors": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "document", "category", "description"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Unique id inside this manifest, e.g. T01."
+          },
+          "document": {
+            "type": "string",
+            "minLength": 1,
+            "description": "File name (as listed in files.json) that contains the INCORRECT information. Compared case-insensitively, extension ignored."
+          },
+          "category": {
+            "type": "string",
+            "enum": ["cross-document-conflict", "code-violation", "unit-error", "missing-item"],
+            "description": "Error category. Must match the reported category (normalized: lowercase, non-alphanumerics collapse to dashes)."
+          },
+          "page": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Optional. Matches when any integer in the report's location or description equals this page number."
+          },
+          "keywords": {
+            "type": "array",
+            "items": { "type": "string", "minLength": 1 },
+            "minItems": 1,
+            "description": "Optional but strongly recommended. Matches when any keyword appears (case-insensitive substring) in the report's location or description. Give 2-4 distinctive strings a correct finding would almost surely mention (equipment marks, wrong values, section numbers)."
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Human explanation of the injected error: the wrong value, the right value, and where each lives. Not used for matching."
+          }
+        }
+      }
+    }
+  }
+}

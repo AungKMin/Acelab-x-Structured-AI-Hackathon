@@ -1,0 +1,26 @@
+{
+  "errors": [
+    {
+      "id": "P01",
+      "document": "schedule.pdf",
+      "category": "cross-document-conflict",
+      "keywords": [
+        "D-202",
+        "45 min",
+        "mechanical"
+      ],
+      "description": "Door schedule rates D-202 (Mechanical 101) at 45 min; spec 08 11 00 requires 90-minute doors at mechanical rooms."
+    },
+    {
+      "id": "P02",
+      "document": "schedule.pdf",
+      "category": "unit-error",
+      "keywords": [
+        "L-1",
+        "5.0 gpm",
+        "0.5"
+      ],
+      "description": "Fixture schedule lists lavatory L-1 at 5.0 gpm; spec 22 40 00 requires 0.5 gpm aerators."
+    }
+  ]
+}

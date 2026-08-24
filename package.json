@@ -1,0 +1,24 @@
+{
+  "name": "aec-hackathon-grader",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Submission runner, grader, and leaderboard for the Acelab x Structured AI AEC Hackathon",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "typecheck": "tsc --noEmit",
+    "db:local": "wrangler d1 execute aec-hackathon --local --file=./schema.sql",
+    "db:remote": "wrangler d1 execute aec-hackathon --remote --file=./schema.sql",
+    "sample:serve": "bash scripts/serve-sample.sh",
+    "validate:datasets": "node scripts/validate-dataset.mjs assets/datasets/test && node scripts/validate-dataset.mjs assets/datasets/validation",
+    "keys": "node scripts/openrouter-keys.mjs"
+  },
+  "dependencies": {
+    "@cloudflare/sandbox": "^0.12.7"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250823.0",
+    "typescript": "^5.9.2",
+    "wrangler": "^4.125.0"
+  }
+}

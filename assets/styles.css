@@ -1,0 +1,537 @@
+/* AEC Hackathon grader.
+   Liquid-glass treatment per Apple HIG: glass lives on the navigation
+   layer and transient surfaces only; content stays near-opaque so it
+   reads; glass never samples other glass (Safari also mishandles nested
+   backdrop-filters); the ambient scene is painted on a fixed element so
+   backdrop-filter can frost it. */
+
+:root {
+  --radius: 12px;
+  --bg: oklch(0.97 0.003 240);
+  --scrim: color-mix(in oklab, var(--bg) 45%, transparent);
+  --card: oklch(1 0 0 / 0.9);
+  --text: oklch(0.2 0.01 250);
+  --text-dim: oklch(0.5 0.012 250);
+  --border: oklch(0.35 0.01 250 / 0.16);
+  --hairline: oklch(0.35 0.01 250 / 0.09);
+  --input-bg: oklch(1 0 0 / 0.65);
+  --track: oklch(0.5 0 0 / 0.08);
+  --pill: oklch(1 0 0 / 0.98);
+  --accent: oklch(0.5 0.13 250);
+  --accent-text: oklch(0.45 0.13 250);
+  --good: oklch(0.55 0.15 150);
+  --good-bg: oklch(0.55 0.15 150 / 0.12);
+  --warn: oklch(0.55 0.13 70);
+  --warn-bg: oklch(0.7 0.15 80 / 0.16);
+  --bad: oklch(0.55 0.19 25);
+  --bad-bg: oklch(0.55 0.19 25 / 0.1);
+  --shadow-card: inset 0 1px 0 0 oklch(1 0 0 / 0.5), 0 8px 28px oklch(0.2 0 0 / 0.07);
+  --shadow-pill: inset 0 1px 0 0 oklch(1 0 0 / 0.8), 0 2px 8px oklch(0 0 0 / 0.16);
+  --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", system-ui, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "Cascadia Code", Menlo, monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: oklch(0.17 0.008 250);
+    --card: oklch(0.23 0.008 250 / 0.92);
+    --text: oklch(0.94 0.005 250);
+    --text-dim: oklch(0.66 0.01 250);
+    --border: oklch(1 0 0 / 0.13);
+    --hairline: oklch(1 0 0 / 0.08);
+    --input-bg: oklch(0.14 0.008 250 / 0.55);
+    --track: oklch(1 0 0 / 0.08);
+    --pill: oklch(0.42 0.008 250 / 0.95);
+    --accent: oklch(0.62 0.12 250);
+    --accent-text: oklch(0.74 0.1 250);
+    --good: oklch(0.72 0.14 150);
+    --good-bg: oklch(0.7 0.14 150 / 0.14);
+    --warn: oklch(0.78 0.13 80);
+    --warn-bg: oklch(0.75 0.14 80 / 0.15);
+    --bad: oklch(0.7 0.16 25);
+    --bad-bg: oklch(0.65 0.17 25 / 0.14);
+    --shadow-card: inset 0 1px 0 0 oklch(1 0 0 / 0.08), 0 8px 32px oklch(0 0 0 / 0.35);
+    --shadow-pill: inset 0 1px 0 0 oklch(1 0 0 / 0.16), 0 1px 6px oklch(0 0 0 / 0.45);
+  }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--font);
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Ambient scene the glass refracts: cool blue up top, warm amber low —
+   the sunset-skyline palette of the event poster, heavily muted. Fixed
+   element (not background-attachment) so backdrop-filter samples it. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image:
+    radial-gradient(55rem 38rem at 12% -8%, oklch(0.82 0.07 245 / 0.5), transparent 62%),
+    radial-gradient(48rem 34rem at 98% 2%, oklch(0.86 0.05 225 / 0.4), transparent 62%),
+    radial-gradient(44rem 38rem at 72% 108%, oklch(0.88 0.08 60 / 0.4), transparent 62%),
+    radial-gradient(38rem 30rem at -8% 78%, oklch(0.87 0.06 45 / 0.28), transparent 62%);
+}
+@media (prefers-color-scheme: dark) {
+  body::before {
+    background-image:
+      radial-gradient(55rem 38rem at 12% -8%, oklch(0.38 0.09 250 / 0.5), transparent 62%),
+      radial-gradient(48rem 34rem at 98% 2%, oklch(0.35 0.07 230 / 0.38), transparent 62%),
+      radial-gradient(44rem 38rem at 72% 108%, oklch(0.42 0.08 55 / 0.3), transparent 62%),
+      radial-gradient(38rem 30rem at -8% 78%, oklch(0.38 0.06 45 / 0.22), transparent 62%);
+  }
+}
+
+/* ---------------------------------------------------------------------
+   Glass header — the ONE frosted layer. Capsules inside are solid
+   tracks on the glass, not glass of their own.
+--------------------------------------------------------------------- */
+
+.glass-header {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background-color: var(--scrim);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  box-shadow: 0 1px 0 0 var(--hairline);
+}
+@media (prefers-reduced-transparency: reduce) {
+  .glass-header {
+    background-color: var(--bg);
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+}
+
+.header-inner {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.wordmark { white-space: nowrap; }
+.wordmark strong {
+  font-size: 15px;
+  font-weight: 650;
+  letter-spacing: -0.01em;
+  color: var(--text);
+}
+
+/* Segmented capsule: solid track + sliding near-solid lozenge. */
+.tabs {
+  position: relative;
+  display: flex;
+  border-radius: 999px;
+  background-color: var(--track);
+  box-shadow: inset 0 0 0 1px var(--hairline);
+  padding: 3px;
+}
+.tab {
+  appearance: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font: inherit;
+  font-size: 13.5px;
+  font-weight: 550;
+  color: var(--text-dim);
+  padding: 6px 16px;
+  border-radius: 999px;
+  position: relative;
+  z-index: 1;
+  transition: color 150ms ease;
+}
+.tab.active { color: var(--text); }
+.tab-pill {
+  position: absolute;
+  top: 3px;
+  bottom: 3px;
+  border-radius: 999px;
+  background-color: var(--pill);
+  box-shadow: var(--shadow-pill);
+  /* Slight overshoot ≈ Apple's .spring(response: 0.3) */
+  transition:
+    left 350ms cubic-bezier(0.3, 1.25, 0.5, 1),
+    width 350ms cubic-bezier(0.3, 1.25, 0.5, 1);
+}
+@media (prefers-reduced-motion: reduce) {
+  .tab-pill { transition: none; }
+}
+
+/* ---------------------------------------------------------------------
+   Page frame
+--------------------------------------------------------------------- */
+
+main {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 36px 20px 72px;
+}
+
+.page-intro { margin-bottom: 28px; }
+.page-intro h1 {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+.page-intro p {
+  color: var(--text-dim);
+  font-size: 15px;
+  max-width: 56ch;
+  margin-top: 4px;
+}
+
+.panel { display: none; }
+.panel.active { display: block; animation: rise 0.25s ease; }
+@keyframes rise {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .panel.active { animation: none; }
+}
+
+/* Content cards: near-opaque. No blur — glass is for navigation. */
+.card {
+  background-color: var(--card);
+  border: 1px solid var(--border);
+  border-radius: calc(var(--radius) + 4px);
+  box-shadow: var(--shadow-card);
+  padding: 22px 24px;
+  margin-bottom: 18px;
+}
+
+.card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+.card-head h2 { font-size: 16px; font-weight: 650; letter-spacing: -0.01em; }
+
+h3 { font-size: 13px; font-weight: 650; margin-bottom: 2px; }
+
+.split { display: grid; grid-template-columns: 1fr 1fr; gap: 26px; }
+@media (max-width: 660px) { .split { grid-template-columns: 1fr; } }
+
+.stack { display: flex; flex-direction: column; gap: 9px; }
+
+label { font-size: 12.5px; font-weight: 550; color: var(--text-dim); }
+
+input[type="text"], input:not([type]) {
+  background-color: var(--input-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--text);
+  font: inherit;
+  font-size: 14px;
+  padding: 9px 12px;
+  outline: none;
+  transition: border-color 150ms ease, box-shadow 150ms ease;
+}
+input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3.5px color-mix(in oklab, var(--accent) 22%, transparent);
+}
+input::placeholder { color: color-mix(in oklab, var(--text-dim) 75%, transparent); }
+
+/* Capsule buttons. Press dips slightly — Apple's interactive-glass feel. */
+.btn {
+  appearance: none;
+  cursor: pointer;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background-color: var(--track);
+  color: var(--text);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 550;
+  padding: 8px 18px;
+}
+.btn-primary {
+  background-color: var(--accent);
+  border-color: transparent;
+  color: oklch(0.99 0 0);
+  box-shadow: inset 0 1px 0 0 oklch(1 0 0 / 0.22), 0 1px 4px oklch(0 0 0 / 0.18);
+}
+.btn-ghost {
+  background: none;
+  border-color: transparent;
+  color: var(--text-dim);
+  padding: 5px 10px;
+  font-size: 13px;
+}
+.btn-ghost:hover { color: var(--bad); }
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+@media (prefers-reduced-motion: no-preference) {
+  .btn:not(:disabled) {
+    transition:
+      transform 160ms cubic-bezier(0.3, 1.4, 0.6, 1),
+      background-color 150ms ease,
+      border-color 150ms ease,
+      filter 150ms ease;
+  }
+  .btn:not(:disabled):hover { filter: brightness(1.05); }
+  .btn:not(:disabled):active { transform: scale(0.96); }
+}
+
+.hint { font-size: 12.5px; color: var(--text-dim); }
+.mono { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+.hidden { display: none !important; }
+
+/* Status pills */
+.pill {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 11px;
+  border-radius: 999px;
+  background-color: color-mix(in oklab, var(--accent) 13%, transparent);
+  color: var(--accent-text);
+  white-space: nowrap;
+}
+.pill-dim { background-color: var(--track); color: var(--text-dim); }
+.pill-good { background-color: var(--good-bg); color: var(--good); }
+.pill-warn { background-color: var(--warn-bg); color: var(--warn); }
+.pill-bad { background-color: var(--bad-bg); color: var(--bad); }
+
+/* Team code reveal */
+.code-box {
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-align: center;
+  padding: 20px;
+  margin: 12px 0 16px;
+  background-color: var(--track);
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+  user-select: all;
+}
+
+.team-meta { display: flex; gap: 30px; align-items: center; flex-wrap: wrap; }
+.team-meta > div { display: flex; flex-direction: column; gap: 1px; }
+.meta-label { font-size: 12px; font-weight: 550; color: var(--text-dim); }
+.meta-value { font-size: 16px; font-weight: 650; }
+
+/* Run-kind selector */
+.kind-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+@media (max-width: 660px) { .kind-row { grid-template-columns: 1fr; } }
+.kind-option {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 11px 13px;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 13.5px;
+  transition: border-color 150ms ease, background-color 150ms ease;
+}
+.kind-option:has(input:checked) {
+  border-color: var(--accent);
+  background-color: color-mix(in oklab, var(--accent) 7%, transparent);
+}
+.kind-option small { color: var(--text-dim); }
+.kind-option input { margin-top: 3px; accent-color: var(--accent); }
+
+/* Live run */
+.run-progress { display: flex; gap: 14px; align-items: center; padding: 6px 0; }
+.spinner {
+  width: 22px;
+  height: 22px;
+  flex: none;
+  border: 2.5px solid var(--track);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.9s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+.progress-line { font-weight: 550; font-size: 14px; }
+.progress-sub { font-size: 12.5px; color: var(--text-dim); margin-top: 1px; }
+
+/* Score tiles */
+.score-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  gap: 10px;
+  margin: 6px 0 14px;
+}
+.score-tile {
+  background-color: var(--track);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+}
+.score-tile .k { font-size: 11px; font-weight: 600; color: var(--text-dim); }
+.score-tile .v {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 21px;
+  font-weight: 600;
+  margin-top: 1px;
+}
+.score-tile.hero .v { color: var(--accent-text); font-size: 26px; }
+
+/* Event-info key/value rows and copyable secrets */
+.kv-list { display: flex; flex-direction: column; gap: 8px; }
+.kv-row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.kv-row .k { font-size: 12.5px; font-weight: 550; color: var(--text-dim); min-width: 110px; }
+.kv-row .v { font-size: 14px; word-break: break-all; }
+.kv-row a { color: var(--accent-text); text-decoration: none; }
+.kv-row a:hover { text-decoration: underline; }
+.secret {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  background-color: var(--track);
+  border-radius: 8px;
+  padding: 4px 10px;
+  user-select: all;
+  word-break: break-all;
+}
+.btn-copy { padding: 4px 12px; font-size: 12.5px; }
+.spend-bar {
+  height: 6px;
+  border-radius: 999px;
+  background-color: var(--track);
+  overflow: hidden;
+  min-width: 140px;
+  flex: 1;
+}
+.spend-bar > div { height: 100%; border-radius: 999px; background-color: var(--accent); }
+textarea {
+  background-color: var(--input-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--text);
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  line-height: 1.5;
+  padding: 10px 12px;
+  outline: none;
+  resize: vertical;
+  transition: border-color 150ms ease, box-shadow 150ms ease;
+}
+textarea:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3.5px color-mix(in oklab, var(--accent) 22%, transparent);
+}
+
+details summary { cursor: pointer; color: var(--text-dim); font-size: 13px; font-weight: 550; }
+pre {
+  background-color: var(--input-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 12px 14px;
+  margin-top: 8px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: 1.55;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.error-box {
+  background-color: var(--bad-bg);
+  border-radius: 10px;
+  color: var(--bad);
+  padding: 10px 14px;
+  margin-top: 10px;
+  font-size: 13.5px;
+}
+
+/* Tables */
+.table-wrap { overflow-x: auto; }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13.5px;
+  font-variant-numeric: tabular-nums;
+}
+th {
+  text-align: left;
+  font-size: 10.5px;
+  font-weight: 650;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-dim);
+  padding: 8px 11px;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+td {
+  padding: 9px 11px;
+  border-bottom: 1px solid var(--hairline);
+  white-space: nowrap;
+}
+tbody tr:last-child td { border-bottom: none; }
+tbody tr:hover td { background-color: color-mix(in oklab, var(--track) 55%, transparent); }
+td.num { font-family: var(--font-mono); }
+.rank { font-family: var(--font-mono); color: var(--text-dim); }
+tr.podium .rank { color: var(--accent-text); font-weight: 650; }
+tr.podium td:nth-child(2) { font-weight: 650; }
+
+/* Rules */
+.rules h2 { font-size: 15px; font-weight: 650; margin: 20px 0 8px; }
+.rules h2:first-child { margin-top: 0; }
+.rules ol, .rules ul { padding-left: 20px; display: flex; flex-direction: column; gap: 5px; }
+.rules li { font-size: 14px; }
+.rules p { margin: 6px 0; font-size: 14px; }
+.rules .mono { font-size: 0.92em; }
+
+footer {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 20px;
+  color: var(--text-dim);
+  font-size: 12.5px;
+  border-top: 1px solid var(--hairline);
+}
+
+/* Toast: a transient surface, so it gets glass. It floats over the page
+   scene, never over other glass. */
+.toast {
+  position: fixed;
+  bottom: 26px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--scrim);
+  backdrop-filter: blur(20px) saturate(170%);
+  -webkit-backdrop-filter: blur(20px) saturate(170%);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 10px 20px;
+  font-size: 13.5px;
+  font-weight: 550;
+  box-shadow: inset 0 1px 0 0 oklch(1 0 0 / 0.25), 0 8px 28px oklch(0 0 0 / 0.2);
+  z-index: 10;
+  animation: rise 0.2s ease;
+}
+.toast.err { color: var(--bad); }
+@media (prefers-reduced-transparency: reduce) {
+  .toast {
+    background-color: var(--bg);
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+}

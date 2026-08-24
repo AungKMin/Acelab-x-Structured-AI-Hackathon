@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AEC Hackathon — Admin</title>
+  <meta name="color-scheme" content="light dark">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='4' y='4' width='56' height='56' rx='16' fill='%23555c68'/%3E%3Crect x='14' y='14' width='36' height='36' rx='10' fill='white' fill-opacity='0.28'/%3E%3Crect x='24' y='24' width='16' height='16' rx='5' fill='white' fill-opacity='0.85'/%3E%3C/svg%3E">
+</head>
+<body>
+  <header class="glass-header">
+    <div class="header-inner">
+      <div class="wordmark">
+        <strong>Acelab × Structured AI AEC Hackathon</strong>
+      </div>
+      <span class="pill pill-dim" id="auth-status">Locked</span>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-intro">
+      <h1>Admin</h1>
+      <p>Runs, event info, answer keys, and team API keys. Everything here needs the admin token.</p>
+    </div>
+
+    <div class="card" id="token-card">
+      <div class="card-head"><h2>Access</h2></div>
+      <form id="token-form" class="stack" style="max-width:420px">
+        <label for="token-input">Admin token</label>
+        <input id="token-input" type="text" autocomplete="off">
+        <div><button class="btn btn-primary" type="submit">Unlock</button></div>
+      </form>
+    </div>
+
+    <div class="card hidden admin-only" id="runs-card">
+      <div class="card-head"><h2>All runs (final scores visible)</h2><button class="btn" id="refresh-btn">Refresh</button></div>
+      <div class="table-wrap"><table id="runs-table">
+        <thead><tr><th>#</th><th>Team</th><th>Kind</th><th>Status</th><th>F1</th><th>P</th><th>R</th><th>Cost</th><th>Time</th><th>Calls</th><th></th></tr></thead>
+        <tbody></tbody>
+      </table></div>
+    </div>
+
+    <div class="card hidden admin-only" id="event-info-card">
+      <div class="card-head"><h2>Event info (shown to signed-in teams)</h2></div>
+      <div class="split">
+        <div class="stack">
+          <label for="ei-links">Links — one per line, as <span class="mono">Label | https://url</span></label>
+          <textarea id="ei-links" rows="4" placeholder="Docs | https://…&#10;Starter repo | https://github.com/…"></textarea>
+          <label for="ei-shared-label">Shared API key — label</label>
+          <input id="ei-shared-label" placeholder="e.g. Event OpenRouter key">
+          <label for="ei-shared-value">Shared API key — value (leave empty to hide the section)</label>
+          <input id="ei-shared-value" placeholder="sk-…">
+        </div>
+        <div class="stack">
+          <label for="ei-sa-docs">Structured AI API — docs URL</label>
+          <input id="ei-sa-docs" placeholder="https://…">
+          <label for="ei-sa-base">Structured AI API — base URL</label>
+          <input id="ei-sa-base" placeholder="https://api.…">
+          <label for="ei-sa-key">Structured AI API — key</label>
+          <input id="ei-sa-key" placeholder="key teams should use">
+          <label for="ei-sa-notes">Structured AI API — notes</label>
+          <input id="ei-sa-notes" placeholder="one line of guidance">
+        </div>
+      </div>
+      <div class="stack" style="margin-top:12px">
+        <label for="ei-notes">General notes (plain text, shown as-is)</label>
+        <textarea id="ei-notes" rows="3"></textarea>
+        <div><button class="btn btn-primary" id="ei-save">Save event info</button></div>
+      </div>
+    </div>
+
+    <div class="card hidden admin-only" id="manifest-card">
+      <div class="card-head"><h2>Answer keys</h2></div>
+      <p class="hint">Saving here overrides the deployed manifest.json at grade time — no redeploy needed. Contract: schemas/manifest.schema.json. Clearing goes back to the bundled file.</p>
+      <div class="split" style="margin-top:12px">
+        <div class="stack">
+          <label>Test set <span class="pill pill-dim" id="mf-test-source"></span></label>
+          <textarea id="mf-test" rows="14" spellcheck="false" placeholder='{"errors": [{"id": "T01", "document": "…", "category": "unit-error", "keywords": ["…"], "description": "…"}]}'></textarea>
+          <div class="kv-row">
+            <button class="btn btn-primary" data-mf-save="test">Validate &amp; save</button>
+            <button class="btn" data-mf-clear="test">Clear override</button>
+          </div>
+        </div>
+        <div class="stack">
+          <label>Validation set <span class="pill pill-dim" id="mf-validation-source"></span></label>
+          <textarea id="mf-validation" rows="14" spellcheck="false"></textarea>
+          <div class="kv-row">
+            <button class="btn btn-primary" data-mf-save="validation">Validate &amp; save</button>
+            <button class="btn" data-mf-clear="validation">Clear override</button>
+          </div>
+        </div>
+      </div>
+      <pre id="mf-messages" class="hidden"></pre>
+    </div>
+
+    <div class="card hidden admin-only" id="pool-card">
+      <div class="card-head"><h2>Team OpenRouter keys</h2>
+        <span class="kv-row">
+          <button class="btn" id="keys-disable-all">Disable all (cutoff)</button>
+          <button class="btn btn-ghost" id="keys-delete-all">Delete all</button>
+        </span>
+      </div>
+      <p class="hint" id="pool-hint">Paste team-keys.csv (lines of <span class="mono">name,sk-or-…</span>). Each signed-in team is handed the next free key automatically and sees it, with live spend and limit, on the Event tab.</p>
+      <div class="stack" style="margin-top:10px">
+        <textarea id="pool-csv" rows="4" spellcheck="false" placeholder="aec-team-01,sk-or-v1-…&#10;aec-team-02,sk-or-v1-…"></textarea>
+        <div><button class="btn btn-primary" id="pool-import">Import keys</button></div>
+      </div>
+      <div class="table-wrap" style="margin-top:14px"><table id="pool-table">
+        <thead><tr><th>Key</th><th>Assigned team</th><th>Spend</th><th>Limit</th><th>Status</th></tr></thead>
+        <tbody></tbody>
+      </table></div>
+    </div>
+
+    <div class="card hidden admin-only" id="blocked-card">
+      <div class="card-head"><h2>Blocked egress attempts</h2></div>
+      <div class="table-wrap"><table id="blocked-table">
+        <thead><tr><th>Run</th><th>Host</th><th>Method</th><th>URL</th><th>At</th></tr></thead>
+        <tbody></tbody>
+      </table></div>
+    </div>
+
+    <div class="card hidden admin-only" id="teams-card">
+      <div class="card-head"><h2>Teams</h2></div>
+      <div class="table-wrap"><table id="teams-table">
+        <thead><tr><th>ID</th><th>Name</th><th>Created</th><th></th></tr></thead>
+        <tbody></tbody>
+      </table></div>
+    </div>
+  </main>
+
+  <div class="toast hidden" id="toast"></div>
+  <script>
+  (() => {
+    "use strict";
+    const $ = (s) => document.querySelector(s);
+    let token = sessionStorage.getItem("aec-admin-token") || "";
+
+    let toastTimer = null;
+    function toast(msg, err) {
+      const el = $("#toast");
+      el.textContent = msg;
+      el.className = "toast" + (err ? " err" : "");
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => el.classList.add("hidden"), 4000);
+    }
+
+    async function api(path, opts = {}) {
+      const resp = await fetch(path, {
+        ...opts,
+        headers: { "content-type": "application/json", authorization: "Bearer " + token },
+      });
+      const data = await resp.json().catch(() => ({}));
+      if (!resp.ok && !data.errors) throw new Error(data.error || "Request failed");
+      return data;
+    }
+
+    const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
+    const f = (v, d = 3) => (v === null || v === undefined ? "—" : Number(v).toFixed(d));
+    const usd = (v) => (v === null || v === undefined ? "—" : "$" + Number(v).toFixed(4));
+    const dur = (ms) => (ms == null ? "—" : ms < 1000 ? Math.round(ms) + "ms" : Math.round(ms / 1000) + "s");
+
+    // ---------- runs / teams / blocked ----------
+
+    async function refreshOverview() {
+      const data = await api("/api/admin/overview");
+      $("#runs-table tbody").innerHTML = data.runs.map((r) => `
+        <tr>
+          <td class="num">#${r.id}</td><td>${esc(r.team)}</td><td>${r.kind}</td>
+          <td>${esc(r.status)}</td>
+          <td class="num">${f(r.f1)}</td><td class="num">${f(r.precision)}</td><td class="num">${f(r.recall)}</td>
+          <td class="num">${usd(r.cost_usd)}</td>
+          <td class="num">${dur(r.duration_ms)}</td><td class="num">${r.llm_calls ?? 0}</td>
+          <td><button class="btn btn-ghost" data-void="${r.id}">void</button></td>
+        </tr>`).join("") || '<tr><td colspan="11">No runs yet.</td></tr>';
+
+      $("#blocked-table tbody").innerHTML = data.blocked.map((b) => `
+        <tr><td class="num">${b.run_id ?? "—"}</td><td>${esc(b.host)}</td><td>${esc(b.method)}</td>
+        <td class="num">${esc(b.url)}</td><td class="num">${esc(b.created_at)}</td></tr>`).join("")
+        || '<tr><td colspan="5">None. Good.</td></tr>';
+
+      $("#teams-table tbody").innerHTML = data.teams.map((t) => `
+        <tr><td class="num">${t.id}</td><td>${esc(t.name)}</td><td class="num">${esc(t.created_at)}</td>
+        <td><button class="btn btn-ghost" data-del="${esc(t.name)}">delete</button></td></tr>`).join("")
+        || '<tr><td colspan="4">No teams yet.</td></tr>';
+    }
+
+    // ---------- config (event info, manifests, key pool) ----------
+
+    async function refreshConfig() {
+      const data = await api("/api/admin/config");
+      const info = data.event_info || {};
+
+      $("#ei-links").value = (info.links || []).map((l) => `${l.label || ""} | ${l.url || ""}`).join("\n");
+      $("#ei-shared-label").value = info.shared_key?.label || "";
+      $("#ei-shared-value").value = info.shared_key?.value || "";
+      $("#ei-sa-docs").value = info.structured_ai?.docs_url || "";
+      $("#ei-sa-base").value = info.structured_ai?.base_url || "";
+      $("#ei-sa-key").value = info.structured_ai?.api_key || "";
+      $("#ei-sa-notes").value = info.structured_ai?.notes || "";
+      $("#ei-notes").value = info.notes || "";
+
+      for (const ds of ["test", "validation"]) {
+        const m = data.manifests?.[ds];
+        $(`#mf-${ds}-source`).textContent = m?.source || "";
+        if (m?.manifest) $(`#mf-${ds}`).value = JSON.stringify(m.manifest, null, 2);
+      }
+
+      if (!data.stats_available && !$("#pool-hint").dataset.warned) {
+        $("#pool-hint").dataset.warned = "1";
+        $("#pool-hint").innerHTML += ' <strong>Spend/limit columns and the disable/delete buttons need the OPENROUTER_MANAGEMENT_KEY Worker secret.</strong>';
+      }
+      $("#pool-table tbody").innerHTML = (data.pool || []).map((p) => `
+        <tr><td class="num">${esc(p.name)} <span class="hint mono">${esc(p.key_tail)}</span></td>
+        <td>${p.team ? esc(p.team) : '<span class="hint">unassigned</span>'}</td>
+        <td class="num">${usd(p.usage)}</td>
+        <td class="num">${p.limit == null ? "—" : "$" + Number(p.limit).toFixed(2)}</td>
+        <td>${p.disabled === true ? '<span class="pill pill-bad">disabled</span>' : p.disabled === false ? '<span class="pill pill-good">active</span>' : "—"}</td></tr>`).join("")
+        || '<tr><td colspan="5">No keys imported yet.</td></tr>';
+    }
+
+    async function refresh() {
+      await refreshOverview();
+      await refreshConfig();
+      $("#auth-status").textContent = "Unlocked";
+      $("#auth-status").className = "pill pill-good";
+      document.querySelectorAll(".admin-only").forEach((el) => el.classList.remove("hidden"));
+      $("#token-card").classList.add("hidden");
+    }
+
+    // ---------- actions ----------
+
+    $("#ei-save").addEventListener("click", async () => {
+      const links = $("#ei-links").value.split("\n").map((line) => {
+        const [label, ...rest] = line.split("|");
+        const url = rest.join("|").trim();
+        return url ? { label: label.trim(), url } : null;
+      }).filter(Boolean);
+      const event_info = {
+        links,
+        shared_key: { label: $("#ei-shared-label").value.trim(), value: $("#ei-shared-value").value.trim() },
+        structured_ai: {
+          docs_url: $("#ei-sa-docs").value.trim(),
+          base_url: $("#ei-sa-base").value.trim(),
+          api_key: $("#ei-sa-key").value.trim(),
+          notes: $("#ei-sa-notes").value.trim(),
+        },
+        notes: $("#ei-notes").value.trim(),
+      };
+      try {
+        await api("/api/admin/config", { method: "POST", body: JSON.stringify({ event_info }) });
+        toast("Event info saved.");
+      } catch (e) { toast(e.message, true); }
+    });
+
+    function showMfMessages(lines) {
+      const box = $("#mf-messages");
+      box.textContent = lines.join("\n");
+      box.classList.toggle("hidden", lines.length === 0);
+    }
+
+    document.body.addEventListener("click", async (ev) => {
+      const t = ev.target;
+      try {
+        if (t.dataset?.mfSave) {
+          const ds = t.dataset.mfSave;
+          let manifest;
+          try { manifest = JSON.parse($(`#mf-${ds}`).value); }
+          catch (e) { return showMfMessages([`Not valid JSON: ${e.message}`]); }
+          const res = await api("/api/admin/manifest", { method: "POST", body: JSON.stringify({ dataset: ds, manifest }) });
+          if (res.saved) {
+            toast(`${ds} answer key saved (${res.entries} entries).`);
+            showMfMessages((res.warnings || []).map((w) => `WARN ${w}`));
+            refreshConfig();
+          } else {
+            showMfMessages([...(res.errors || []).map((x) => `ERROR ${x}`), ...(res.warnings || []).map((w) => `WARN ${w}`)]);
+          }
+        }
+        if (t.dataset?.mfClear) {
+          await api("/api/admin/manifest", { method: "POST", body: JSON.stringify({ dataset: t.dataset.mfClear, manifest: null }) });
+          $(`#mf-${t.dataset.mfClear}`).value = "";
+          toast("Override cleared — bundled manifest.json is live again.");
+          showMfMessages([]);
+          refreshConfig();
+        }
+        if (t.id === "keys-disable-all" && confirm("Disable ALL aec-team-* keys on OpenRouter? Teams lose LLM access until re-enabled from the OpenRouter dashboard.")) {
+          const res = await api("/api/admin/keys-disable-all", { method: "POST", body: "{}" });
+          toast(`Disabled ${res.count} key(s).`);
+          refreshConfig();
+        }
+        if (t.id === "keys-delete-all" && confirm("PERMANENTLY delete ALL aec-team-* keys on OpenRouter and empty the pool? This cannot be undone.")) {
+          const res = await api("/api/admin/keys-delete-all", { method: "POST", body: "{}" });
+          toast(`Deleted ${res.count} key(s).`);
+          refreshConfig();
+        }
+        if (t.id === "pool-import") {
+          const res = await api("/api/admin/key-pool", { method: "POST", body: JSON.stringify({ csv: $("#pool-csv").value }) });
+          toast(`Imported ${res.imported} key(s)${res.skipped?.length ? `, skipped ${res.skipped.length} line(s)` : ""}.`);
+          $("#pool-csv").value = "";
+          refreshConfig();
+        }
+        if (t.dataset?.void && confirm(`Void run #${t.dataset.void}? It stops counting against the team's limit.`)) {
+          await api("/api/admin/void-run", { method: "POST", body: JSON.stringify({ run_id: Number(t.dataset.void) }) });
+          toast("Run voided.");
+          refreshOverview();
+        }
+        if (t.dataset?.del && confirm(`Delete team "${t.dataset.del}" and all its runs? Its API key returns to the pool.`)) {
+          await api("/api/admin/delete-team", { method: "POST", body: JSON.stringify({ team: t.dataset.del }) });
+          toast("Team deleted.");
+          refresh();
+        }
+      } catch (e) { toast(e.message, true); }
+    });
+
+    $("#token-form").addEventListener("submit", async (ev) => {
+      ev.preventDefault();
+      token = $("#token-input").value.trim();
+      try {
+        await refresh();
+        sessionStorage.setItem("aec-admin-token", token);
+      } catch (e) { toast(e.message, true); }
+    });
+
+    $("#refresh-btn").addEventListener("click", () => refresh().catch((e) => toast(e.message, true)));
+
+    if (token) { $("#token-input").value = token; refresh().catch(() => {}); }
+  })();
+  </script>
+</body>
+</html>

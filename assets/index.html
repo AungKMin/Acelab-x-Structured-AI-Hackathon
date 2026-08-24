@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AEC Hackathon — Grader</title>
+  <meta name="color-scheme" content="light dark">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='4' y='4' width='56' height='56' rx='16' fill='%234a72c4'/%3E%3Crect x='14' y='14' width='36' height='36' rx='10' fill='white' fill-opacity='0.28'/%3E%3Crect x='24' y='24' width='16' height='16' rx='5' fill='white' fill-opacity='0.85'/%3E%3C/svg%3E">
+</head>
+<body>
+  <header class="glass-header">
+    <div class="header-inner">
+      <div class="wordmark">
+        <strong>Acelab × Structured AI AEC Hackathon</strong>
+      </div>
+      <nav class="tabs" role="tablist" id="tabs">
+        <div class="tab-pill" id="tab-pill" aria-hidden="true"></div>
+        <button class="tab active" data-tab="submit">Submit</button>
+        <button class="tab" data-tab="event">Event</button>
+        <button class="tab" data-tab="leaderboard">Leaderboard</button>
+        <button class="tab" data-tab="rules">Rules</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= SUBMIT ================= -->
+    <section id="panel-submit" class="panel active">
+      <div class="page-intro">
+        <h1>Run your agent</h1>
+        <p>Find the errors in the construction document set. Claim a team, point us at your repo, and we run it in a sandbox and score the output.</p>
+      </div>
+
+      <div class="card" id="team-card">
+        <div class="card-head">
+          <h2>Team</h2>
+          <span class="pill pill-dim" id="team-status">Not signed in</span>
+        </div>
+
+        <div id="team-forms">
+          <div class="split">
+            <form id="claim-form" class="stack">
+              <h3>Claim a team name</h3>
+              <label for="claim-name">Team name</label>
+              <input id="claim-name" autocomplete="off" maxlength="32" placeholder="e.g. Punch List Bandits" required>
+              <div><button class="btn btn-primary" type="submit">Claim name</button></div>
+              <p class="hint">You get a secret team code. It is shown once — save it.</p>
+            </form>
+
+            <form id="login-form" class="stack">
+              <h3>Already have a code</h3>
+              <label for="login-name">Team name</label>
+              <input id="login-name" autocomplete="off" maxlength="32" required>
+              <label for="login-code">Team code</label>
+              <input id="login-code" autocomplete="off" placeholder="XXXX-XXXX" required>
+              <div><button class="btn" type="submit">Sign in</button></div>
+            </form>
+          </div>
+        </div>
+
+        <div id="code-reveal" class="hidden">
+          <p>Your team code — <strong>save it now</strong>, it is shown only once:</p>
+          <div class="code-box mono" id="revealed-code"></div>
+          <button class="btn btn-primary" id="code-saved-btn">I saved it — continue</button>
+        </div>
+
+        <div id="team-info" class="hidden">
+          <div class="team-meta">
+            <div><span class="meta-label">Team</span><span class="meta-value" id="team-name-display"></span></div>
+            <div><span class="meta-label">Test runs</span><span class="meta-value mono" id="test-runs-left"></span></div>
+            <div><span class="meta-label">Final run</span><span class="meta-value mono" id="final-runs-left"></span></div>
+            <div><button class="btn btn-ghost" id="signout-btn">Sign out</button></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card hidden" id="run-card">
+        <div class="card-head"><h2>Start a run</h2></div>
+        <form id="run-form" class="stack">
+          <label for="repo-input">GitHub repository</label>
+          <input id="repo-input" autocomplete="off" placeholder="owner/repo, owner/repo@branch, or full GitHub URL" required>
+          <div class="kind-row">
+            <label class="kind-option">
+              <input type="radio" name="kind" value="test" checked>
+              <span><strong>Test run</strong><br><small>Scored against the test set. Results are visible right away.</small></span>
+            </label>
+            <label class="kind-option">
+              <input type="radio" name="kind" value="final">
+              <span><strong>Final run</strong><br><small>Scored against the hidden validation set. One shot. Results sealed until the end.</small></span>
+            </label>
+          </div>
+          <div><button class="btn btn-primary" type="submit" id="run-submit-btn">Launch run</button></div>
+          <p class="hint">The repo must be public and have <span class="mono">run.sh</span> at its root.</p>
+        </form>
+      </div>
+
+      <div class="card hidden" id="active-run-card">
+        <div class="card-head">
+          <h2>Run <span class="mono" id="active-run-id"></span></h2>
+          <span class="pill" id="active-run-status"></span>
+        </div>
+        <div class="run-progress" id="run-progress">
+          <div class="spinner"></div>
+          <div>
+            <div class="progress-line" id="progress-line">Provisioning sandbox…</div>
+            <div class="progress-sub mono" id="progress-elapsed"></div>
+          </div>
+        </div>
+        <div class="hidden" id="run-result">
+          <div class="score-grid" id="score-grid"></div>
+          <details id="log-details" class="hidden">
+            <summary>Run log (tail)</summary>
+            <pre id="log-tail"></pre>
+          </details>
+          <div class="error-box hidden" id="run-error"></div>
+        </div>
+      </div>
+
+      <div class="card hidden" id="history-card">
+        <div class="card-head"><h2>Your runs</h2></div>
+        <div class="table-wrap"><table id="history-table">
+          <thead><tr><th>#</th><th>Kind</th><th>Repo</th><th>Status</th><th>F1</th><th>Cost</th><th>Time</th></tr></thead>
+          <tbody></tbody>
+        </table></div>
+      </div>
+    </section>
+
+    <!-- ================= EVENT ================= -->
+    <section id="panel-event" class="panel">
+      <div class="page-intro">
+        <h1>Event info</h1>
+        <p>Links, docs, and the API keys your team uses tonight.</p>
+      </div>
+      <div class="card" id="event-signin-hint">
+        <p class="hint">Sign in with your team name and code on the Submit tab to see the event info and your team's API key.</p>
+      </div>
+      <div id="event-sections"></div>
+    </section>
+
+    <!-- ================= LEADERBOARD ================= -->
+    <section id="panel-leaderboard" class="panel">
+      <div class="page-intro">
+        <h1>Leaderboard</h1>
+        <p>Ranked by best test-run F1. Ties break by lower cost, then lower time. Final-run scores stay sealed until the end of the event.</p>
+      </div>
+      <div class="card">
+        <div class="card-head">
+          <h2>Standings</h2>
+          <span class="pill pill-dim" id="lb-updated">—</span>
+        </div>
+        <div class="table-wrap"><table id="lb-table">
+          <thead><tr><th>#</th><th>Team</th><th>F1</th><th>Precision</th><th>Recall</th><th>Cost</th><th>Time</th><th>Test runs</th><th>Final</th></tr></thead>
+          <tbody></tbody>
+        </table></div>
+      </div>
+    </section>
+
+    <!-- ================= RULES ================= -->
+    <section id="panel-rules" class="panel">
+      <div class="page-intro">
+        <h1>Rules</h1>
+        <p>The contract, the environment, and how scoring works.</p>
+      </div>
+      <div class="card rules">
+        <h2>How it works</h2>
+        <ol>
+          <li>Claim a team name. Save the secret code.</li>
+          <li>Push your agent to a <strong>public GitHub repo</strong> with <span class="mono">run.sh</span> at the root.</li>
+          <li>Launch a <strong>test run</strong>. We clone your repo into an isolated sandbox and execute <span class="mono">run.sh</span>.</li>
+          <li>Your code reads the documents from <span class="mono">$DATASET_DIR</span> and writes its findings to <span class="mono">$OUTPUT_PATH</span>.</li>
+          <li>We grade the output against the ground-truth manifest and post the score.</li>
+          <li>When you are confident, launch your one <strong>final run</strong> against the hidden validation set.</li>
+        </ol>
+
+        <h2>The contract</h2>
+        <p><strong>Input:</strong> <span class="mono">$DATASET_DIR</span> is a folder of <strong>multiple PDF files</strong>. Enumerate the directory — do not hardcode file names. The practice set mirrors this format. The file names are the IDs: cite them exactly in your output's <span class="mono">document</span> field.</p>
+        <p><strong>Output:</strong> write <span class="mono">output.json</span> to <span class="mono">$OUTPUT_PATH</span>:</p>
+        <pre>{
+  "errors": [
+    {
+      "document": "plumbing-spec.pdf",
+      "category": "cross-document-conflict",
+      "location": "page 3, section 2.1",
+      "description": "Schedule specifies 2\" pipe; drawing P-101 shows 1.5\""
+    }
+  ]
+}</pre>
+        <p>Categories: <span class="mono">cross-document-conflict</span>, <span class="mono">code-violation</span>, <span class="mono">unit-error</span>, <span class="mono">missing-item</span>.</p>
+
+        <h2>Environment</h2>
+        <ul>
+          <li>Python 3.10 and Node 22. The <span class="mono">openai</span>, <span class="mono">httpx</span>, <span class="mono">requests</span>, and <span class="mono">pypdf</span> Python packages are pre-installed.</li>
+          <li><span class="mono">OPENROUTER_API_KEY</span> is set in the environment. Use it against <span class="mono">https://openrouter.ai/api/v1</span>. Any model, your choice.</li>
+          <li>Network is locked down. Allowed hosts: <span class="mono">openrouter.ai</span>, <span class="mono">pypi.org</span>, <span class="mono">files.pythonhosted.org</span>, <span class="mono">registry.npmjs.org</span>. Everything else is blocked and logged.</li>
+        </ul>
+
+        <h2>Limits and scoring</h2>
+        <ul>
+          <li id="rule-limits">3 test runs, 1 final run per team.</li>
+          <li id="rule-timeout">10 minute wall-clock timeout per run.</li>
+          <li id="rule-calls">Up to 300 LLM calls per run.</li>
+          <li>Score = F1 of matched errors (precision <em>and</em> recall — spamming guesses hurts you). Cost and wall-clock time break ties.</li>
+          <li>LLM cost is measured server-side through OpenRouter. It cannot be self-reported.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Acelab × Structured AI · AEC Hackathon
+  </footer>
+
+  <div class="toast hidden" id="toast"></div>
+  <script src="/app.js"></script>
+</body>
+</html>

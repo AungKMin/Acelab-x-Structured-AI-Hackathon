@@ -1,0 +1,19 @@
+# Dependencies and build output
+node_modules/
+.wrangler/
+dist/
+
+# Secrets — never commit
+.dev.vars
+
+# Private datasets — these must NOT reach the public repo.
+# `wrangler deploy` still uploads them because wrangler does not read .gitignore.
+assets/datasets/test/
+assets/datasets/validation/
+
+# Local scratch
+*.tar.gz
+.DS_Store
+
+# Provisioned event keys — never commit
+team-keys.csv
