@@ -1,3 +1,4 @@
+import { deriveAnchors } from "./grade";
 import type { Env, EventInfo, KeyPoolRow, Manifest } from "./types";
 
 // ---------------------------------------------------------------------------
@@ -50,13 +51,14 @@ export function validateManifest(data: unknown): { manifest?: Manifest; errors: 
   list.forEach((e, i) => {
     const where = `error ${i + 1}${e?.id ? ` (${e.id})` : ""}`;
     if (typeof e !== "object" || e === null) return errors.push(`${where} is not an object.`);
-    for (const field of ["id", "document", "category", "description"] as const) {
+    for (const field of ["document", "category", "description"] as const) {
       if (typeof e[field] !== "string" || !e[field]?.trim()) errors.push(`${where}: "${field}" is required.`);
     }
-    if (e.id) {
-      if (ids.has(e.id)) errors.push(`${where}: duplicate id.`);
-      ids.add(e.id);
+    if (!e.id) {
+      e.id = `E${String(i + 1).padStart(2, "0")}`; // ids are optional; auto-assign
     }
+    if (ids.has(e.id)) errors.push(`${where}: duplicate id.`);
+    ids.add(e.id);
     if (e.category && !CATEGORIES.has(e.category)) {
       errors.push(`${where}: category "${e.category}" must be one of: ${[...CATEGORIES].join(", ")}.`);
     }
@@ -69,7 +71,12 @@ export function validateManifest(data: unknown): { manifest?: Manifest; errors: 
       errors.push(`${where}: every keyword must be a non-empty string.`);
     }
     if (e.page === undefined && !hasKeywords) {
-      warnings.push(`${where}: no page and no keywords — any report with the right document+category will match it.`);
+      const anchors = deriveAnchors(e);
+      if (anchors.length > 0) {
+        warnings.push(`${where}: no keywords — matching will use anchors derived from your text: ${anchors.join(", ")}.`);
+      } else {
+        warnings.push(`${where}: no keywords and no derivable anchors — any report with the right document+category will match it.`);
+      }
     }
   });
   return errors.length === 0 ? { manifest: data as Manifest, errors, warnings } : { errors, warnings };

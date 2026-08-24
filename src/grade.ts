@@ -31,29 +31,39 @@ function fold(text: string): string {
     .replace(/[^a-z0-9'"]+/g, "");
 }
 
+/**
+ * When an answer-key entry has no keywords, derive anchors from the tags
+ * and numbers already in its own location/description (CG-1, S102, 3/4,
+ * 35...). Tokens must contain a digit and be at least 2 characters, so
+ * ordinary words never become anchors.
+ */
+export function deriveAnchors(m: ManifestError): string[] {
+  const source = `${m.location ?? ""} ${m.description ?? ""}`;
+  const tokens = source.split(/[^A-Za-z0-9/-]+/);
+  return [...new Set(tokens.filter((t) => /\d/.test(t) && t.length >= 2))];
+}
+
 function matches(m: ManifestError, r: ReportedError): boolean {
   if (normDoc(r.document) !== normDoc(m.document)) return false;
   if (normCategory(r.category) !== normCategory(m.category)) return false;
 
   // Exact error id always matches (teams that echo ids from the practice
   // manifest format).
-  if (r.id && r.id.trim().toLowerCase() === m.id.trim().toLowerCase()) return true;
+  if (r.id && m.id && r.id.trim().toLowerCase() === m.id.trim().toLowerCase()) return true;
 
   const haystack = `${r.location ?? ""} ${r.description ?? ""}`.toLowerCase();
 
   const hasPage = m.page !== undefined && m.page !== null;
-  const hasKeywords = (m.keywords?.length ?? 0) > 0;
-  if (!hasPage && !hasKeywords) return true; // document + category suffice
+  const keywords = m.keywords?.length ? m.keywords : deriveAnchors(m);
+  if (!hasPage && keywords.length === 0) return true; // document + category suffice
 
   if (hasPage) {
     const numbers = (haystack.match(/\d+/g) ?? []).map((n) => parseInt(n, 10));
     if (numbers.includes(m.page as number)) return true;
   }
-  if (hasKeywords) {
-    const folded = fold(haystack);
-    for (const kw of m.keywords ?? []) {
-      if (kw && (haystack.includes(kw.toLowerCase()) || folded.includes(fold(kw)))) return true;
-    }
+  const folded = fold(haystack);
+  for (const kw of keywords) {
+    if (kw && (haystack.includes(kw.toLowerCase()) || folded.includes(fold(kw)))) return true;
   }
   return false;
 }

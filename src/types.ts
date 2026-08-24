@@ -57,11 +57,12 @@ export interface RunRow {
 }
 
 export interface ManifestError {
-  id: string;
+  id?: string;
   document: string;
   category: string;
   page?: number;
   keywords?: string[];
+  location?: string;
   description?: string;
 }
 

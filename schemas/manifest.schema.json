@@ -12,13 +12,17 @@
       "minItems": 1,
       "items": {
         "type": "object",
-        "required": ["id", "document", "category", "description"],
+        "required": ["document", "category", "description"],
         "additionalProperties": false,
         "properties": {
           "id": {
             "type": "string",
             "minLength": 1,
-            "description": "Unique id inside this manifest, e.g. T01."
+            "description": "Optional unique id, e.g. T01. Auto-assigned when omitted."
+          },
+          "location": {
+            "type": "string",
+            "description": "Optional. Where the error appears. When keywords are omitted, matching anchors are derived from the digit-bearing tokens in location + description (tags like CG-1, rooms like S102, values like 35)."
           },
           "document": {
             "type": "string",

@@ -76,7 +76,7 @@ if (manifest !== null) {
     manifest.errors.forEach((e, i) => {
       const where = `manifest error ${i + 1}${e?.id ? ` (${e.id})` : ""}`;
       if (typeof e !== "object" || e === null) return errors.push(`${where} is not an object.`);
-      for (const field of ["id", "document", "category", "description"]) {
+      for (const field of ["document", "category", "description"]) {
         if (typeof e[field] !== "string" || !e[field].trim()) errors.push(`${where}: "${field}" is required.`);
       }
       if (e.id) {
