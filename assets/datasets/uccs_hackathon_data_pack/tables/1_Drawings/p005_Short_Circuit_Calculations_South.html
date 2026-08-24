@@ -1,0 +1,140 @@
+<table>
+  <tr>
+    <th colspan="15">Short-Circuit Calculations</th>
+  </tr>
+  <tr>
+    <td colspan="15">The following calculations are based on the "Point-by Point" method where:<br>Isc = Isc x M &nbsp;&nbsp;&nbsp; M = 1/(1+f) &nbsp;&nbsp;&nbsp; f = 1.732 x L x I / C x E &nbsp;&nbsp;&nbsp; XFMR: IP(sca) = IP(sca) x Vp x %Z / 100,000xKVA &nbsp;&nbsp;&nbsp; IS(sca) = Vp x M x IS(sca) / Vs</td>
+  </tr>
+  <tr>
+    <th colspan="15">SOURCE FAULT VALUE DERIVED FROM PREVIOUSLY ENGINEERED PLANS</th>
+  </tr>
+  <tr>
+    <th rowspan="2">Fault Point</th>
+    <th rowspan="2">Fault Point Description</th>
+    <th rowspan="2">Source (Fault Point)</th>
+    <th rowspan="2">Source I (amps)</th>
+    <th rowspan="2">Conduit Type</th>
+    <th colspan="3">Wire/Bus</th>
+    <th colspan="2">XFMR</th>
+    <th rowspan="2">XFMR Z</th>
+    <th rowspan="2">f</th>
+    <th rowspan="2">M</th>
+    <th rowspan="2">Isc</th>
+  </tr>
+  <tr>
+    <th>Wire/Bus Size</th>
+    <th>Type</th>
+    <th>'C' value</th>
+    <th>E (volts)</th>
+    <th>L (length)</th>
+    <th>KVA</th>
+  </tr>
+  <tr>
+    <td data-col="fault_point">1</td>
+    <td data-col="fault_point_description">EXISTING MSB-SOUTH</td>
+    <td data-col="source_fault_point">25044</td>
+    <td data-col="source_i">25044</td>
+    <td data-col="conduit_type"></td>
+    <td data-col="wire_bus_size"></td>
+    <td data-col="type"></td>
+    <td data-col="c_value"></td>
+    <td data-col="e_volts"></td>
+    <td data-col="l_length"></td>
+    <td data-col="kva"></td>
+    <td data-col="xfmr_z"></td>
+    <td data-col="f"></td>
+    <td data-col="m"></td>
+    <td data-col="isc">25044</td>
+  </tr>
+  <tr>
+    <td data-col="fault_point">2</td>
+    <td data-col="fault_point_description">ISACHA</td>
+    <td data-col="source_fault_point">1</td>
+    <td data-col="source_i">25044</td>
+    <td data-col="conduit_type">M</td>
+    <td data-col="wire_bus_size">1 Set(s) of 500 KCML</td>
+    <td data-col="type">AL</td>
+    <td data-col="c_value">18755</td>
+    <td data-col="e_volts">480</td>
+    <td data-col="l_length">197</td>
+    <td data-col="kva"></td>
+    <td data-col="xfmr_z"></td>
+    <td data-col="f">0.949</td>
+    <td data-col="m">0.51</td>
+    <td data-col="isc">12848</td>
+  </tr>
+  <tr>
+    <td data-col="fault_point">3</td>
+    <td data-col="fault_point_description">T-ISAC-LA/WA PRI</td>
+    <td data-col="source_fault_point">2</td>
+    <td data-col="source_i">12848</td>
+    <td data-col="conduit_type">M</td>
+    <td data-col="wire_bus_size">1 Set(s) of 2/0</td>
+    <td data-col="type">AL</td>
+    <td data-col="c_value">7186</td>
+    <td data-col="e_volts">480</td>
+    <td data-col="l_length">12</td>
+    <td data-col="kva"></td>
+    <td data-col="xfmr_z"></td>
+    <td data-col="f">0.077</td>
+    <td data-col="m">0.93</td>
+    <td data-col="isc">11925</td>
+  </tr>
+  <tr>
+    <td data-col="fault_point">4</td>
+    <td data-col="fault_point_description">T-ISAC-LA/WA SEC</td>
+    <td data-col="source_fault_point">3</td>
+    <td data-col="source_i">11925</td>
+    <td data-col="conduit_type">M</td>
+    <td data-col="wire_bus_size">Set(s) of #N/A</td>
+    <td data-col="type"></td>
+    <td data-col="c_value"></td>
+    <td data-col="e_volts">208</td>
+    <td data-col="l_length"></td>
+    <td data-col="kva">75</td>
+    <td data-col="xfmr_z">5.2</td>
+    <td data-col="f">6.866</td>
+    <td data-col="m">0.13</td>
+    <td data-col="isc">3499</td>
+  </tr>
+  <tr>
+    <td data-col="fault_point">5</td>
+    <td data-col="fault_point_description">T-ISAC-SA PRI</td>
+    <td data-col="source_fault_point">2</td>
+    <td data-col="source_i">12848</td>
+    <td data-col="conduit_type">M</td>
+    <td data-col="wire_bus_size">1 Set(s) of 2/0</td>
+    <td data-col="type">AL</td>
+    <td data-col="c_value">7186</td>
+    <td data-col="e_volts">480</td>
+    <td data-col="l_length">8</td>
+    <td data-col="kva"></td>
+    <td data-col="xfmr_z"></td>
+    <td data-col="f">0.052</td>
+    <td data-col="m">0.95</td>
+    <td data-col="isc">12218</td>
+  </tr>
+  <tr>
+    <td data-col="fault_point">6</td>
+    <td data-col="fault_point_description">T-ISAC-SA SEC</td>
+    <td data-col="source_fault_point">5</td>
+    <td data-col="source_i">12218</td>
+    <td data-col="conduit_type">M</td>
+    <td data-col="wire_bus_size">Set(s) of #N/A</td>
+    <td data-col="type"></td>
+    <td data-col="c_value"></td>
+    <td data-col="e_volts">208</td>
+    <td data-col="l_length"></td>
+    <td data-col="kva">75</td>
+    <td data-col="xfmr_z">5.2</td>
+    <td data-col="f">7.034</td>
+    <td data-col="m">0.12</td>
+    <td data-col="isc">3509</td>
+  </tr>
+  <tr>
+    <td colspan="15">1) ELECTRICAL EQUIPMENT AIC RATING SHALL EXCEED CALCULATED FAULT VALUE.</td>
+  </tr>
+  <tr>
+    <td colspan="15">2) ELECTRICAL EQUIPMENT FED FROM A TRANSFORMER SECONDARY RESULTING IN LESS THAN 10000 Isc SHALL BE RATED 10kAIC.</td>
+  </tr>
+</table>

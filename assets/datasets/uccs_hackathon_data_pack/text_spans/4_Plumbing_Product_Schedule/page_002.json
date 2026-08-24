@@ -1,0 +1,217 @@
+{
+"document": "4 - Plumbing Product Schedule.pdf",
+"page_number": 2,
+"page_width_pt": 792.0,
+"page_height_pt": 612.0,
+"bbox_space": "0-1000 normalized, origin top-left",
+"spans": [
+{
+"text": "American Standard",
+"x0": 65,
+"y0": 176,
+"x1": 146,
+"y1": 188,
+"angle": null
+},
+{
+"text": "Afwall ADA Retrofit 1.28 1.6",
+"x0": 190,
+"y0": 134,
+"x1": 308,
+"y1": 146,
+"angle": null
+},
+{
+"text": "gpf (4.8 6.0 Lpf) Top Spud",
+"x0": 190,
+"y0": 148,
+"x1": 301,
+"y1": 160,
+"angle": null
+},
+{
+"text": "Elongated Wall-Hung",
+"x0": 190,
+"y0": 162,
+"x1": 281,
+"y1": 174,
+"angle": null
+},
+{
+"text": "EverClean Bowl",
+"x0": 190,
+"y0": 176,
+"x1": 257,
+"y1": 188,
+"angle": null
+},
+{
+"text": "22 40 00 Plumbing Fixtures",
+"x0": 440,
+"y0": 176,
+"x1": 554,
+"y1": 188,
+"angle": null
+},
+{
+"text": "Plumbing Fixtures",
+"x0": 564,
+"y0": 162,
+"x1": 642,
+"y1": 174,
+"angle": null
+},
+{
+"text": "Accessories & Distribution",
+"x0": 564,
+"y0": 176,
+"x1": 673,
+"y1": 188,
+"angle": null
+},
+{
+"text": "WC-1",
+"x0": 689,
+"y0": 176,
+"x1": 713,
+"y1": 188,
+"angle": null
+},
+{
+"text": "FIXTURE SHALL BE",
+"x0": 814,
+"y0": 92,
+"x1": 904,
+"y1": 104,
+"angle": null
+},
+{
+"text": "WATERSENSE LABELED.",
+"x0": 814,
+"y0": 106,
+"x1": 928,
+"y1": 118,
+"angle": null
+},
+{
+"text": "PROVIDE",
+"x0": 814,
+"y0": 120,
+"x1": 859,
+"y1": 132,
+"angle": null
+},
+{
+"text": "MANUFACTURER AND",
+"x0": 814,
+"y0": 134,
+"x1": 917,
+"y1": 146,
+"angle": null
+},
+{
+"text": "MODEL NUMBER AS",
+"x0": 814,
+"y0": 148,
+"x1": 907,
+"y1": 160,
+"angle": null
+},
+{
+"text": "LISTED OR APPROVED",
+"x0": 814,
+"y0": 162,
+"x1": 920,
+"y1": 174,
+"angle": null
+},
+{
+"text": "EQUAL.",
+"x0": 814,
+"y0": 176,
+"x1": 848,
+"y1": 188,
+"angle": null
+},
+{
+"text": "Elkay",
+"x0": 65,
+"y0": 250,
+"x1": 88,
+"y1": 262,
+"angle": null
+},
+{
+"text": "EZWS-EDFPBM117K",
+"x0": 190,
+"y0": 250,
+"x1": 280,
+"y1": 262,
+"angle": null
+},
+{
+"text": "Plumbing Fixtures",
+"x0": 564,
+"y0": 236,
+"x1": 642,
+"y1": 248,
+"angle": null
+},
+{
+"text": "Accessories & Distribution",
+"x0": 564,
+"y0": 250,
+"x1": 673,
+"y1": 262,
+"angle": null
+},
+{
+"text": "DF-1",
+"x0": 689,
+"y0": 250,
+"x1": 710,
+"y1": 262,
+"angle": null
+},
+{
+"text": "PROVIDE",
+"x0": 814,
+"y0": 194,
+"x1": 859,
+"y1": 207,
+"angle": null
+},
+{
+"text": "MANUFACTURER AND",
+"x0": 814,
+"y0": 208,
+"x1": 917,
+"y1": 221,
+"angle": null
+},
+{
+"text": "MODEL NUMBER AS",
+"x0": 814,
+"y0": 222,
+"x1": 907,
+"y1": 235,
+"angle": null
+},
+{
+"text": "LISTED OR APPROVED",
+"x0": 814,
+"y0": 236,
+"x1": 920,
+"y1": 248,
+"angle": null
+},
+{
+"text": "EQUAL.",
+"x0": 814,
+"y0": 250,
+"x1": 848,
+"y1": 262,
+"angle": null
+}
+]
+}

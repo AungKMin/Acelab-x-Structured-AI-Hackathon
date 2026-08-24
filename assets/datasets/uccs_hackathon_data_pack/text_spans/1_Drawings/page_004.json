@@ -1,0 +1,1481 @@
+{
+"document": "1 - Drawings.pdf",
+"page_number": 4,
+"page_width_pt": 3024.0,
+"page_height_pt": 2160.0,
+"bbox_space": "0-1000 normalized, origin top-left",
+"spans": [
+{
+"text": "T",
+"x0": 366,
+"y0": 838,
+"x1": 368,
+"y1": 843,
+"angle": null
+},
+{
+"text": "T",
+"x0": 317,
+"y0": 838,
+"x1": 319,
+"y1": 843,
+"angle": null
+},
+{
+"text": "T",
+"x0": 617,
+"y0": 796,
+"x1": 620,
+"y1": 799,
+"angle": 90.0
+},
+{
+"text": "T",
+"x0": 620,
+"y0": 804,
+"x1": 623,
+"y1": 807,
+"angle": 90.0
+},
+{
+"text": "L1",
+"x0": 734,
+"y0": 776,
+"x1": 737,
+"y1": 780,
+"angle": 90.0
+},
+{
+"text": "T",
+"x0": 694,
+"y0": 524,
+"x1": 698,
+"y1": 527,
+"angle": 90.0
+},
+{
+"text": "ELEC.",
+"x0": 359,
+"y0": 800,
+"x1": 365,
+"y1": 805,
+"angle": null
+},
+{
+"text": "S105",
+"x0": 359,
+"y0": 806,
+"x1": 364,
+"y1": 811,
+"angle": null
+},
+{
+"text": "ISACHA",
+"x0": 309,
+"y0": 807,
+"x1": 318,
+"y1": 812,
+"angle": null
+},
+{
+"text": "ISACWA",
+"x0": 384,
+"y0": 848,
+"x1": 395,
+"y1": 853,
+"angle": null
+},
+{
+"text": "T-ISAC-SA",
+"x0": 311,
+"y0": 856,
+"x1": 324,
+"y1": 861,
+"angle": null
+},
+{
+"text": "T-ISAC-LA/WA",
+"x0": 358,
+"y0": 856,
+"x1": 376,
+"y1": 861,
+"angle": null
+},
+{
+"text": "E205",
+"x0": 317,
+"y0": 769,
+"x1": 323,
+"y1": 774,
+"angle": null
+},
+{
+"text": "I-INV",
+"x0": 312,
+"y0": 789,
+"x1": 318,
+"y1": 794,
+"angle": null
+},
+{
+"text": "E502",
+"x0": 317,
+"y0": 782,
+"x1": 323,
+"y1": 787,
+"angle": null
+},
+{
+"text": "ELEC.",
+"x0": 674,
+"y0": 802,
+"x1": 680,
+"y1": 807,
+"angle": null
+},
+{
+"text": "N140",
+"x0": 674,
+"y0": 808,
+"x1": 679,
+"y1": 813,
+"angle": null
+},
+{
+"text": "UCCSLC",
+"x0": 681,
+"y0": 779,
+"x1": 692,
+"y1": 784,
+"angle": null
+},
+{
+"text": "T-UCCS-SA",
+"x0": 633,
+"y0": 804,
+"x1": 647,
+"y1": 809,
+"angle": null
+},
+{
+"text": "UCCSHA",
+"x0": 673,
+"y0": 830,
+"x1": 684,
+"y1": 835,
+"angle": null
+},
+{
+"text": "UCCSLB",
+"x0": 662,
+"y0": 779,
+"x1": 672,
+"y1": 784,
+"angle": null
+},
+{
+"text": "UCCSLA",
+"x0": 642,
+"y0": 779,
+"x1": 653,
+"y1": 784,
+"angle": null
+},
+{
+"text": "T-UCCS-LA/LC",
+"x0": 633,
+"y0": 810,
+"x1": 651,
+"y1": 815,
+"angle": null
+},
+{
+"text": "UCCSLA- 8",
+"x0": 722,
+"y0": 788,
+"x1": 735,
+"y1": 793,
+"angle": null
+},
+{
+"text": "E205",
+"x0": 723,
+"y0": 819,
+"x1": 730,
+"y1": 824,
+"angle": null
+},
+{
+"text": "U-INV",
+"x0": 633,
+"y0": 830,
+"x1": 640,
+"y1": 835,
+"angle": null
+},
+{
+"text": "E225",
+"x0": 641,
+"y0": 794,
+"x1": 647,
+"y1": 798,
+"angle": null
+},
+{
+"text": "E503",
+"x0": 641,
+"y0": 838,
+"x1": 647,
+"y1": 843,
+"angle": null
+},
+{
+"text": "MSB-SOUTH",
+"x0": 354,
+"y0": 459,
+"x1": 370,
+"y1": 464,
+"angle": null
+},
+{
+"text": "ELEC",
+"x0": 381,
+"y0": 430,
+"x1": 386,
+"y1": 435,
+"angle": null
+},
+{
+"text": "E-1-S11",
+"x0": 379,
+"y0": 436,
+"x1": 387,
+"y1": 441,
+"angle": null
+},
+{
+"text": "MSB-NORTH",
+"x0": 635,
+"y0": 473,
+"x1": 651,
+"y1": 478,
+"angle": null
+},
+{
+"text": "MDP",
+"x0": 680,
+"y0": 430,
+"x1": 686,
+"y1": 435,
+"angle": null
+},
+{
+"text": "T-MDP",
+"x0": 673,
+"y0": 522,
+"x1": 681,
+"y1": 527,
+"angle": null
+},
+{
+"text": "ELEC",
+"x0": 651,
+"y0": 409,
+"x1": 657,
+"y1": 414,
+"angle": null
+},
+{
+"text": "E-1-S21",
+"x0": 650,
+"y0": 416,
+"x1": 658,
+"y1": 421,
+"angle": null
+},
+{
+"text": "GENERAL SHEET NOTES",
+"x0": 815,
+"y0": 22,
+"x1": 897,
+"y1": 35,
+"angle": null
+},
+{
+"text": "A. SEE DRAWING E0.01 FOR ABBREVIATIONS, SYMBOLS,",
+"x0": 810,
+"y0": 44,
+"x1": 886,
+"y1": 49,
+"angle": null
+},
+{
+"text": "GENERALNOTES AND DEVICE MOUNTING HEIGHT OF WALL",
+"x0": 815,
+"y0": 49,
+"x1": 894,
+"y1": 54,
+"angle": null
+},
+{
+"text": "MOUNTED DEVICES, UON.",
+"x0": 815,
+"y0": 54,
+"x1": 849,
+"y1": 59,
+"angle": null
+},
+{
+"text": "B. SOLE PRODUCT OR MANUFACTURER/SOURCE:  WHERE A",
+"x0": 810,
+"y0": 64,
+"x1": 892,
+"y1": 69,
+"angle": null
+},
+{
+"text": "SINGLE PRODUCT OR MANUFACTURER/SOURCE IS NAMED,",
+"x0": 815,
+"y0": 69,
+"x1": 894,
+"y1": 74,
+"angle": null
+},
+{
+"text": "SUBJECT TO COMPLIANCE WITH REQUIREMENTS, COMPARABLE",
+"x0": 815,
+"y0": 74,
+"x1": 901,
+"y1": 79,
+"angle": null
+},
+{
+"text": "PRODUCTS WILL BE CONSIDERED.",
+"x0": 815,
+"y0": 79,
+"x1": 861,
+"y1": 84,
+"angle": null
+},
+{
+"text": "C. SEE T AND Y SERIES PLANS FOR ADDITIONAL INFORMATION AND",
+"x0": 810,
+"y0": 89,
+"x1": 901,
+"y1": 94,
+"angle": null
+},
+{
+"text": "REQUIREMENTS.",
+"x0": 815,
+"y0": 94,
+"x1": 837,
+"y1": 99,
+"angle": null
+},
+{
+"text": "D. COORDINATE ALL DEVICE LOCATIONS AND MOUNTING HEIGHTS",
+"x0": 810,
+"y0": 104,
+"x1": 900,
+"y1": 109,
+"angle": null
+},
+{
+"text": "WITH ARCHITECTURAL DRAWINGS PRIOR TO ROUGH-IN.",
+"x0": 815,
+"y0": 109,
+"x1": 889,
+"y1": 114,
+"angle": null
+},
+{
+"text": "E. THE CONTRACTOR SHALL COORDINATE EXACT LOCATION OF",
+"x0": 810,
+"y0": 119,
+"x1": 897,
+"y1": 124,
+"angle": null
+},
+{
+"text": "EQUIPMENT POWER CONNECTIONS WITH EQUIPMENT",
+"x0": 815,
+"y0": 124,
+"x1": 887,
+"y1": 129,
+"angle": null
+},
+{
+"text": "INSTALLER PRIOR TO ROUGH-IN.",
+"x0": 815,
+"y0": 129,
+"x1": 858,
+"y1": 134,
+"angle": null
+},
+{
+"text": "F. CONTRACTOR SHALL BE RESPONSIBLE FOR SUPPLYING ANY",
+"x0": 810,
+"y0": 139,
+"x1": 896,
+"y1": 144,
+"angle": null
+},
+{
+"text": "REQUIRED TRANSFORMER/POWER SUPPLIES FOR DOOR",
+"x0": 815,
+"y0": 145,
+"x1": 891,
+"y1": 149,
+"angle": null
+},
+{
+"text": "HARDWARE. COORDINATE WITH ARCHITECTURAL AND",
+"x0": 815,
+"y0": 150,
+"x1": 888,
+"y1": 154,
+"angle": null
+},
+{
+"text": "SECURITY DRAWINGS FOR DOOR HARDWARE. PROVIDE 120V",
+"x0": 815,
+"y0": 155,
+"x1": 897,
+"y1": 160,
+"angle": null
+},
+{
+"text": "POWER AS REQUIRED.",
+"x0": 815,
+"y0": 160,
+"x1": 845,
+"y1": 165,
+"angle": null
+},
+{
+"text": "G. PROVIDE WIRING METHODS COMPLIANT WITH UL 2196",
+"x0": 810,
+"y0": 170,
+"x1": 887,
+"y1": 175,
+"angle": null
+},
+{
+"text": "STANDARD FOR FIRE RESISTIVE CABLING.",
+"x0": 815,
+"y0": 175,
+"x1": 871,
+"y1": 180,
+"angle": null
+},
+{
+"text": "H. VOLTAGE DROP SHALL BE LIMITED TO LESS THAN 3% FOR ALL",
+"x0": 810,
+"y0": 185,
+"x1": 898,
+"y1": 190,
+"angle": null
+},
+{
+"text": "BRANCH CIRCUITS AND 2% FOR ALL FEEDERS.",
+"x0": 815,
+"y0": 190,
+"x1": 877,
+"y1": 195,
+"angle": null
+},
+{
+"text": "I.",
+"x0": 810,
+"y0": 200,
+"x1": 812,
+"y1": 205,
+"angle": null
+},
+{
+"text": "X-RAY EXISTING FLOORS TO COORDINATE ALL WIRING DEVICE",
+"x0": 815,
+"y0": 200,
+"x1": 899,
+"y1": 205,
+"angle": null
+},
+{
+"text": "AND CORE DRILL LOCATIONS WITH ARCHITECTURAL DRAWINGS",
+"x0": 815,
+"y0": 205,
+"x1": 901,
+"y1": 210,
+"angle": null
+},
+{
+"text": "PRIOR TO ROUGH IN. LOCATION TO BE DETERMINED IN",
+"x0": 815,
+"y0": 210,
+"x1": 889,
+"y1": 215,
+"angle": null
+},
+{
+"text": "CONJUNCTION WITH FURNITURE SELECTION.",
+"x0": 815,
+"y0": 215,
+"x1": 875,
+"y1": 220,
+"angle": null
+},
+{
+"text": "J. CONTRACTOR SHALL COORDINATE AND FIELD VERIFY",
+"x0": 810,
+"y0": 225,
+"x1": 887,
+"y1": 230,
+"angle": null
+},
+{
+"text": "REQUIREMENT OF NEUTRAL CONDUCTOR FOR ALL EQUIPMENT",
+"x0": 815,
+"y0": 230,
+"x1": 900,
+"y1": 235,
+"angle": null
+},
+{
+"text": "AND PROVIDE NEUTRAL CONDUCTOR AS NECESSARY.",
+"x0": 815,
+"y0": 235,
+"x1": 887,
+"y1": 240,
+"angle": null
+},
+{
+"text": "K. FOR WORKSTATION CIRCUITS SHARING A NEUTRAL, PROVIDE",
+"x0": 810,
+"y0": 245,
+"x1": 898,
+"y1": 250,
+"angle": null
+},
+{
+"text": "MULTI POLE CIRCUIT BREAKER. TIE DEVICES ARE NOT",
+"x0": 815,
+"y0": 250,
+"x1": 887,
+"y1": 255,
+"angle": null
+},
+{
+"text": "ACCEPTABLE.",
+"x0": 815,
+"y0": 255,
+"x1": 833,
+"y1": 260,
+"angle": null
+},
+{
+"text": "L. TRIPPING OF GFCI RECEPTACLES SHALL NOT AFFECT THE",
+"x0": 810,
+"y0": 265,
+"x1": 893,
+"y1": 270,
+"angle": null
+},
+{
+"text": "DOWNSTREAM RECEPTACLES.",
+"x0": 815,
+"y0": 270,
+"x1": 856,
+"y1": 275,
+"angle": null
+},
+{
+"text": "M. NO MORE THAN 3 CIRCUITS MAY SHARE A HOMERUN. CIRCUITS",
+"x0": 810,
+"y0": 280,
+"x1": 900,
+"y1": 285,
+"angle": null
+},
+{
+"text": "SHALL BE CONFIGURED WITH DEDICATED NEUTRAL",
+"x0": 815,
+"y0": 285,
+"x1": 884,
+"y1": 290,
+"angle": null
+},
+{
+"text": "CONDUCTORS.",
+"x0": 815,
+"y0": 291,
+"x1": 835,
+"y1": 295,
+"angle": null
+},
+{
+"text": "N. CIRCUITS FEEDING AV EQUIPMENT SHALL SHARE SAME PHASE.",
+"x0": 810,
+"y0": 301,
+"x1": 899,
+"y1": 306,
+"angle": null
+},
+{
+"text": "O. ALL UNUSED WALL OUTLETS TO BE COVERED WITH BLANK",
+"x0": 810,
+"y0": 311,
+"x1": 894,
+"y1": 316,
+"angle": null
+},
+{
+"text": "PLATE. ALL BLANK PLATE COLORS TO MATCH WALL COLOR.",
+"x0": 815,
+"y0": 316,
+"x1": 894,
+"y1": 321,
+"angle": null
+},
+{
+"text": "P. SEE ANY COMMUNICATIONS PATHWAY PLAN AND AV",
+"x0": 810,
+"y0": 326,
+"x1": 886,
+"y1": 331,
+"angle": null
+},
+{
+"text": "DRAWINGS, FOR ADDITIONAL CONDUIT TO BE PROVIDED BY",
+"x0": 815,
+"y0": 331,
+"x1": 895,
+"y1": 336,
+"angle": null
+},
+{
+"text": "ELECTRICAL CONTRACTOR.",
+"x0": 815,
+"y0": 336,
+"x1": 852,
+"y1": 341,
+"angle": null
+},
+{
+"text": "Q. ALL CONDUIT ROUTED WITHIN SLAB SHALL COMPLY WITH",
+"x0": 810,
+"y0": 346,
+"x1": 892,
+"y1": 351,
+"angle": null
+},
+{
+"text": "GUIDELINES LISTED IN STRUCTURAL DRAWINGS.",
+"x0": 815,
+"y0": 351,
+"x1": 880,
+"y1": 356,
+"angle": null
+},
+{
+"text": "R.",
+"x0": 810,
+"y0": 361,
+"x1": 813,
+"y1": 366,
+"angle": null
+},
+{
+"text": "ELECTRICAL ROOMS IN ACCORDANCE WITH NEC 110.26.",
+"x0": 815,
+"y0": 366,
+"x1": 889,
+"y1": 371,
+"angle": null
+},
+{
+"text": "S. OPEN CEILING AREAS ARE CONSIDERED PART OF THE",
+"x0": 810,
+"y0": 376,
+"x1": 888,
+"y1": 381,
+"angle": null
+},
+{
+"text": "ARCHITECTURAL DESIGN ELEMENT. COORDINATE ROUTING AND",
+"x0": 815,
+"y0": 381,
+"x1": 901,
+"y1": 386,
+"angle": null
+},
+{
+"text": "MOUNTING OF ANY CONDUIT, CABLING OR DEVICES WITH",
+"x0": 815,
+"y0": 386,
+"x1": 892,
+"y1": 391,
+"angle": null
+},
+{
+"text": "ARCHITECT PRIOR TO INSTALLATION.",
+"x0": 815,
+"y0": 391,
+"x1": 864,
+"y1": 396,
+"angle": null
+},
+{
+"text": "SHEET NUMBER",
+"x0": 907,
+"y0": 970,
+"x1": 928,
+"y1": 975,
+"angle": null
+},
+{
+"text": "PROJECT NUMBER",
+"x0": 907,
+"y0": 944,
+"x1": 931,
+"y1": 949,
+"angle": null
+},
+{
+"text": "SHEET TITLE",
+"x0": 907,
+"y0": 865,
+"x1": 924,
+"y1": 870,
+"angle": null
+},
+{
+"text": "SEALS AND SIGNATURES",
+"x0": 907,
+"y0": 624,
+"x1": 939,
+"y1": 629,
+"angle": null
+},
+{
+"text": "ISSUED FOR",
+"x0": 907,
+"y0": 502,
+"x1": 923,
+"y1": 507,
+"angle": null
+},
+{
+"text": "REV",
+"x0": 958,
+"y0": 502,
+"x1": 963,
+"y1": 507,
+"angle": null
+},
+{
+"text": "DATE",
+"x0": 967,
+"y0": 502,
+"x1": 974,
+"y1": 507,
+"angle": null
+},
+{
+"text": "MARTIN/MARTIN, INC.",
+"x0": 919,
+"y0": 465,
+"x1": 955,
+"y1": 471,
+"angle": null
+},
+{
+"text": "STRUCTURAL ENGINEER",
+"x0": 919,
+"y0": 472,
+"x1": 952,
+"y1": 477,
+"angle": null
+},
+{
+"text": "12499 WEST COLFAX AVENUE",
+"x0": 919,
+"y0": 477,
+"x1": 958,
+"y1": 482,
+"angle": null
+},
+{
+"text": "LAKEWOOD, CO, 80215",
+"x0": 919,
+"y0": 482,
+"x1": 948,
+"y1": 487,
+"angle": null
+},
+{
+"text": "303-431-6100",
+"x0": 919,
+"y0": 487,
+"x1": 935,
+"y1": 493,
+"angle": null
+},
+{
+"text": "NV5",
+"x0": 919,
+"y0": 431,
+"x1": 926,
+"y1": 438,
+"angle": null
+},
+{
+"text": "ACOUSTICS, IT/TELECOM & SECURITY, AUDIOVISUAL",
+"x0": 919,
+"y0": 439,
+"x1": 987,
+"y1": 444,
+"angle": null
+},
+{
+"text": "2650 18TH STREET, SUITES 201-203",
+"x0": 919,
+"y0": 444,
+"x1": 965,
+"y1": 449,
+"angle": null
+},
+{
+"text": "DENVER, CO 80211",
+"x0": 919,
+"y0": 449,
+"x1": 943,
+"y1": 454,
+"angle": null
+},
+{
+"text": "720-213-7550",
+"x0": 919,
+"y0": 454,
+"x1": 935,
+"y1": 459,
+"angle": null
+},
+{
+"text": "RIDER LEVETT BUCKNALL",
+"x0": 919,
+"y0": 398,
+"x1": 963,
+"y1": 405,
+"angle": null
+},
+{
+"text": "COST ESTIMATOR",
+"x0": 919,
+"y0": 405,
+"x1": 942,
+"y1": 410,
+"angle": null
+},
+{
+"text": "1675 LARIMER STREET",
+"x0": 919,
+"y0": 411,
+"x1": 949,
+"y1": 416,
+"angle": null
+},
+{
+"text": "DENVER, CO, 80202",
+"x0": 919,
+"y0": 416,
+"x1": 944,
+"y1": 421,
+"angle": null
+},
+{
+"text": "720-904-1480",
+"x0": 919,
+"y0": 421,
+"x1": 935,
+"y1": 426,
+"angle": null
+},
+{
+"text": "Plot Date:",
+"x0": 26,
+"y0": 954,
+"x1": 30,
+"y1": 975,
+"angle": 90.0
+},
+{
+"text": "UCCS CYBERSECURITY",
+"x0": 918,
+"y0": 150,
+"x1": 989,
+"y1": 161,
+"angle": null
+},
+{
+"text": "AND SPACE ECOSYSTEM",
+"x0": 918,
+"y0": 161,
+"x1": 994,
+"y1": 173,
+"angle": null
+},
+{
+"text": "EXPANSION",
+"x0": 918,
+"y0": 173,
+"x1": 953,
+"y1": 184,
+"angle": null
+},
+{
+"text": "3650 North Nevada Ave",
+"x0": 918,
+"y0": 188,
+"x1": 955,
+"y1": 195,
+"angle": null
+},
+{
+"text": "Colorado Springs, CO,  80907",
+"x0": 918,
+"y0": 195,
+"x1": 964,
+"y1": 202,
+"angle": null
+},
+{
+"text": "899 LOGAN STREET",
+"x0": 919,
+"y0": 295,
+"x1": 952,
+"y1": 301,
+"angle": null
+},
+{
+"text": "SUITE 508",
+"x0": 919,
+"y0": 301,
+"x1": 936,
+"y1": 308,
+"angle": null
+},
+{
+"text": "DENVER, CO 80203",
+"x0": 919,
+"y0": 308,
+"x1": 951,
+"y1": 315,
+"angle": null
+},
+{
+"text": "303.832.3272",
+"x0": 919,
+"y0": 315,
+"x1": 940,
+"y1": 321,
+"angle": null
+},
+{
+"text": "smithgroup.com",
+"x0": 919,
+"y0": 321,
+"x1": 943,
+"y1": 328,
+"angle": null
+},
+{
+"text": "5/4/2021 8:44:05 AM",
+"x0": 26,
+"y0": 888,
+"x1": 31,
+"y1": 933,
+"angle": 90.0
+},
+{
+"text": "ELECTRICAL - ENLARGED",
+"x0": 910,
+"y0": 872,
+"x1": 985,
+"y1": 883,
+"angle": null
+},
+{
+"text": "ROOMS",
+"x0": 936,
+"y0": 883,
+"x1": 959,
+"y1": 895,
+"angle": null
+},
+{
+"text": "E2.3",
+"x0": 966,
+"y0": 948,
+"x1": 989,
+"y1": 970,
+"angle": null
+},
+{
+"text": "CD",
+"x0": 907,
+"y0": 949,
+"x1": 926,
+"y1": 971,
+"angle": null
+},
+{
+"text": "Author",
+"x0": 26,
+"y0": 845,
+"x1": 30,
+"y1": 859,
+"angle": 90.0
+},
+{
+"text": "12654.000",
+"x0": 972,
+"y0": 934,
+"x1": 988,
+"y1": 941,
+"angle": null
+},
+{
+"text": "SCALE:",
+"x0": 340,
+"y0": 927,
+"x1": 350,
+"y1": 932,
+"angle": null
+},
+{
+"text": "3/8\" = 1'-0\"",
+"x0": 352,
+"y0": 927,
+"x1": 365,
+"y1": 932,
+"angle": null
+},
+{
+"text": "3",
+"x0": 330,
+"y0": 922,
+"x1": 333,
+"y1": 930,
+"angle": null
+},
+{
+"text": "ISAC ELECTRICAL ROOM S105",
+"x0": 340,
+"y0": 918,
+"x1": 402,
+"y1": 926,
+"angle": null
+},
+{
+"text": "SCALE:",
+"x0": 620,
+"y0": 927,
+"x1": 629,
+"y1": 932,
+"angle": null
+},
+{
+"text": "3/8\" = 1'-0\"",
+"x0": 631,
+"y0": 927,
+"x1": 644,
+"y1": 932,
+"angle": null
+},
+{
+"text": "4",
+"x0": 610,
+"y0": 922,
+"x1": 612,
+"y1": 930,
+"angle": null
+},
+{
+"text": "UCCS ELECTRICAL ROOM N140",
+"x0": 619,
+"y0": 918,
+"x1": 684,
+"y1": 926,
+"angle": null
+},
+{
+"text": "SCALE:",
+"x0": 340,
+"y0": 623,
+"x1": 350,
+"y1": 628,
+"angle": null
+},
+{
+"text": "3/8\" = 1'-0\"",
+"x0": 352,
+"y0": 623,
+"x1": 365,
+"y1": 628,
+"angle": null
+},
+{
+"text": "1",
+"x0": 330,
+"y0": 618,
+"x1": 333,
+"y1": 626,
+"angle": null
+},
+{
+"text": "MAIN ELECTRICAL ROOM E-1-S11",
+"x0": 340,
+"y0": 614,
+"x1": 409,
+"y1": 622,
+"angle": null
+},
+{
+"text": "SCALE:",
+"x0": 620,
+"y0": 623,
+"x1": 629,
+"y1": 628,
+"angle": null
+},
+{
+"text": "3/8\" = 1'-0\"",
+"x0": 631,
+"y0": 623,
+"x1": 644,
+"y1": 628,
+"angle": null
+},
+{
+"text": "2",
+"x0": 610,
+"y0": 618,
+"x1": 612,
+"y1": 626,
+"angle": null
+},
+{
+"text": "MAIN ELECTRICAL ROOM E-1-S21",
+"x0": 619,
+"y0": 614,
+"x1": 688,
+"y1": 622,
+"angle": null
+},
+{
+"text": "SHEET KEYNOTES",
+"x0": 825,
+"y0": 505,
+"x1": 887,
+"y1": 518,
+"angle": null
+},
+{
+"text": "E205",
+"x0": 810,
+"y0": 528,
+"x1": 816,
+"y1": 533,
+"angle": null
+},
+{
+"text": "PROVIDE 4\"X24\" COPPER GROUND BAR, STORM POWER",
+"x0": 821,
+"y0": 528,
+"x1": 892,
+"y1": 533,
+"angle": null
+},
+{
+"text": "COMPONENTS #SCGB-12KT / COVER-375-24, OR EQUAL.",
+"x0": 821,
+"y0": 533,
+"x1": 891,
+"y1": 538,
+"angle": null
+},
+{
+"text": "INSTALL PROVIDED MOUNTED BRACKETS, ISOLATORS AND",
+"x0": 821,
+"y0": 538,
+"x1": 896,
+"y1": 543,
+"angle": null
+},
+{
+"text": "COVER PER MANUFACTURER SPECIFICATIONS. MOUNT @ 96\"",
+"x0": 821,
+"y0": 543,
+"x1": 899,
+"y1": 548,
+"angle": null
+},
+{
+"text": "AFF TO MIDDLE OF GROUND BAR. PROVIDE INSULATED #4",
+"x0": 821,
+"y0": 548,
+"x1": 895,
+"y1": 553,
+"angle": null
+},
+{
+"text": "COPPER GROUND CONDUCTOR AND BOND TO GROUNDING",
+"x0": 821,
+"y0": 553,
+"x1": 897,
+"y1": 558,
+"angle": null
+},
+{
+"text": "ELECTRODE SYSTEM.",
+"x0": 821,
+"y0": 558,
+"x1": 849,
+"y1": 563,
+"angle": null
+},
+{
+"text": "E225",
+"x0": 810,
+"y0": 564,
+"x1": 816,
+"y1": 570,
+"angle": null
+},
+{
+"text": "PROVIDE STRUCTURAL MOUNTING FRAME SUITABLE FOR",
+"x0": 821,
+"y0": 564,
+"x1": 894,
+"y1": 570,
+"angle": null
+},
+{
+"text": "STACK MOUNTING TRANSFORMER ABOVE FLOOR MOUNTED",
+"x0": 821,
+"y0": 569,
+"x1": 898,
+"y1": 575,
+"angle": null
+},
+{
+"text": "TRANSFORMER. INCLUDE SHOP DRAWINGS STAMPED BY",
+"x0": 821,
+"y0": 575,
+"x1": 894,
+"y1": 580,
+"angle": null
+},
+{
+"text": "STRUCTURAL ENGINEER IN TRANSFORMER SUBMITTAL.",
+"x0": 821,
+"y0": 580,
+"x1": 892,
+"y1": 585,
+"angle": null
+},
+{
+"text": "E502",
+"x0": 810,
+"y0": 586,
+"x1": 816,
+"y1": 591,
+"angle": null
+},
+{
+"text": "PROVIDE 1.6KVA EMERGENCY LIGHTING INVERTER, MYERS",
+"x0": 821,
+"y0": 586,
+"x1": 896,
+"y1": 591,
+"angle": null
+},
+{
+"text": "ILLUMINATOR EM #6-EM-2-S-B-D-20-02-TW, 65KAIC, OR EQUAL.",
+"x0": 821,
+"y0": 591,
+"x1": 899,
+"y1": 596,
+"angle": null
+},
+{
+"text": "INSTALL PER EQUIPMENT MANUFACTURER SPECIFICATIONS.",
+"x0": 821,
+"y0": 596,
+"x1": 898,
+"y1": 601,
+"angle": null
+},
+{
+"text": "INCLUDE STARTUP, TRAINING AND EXTENDED WARRANTY.",
+"x0": 821,
+"y0": 601,
+"x1": 896,
+"y1": 606,
+"angle": null
+},
+{
+"text": "E503",
+"x0": 810,
+"y0": 607,
+"x1": 816,
+"y1": 612,
+"angle": null
+},
+{
+"text": "PROVIDE 3.75KVA EMERGENCY LIGHTING INVERTER, MYERS",
+"x0": 821,
+"y0": 607,
+"x1": 898,
+"y1": 612,
+"angle": null
+},
+{
+"text": "ILLUMINATOR SUPERNOVA #6-I-03-S-B-A-20-03-T, 65KAIC, OR",
+"x0": 821,
+"y0": 612,
+"x1": 897,
+"y1": 618,
+"angle": null
+},
+{
+"text": "EQUAL. INSTALL PER EQUIPMENT MANUFACTURER",
+"x0": 821,
+"y0": 617,
+"x1": 886,
+"y1": 623,
+"angle": null
+},
+{
+"text": "SPECIFICATIONS. INCLUDE STARTUP, TRAINING AND",
+"x0": 821,
+"y0": 623,
+"x1": 888,
+"y1": 628,
+"angle": null
+},
+{
+"text": "EXTENDED WARRANTY.",
+"x0": 821,
+"y0": 628,
+"x1": 851,
+"y1": 633,
+"angle": null
+},
+{
+"text": "SCHEMATIC DESIGN",
+"x0": 907,
+"y0": 610,
+"x1": 933,
+"y1": 615,
+"angle": null
+},
+{
+"text": "19OCT2020",
+"x0": 967,
+"y0": 610,
+"x1": 981,
+"y1": 615,
+"angle": null
+},
+{
+"text": "DESIGN DEVELOPMENT",
+"x0": 907,
+"y0": 604,
+"x1": 937,
+"y1": 609,
+"angle": null
+},
+{
+"text": "23DEC2020",
+"x0": 967,
+"y0": 604,
+"x1": 981,
+"y1": 609,
+"angle": null
+},
+{
+"text": "CONSTRUCTION DOCUMENTS",
+"x0": 907,
+"y0": 598,
+"x1": 945,
+"y1": 603,
+"angle": null
+},
+{
+"text": "15APR2021",
+"x0": 967,
+"y0": 598,
+"x1": 981,
+"y1": 603,
+"angle": null
+},
+{
+"text": "BID SET",
+"x0": 907,
+"y0": 592,
+"x1": 917,
+"y1": 597,
+"angle": null
+},
+{
+"text": "04MAY2021",
+"x0": 967,
+"y0": 592,
+"x1": 981,
+"y1": 597,
+"angle": null
+},
+{
+"text": "Exp 10-31-21",
+"x0": 934,
+"y0": 717,
+"x1": 957,
+"y1": 722,
+"angle": null
+},
+{
+"text": "5-4-21",
+"x0": 940,
+"y0": 693,
+"x1": 952,
+"y1": 699,
+"angle": null
+},
+{
+"text": "SMITHGROUP",
+"x0": 907,
+"y0": 268,
+"x1": 975,
+"y1": 285,
+"angle": null
+},
+{
+"text": "46278",
+"x0": 940,
+"y0": 682,
+"x1": 953,
+"y1": 691,
+"angle": 6.8
+},
+{
+"text": "UCCS",
+"x0": 902,
+"y0": 56,
+"x1": 993,
+"y1": 102,
+"angle": null
+}
+]
+}

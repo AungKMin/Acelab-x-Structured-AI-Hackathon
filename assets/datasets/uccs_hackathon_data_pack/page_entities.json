@@ -1,0 +1,633 @@
+{
+ "1 - Drawings.pdf": {
+  "1": {
+   "rooms_found": [
+    "OFFICE N104B",
+    "OFFICE N104A",
+    "OFFICE N120E",
+    "OFFICE N120F",
+    "OFFICE N120G",
+    "OFFICE N120K",
+    "OFFICE N120J",
+    "OFFICE N120H",
+    "VENDING N139",
+    "STUDENT LIVING ROOM N102",
+    "ONLINE STUDIO N123",
+    "GRAD LAB MEDIUM N115",
+    "GRAD LAB MEDIUM N116",
+    "CLASSROOM (40) N106",
+    "COMPUTER LAB N112",
+    "CIRCULATION N104",
+    "CIRCULATION N120",
+    "VESTIBULE N101",
+    "COLLAB. N107B",
+    "ELEC. N140",
+    "JC E-197",
+    "OFFICE N120D",
+    "OFFICE N104C",
+    "EXISTING WOMEN'S RESTROOM N141",
+    "EXISTING MEN'S RESTROOM N142",
+    "CAFE N103",
+    "PROGRAM ASST. N120A",
+    "COPY OFFICE SUPPLIES N120B",
+    "SMALL CONFERENCE N120C",
+    "CYBER RANGE LAB N111",
+    "GRAD LAB LARGE N110",
+    "GRAD LAB LARGE N114",
+    "OFFICE N104F",
+    "OFFICE N104E",
+    "OFFICE N104D",
+    "EXECUTIVE CONFERENCE N105",
+    "CIRCULATION N119",
+    "GRAD LAB MEDIUM N117",
+    "GRAD LAB MEDIUM N118",
+    "BREAK ROOM N138",
+    "DATA ROOM N124",
+    "FLEX OFFICE N121",
+    "COLLAB. N107C"
+   ],
+   "door_tags_found": [],
+   "wall_type_tags_found": [],
+   "finish_codes_found": [
+    "CPT-1",
+    "CPT-2",
+    "CPT-3",
+    "CPT-04",
+    "CPT-05",
+    "CPT-06",
+    "CPT-07",
+    "CPT-8",
+    "CONC-1",
+    "CONC-2",
+    "ESD-1",
+    "FTL-1",
+    "WB-1",
+    "WB-2",
+    "P-1",
+    "P-2",
+    "P-4",
+    "MWP-1",
+    "MWP-2",
+    "TWB-1",
+    "T-1",
+    "T-2",
+    "T-3",
+    "GWP-1",
+    "GWP-2",
+    "PT-2",
+    "WP-1",
+    "CG-1"
+   ],
+   "fire_ratings_found": [],
+   "grid_lines_found": [
+    "N-1",
+    "N-2",
+    "N-3",
+    "N-4",
+    "N-5",
+    "N-6",
+    "N-7",
+    "N-E",
+    "N-F",
+    "N-G",
+    "N-H",
+    "N-I",
+    "N-J",
+    "N-K"
+   ],
+   "keynote_numbers_found": [
+    "AF101"
+   ],
+   "schedule_names": [],
+   "schedule_columns": [],
+   "spec_sections": [],
+   "code_references": [
+    "ADA 302"
+   ],
+   "details_on_page": [],
+   "sections_on_page": [],
+   "elevations_on_page": [],
+   "notes_sections": [
+    "GENERAL SHEET NOTES",
+    "SHEET KEYNOTES"
+   ],
+   "key_dimensions": [
+    "32'-0\"",
+    "18'-2\"",
+    "13'-0\"",
+    "159'-2\"",
+    "229'-10\"",
+    "28'-2\"",
+    "58'-2\"",
+    "25'-10\"",
+    "32'-4\"",
+    "57'-2\"",
+    "3'-0 3/4\"",
+    "3'-0\"",
+    "2'-6\"",
+    "24'-0\"",
+    "2'-10\"",
+    "7'-2\"",
+    "3'-6 3/4\"",
+    "42'-8 5/8\"",
+    "10'-0\"",
+    "3'-1\""
+   ]
+  },
+  "2": {
+   "rooms_found": [
+    "SPACE ISAC RECEPTION S101",
+    "SMALL CONFERENCE S101A",
+    "WATCH CENTER S107",
+    "CIRCULATION S108",
+    "OFFICE S108B",
+    "OFFICE S108C",
+    "OFFICE S108D",
+    "OFFICE S108E",
+    "CVL VESTIBULE S102A",
+    "CYBER VULNERABILITY LAB S102",
+    "DATA/SERVER S103",
+    "TELECOM / MDF S105",
+    "CIRCULATION S109",
+    "EAST CORRIDOR S100"
+   ],
+   "door_tags_found": [],
+   "wall_type_tags_found": [],
+   "finish_codes_found": [
+    "CPT-4/6",
+    "WB-1",
+    "P-1/3",
+    "CPT-6",
+    "P-1",
+    "CPT-5",
+    "WB-2",
+    "P-3/5",
+    "CPT-4",
+    "ESD-1",
+    "P-1C",
+    "CONC-1",
+    "CPT-06",
+    "CPT-04",
+    "CG-1",
+    "P-3",
+    "P-5",
+    "CONC-2",
+    "CPT-1",
+    "FTL-1",
+    "CPT-2",
+    "CPT-3",
+    "CPT-05",
+    "CPT-07"
+   ],
+   "fire_ratings_found": [],
+   "grid_lines_found": [
+    "S-4",
+    "S-5",
+    "S-6",
+    "S-7",
+    "S-8",
+    "S-B",
+    "S-C",
+    "S-D",
+    "S-E",
+    "S-F",
+    "S-G",
+    "N-1"
+   ],
+   "keynote_numbers_found": [],
+   "schedule_names": [],
+   "schedule_columns": [],
+   "spec_sections": [],
+   "code_references": [
+    "ADA 302"
+   ],
+   "details_on_page": [
+    "1"
+   ],
+   "sections_on_page": [],
+   "elevations_on_page": [],
+   "notes_sections": [
+    "GENERAL SHEET NOTES"
+   ],
+   "key_dimensions": [
+    "38'-0\"",
+    "190'-0\"",
+    "62'-6\"",
+    "214'-6\""
+   ]
+  },
+  "3": {
+   "rooms_found": [
+    "COLLAB. N113A",
+    "MEN N113B",
+    "WOMEN N108",
+    "JAN N109",
+    "CIRCULATION N119"
+   ],
+   "door_tags_found": [],
+   "wall_type_tags_found": [],
+   "finish_codes_found": [],
+   "fire_ratings_found": [],
+   "grid_lines_found": [
+    "N-A",
+    "N-B",
+    "N-C",
+    "N-D",
+    "N-E",
+    "N-1",
+    "N-2",
+    "N-3",
+    "N-4",
+    "N-5",
+    "N-6"
+   ],
+   "keynote_numbers_found": [
+    "E205",
+    "E223"
+   ],
+   "schedule_names": [],
+   "schedule_columns": [],
+   "spec_sections": [],
+   "code_references": [
+    "UL 2196",
+    "NEC 110.26"
+   ],
+   "details_on_page": [
+    "1"
+   ],
+   "sections_on_page": [],
+   "elevations_on_page": [],
+   "notes_sections": [
+    "GENERAL SHEET NOTES",
+    "SHEET KEYNOTES"
+   ],
+   "key_dimensions": []
+  },
+  "4": {
+   "rooms_found": [
+    "MAIN ELECTRICAL ROOM E-1-S11",
+    "MAIN ELECTRICAL ROOM E-1-S21",
+    "ISAC ELECTRICAL ROOM S105",
+    "UCCS ELECTRICAL ROOM N140"
+   ],
+   "door_tags_found": [],
+   "wall_type_tags_found": [],
+   "finish_codes_found": [],
+   "fire_ratings_found": [],
+   "grid_lines_found": [],
+   "keynote_numbers_found": [
+    "E205",
+    "E225",
+    "E502",
+    "E503"
+   ],
+   "schedule_names": [],
+   "schedule_columns": [],
+   "spec_sections": [],
+   "code_references": [
+    "UL 2196",
+    "NEC 110.26"
+   ],
+   "details_on_page": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "sections_on_page": [],
+   "elevations_on_page": [],
+   "notes_sections": [
+    "GENERAL SHEET NOTES",
+    "SHEET KEYNOTES"
+   ],
+   "key_dimensions": []
+  },
+  "5": {
+   "rooms_found": [],
+   "door_tags_found": [],
+   "wall_type_tags_found": [],
+   "finish_codes_found": [],
+   "fire_ratings_found": [],
+   "grid_lines_found": [],
+   "keynote_numbers_found": [
+    "E501",
+    "E502",
+    "E503"
+   ],
+   "schedule_names": [
+    "Short-Circuit Calculations",
+    "Ex Switchboard: MSB-SOUTH",
+    "Ex Switchboard: MSB-NORTH",
+    "FEEDER SCHEDULE"
+   ],
+   "schedule_columns": [],
+   "spec_sections": [],
+   "code_references": [],
+   "details_on_page": [
+    "1"
+   ],
+   "sections_on_page": [],
+   "elevations_on_page": [],
+   "notes_sections": [
+    "GENERAL SHEET NOTES",
+    "SHEET KEYNOTES"
+   ],
+   "key_dimensions": []
+  },
+  "6": {
+   "rooms_found": [],
+   "door_tags_found": [],
+   "wall_type_tags_found": [],
+   "finish_codes_found": [],
+   "fire_ratings_found": [],
+   "grid_lines_found": [],
+   "keynote_numbers_found": [],
+   "schedule_names": [],
+   "schedule_columns": [],
+   "spec_sections": [],
+   "code_references": [],
+   "details_on_page": [],
+   "sections_on_page": [],
+   "elevations_on_page": [],
+   "notes_sections": [
+    "GENERAL SHEET NOTES",
+    "SHEET KEYNOTES"
+   ],
+   "key_dimensions": []
+  },
+  "7": {
+   "rooms_found": [
+    "N108 TOILET",
+    "N109 TOILET",
+    "N140 CIRCULATION",
+    "N119 EXISTING MEN'S RESTROOM",
+    "N142 EXISTING WOMEN'S RESTROOM",
+    "N141 JC"
+   ],
+   "door_tags_found": [],
+   "wall_type_tags_found": [],
+   "finish_codes_found": [],
+   "fire_ratings_found": [],
+   "grid_lines_found": [
+    "N-E",
+    "N-2",
+    "N-D",
+    "N-I",
+    "N-3"
+   ],
+   "keynote_numbers_found": [
+    "P201",
+    "P202",
+    "P203",
+    "P204",
+    "P205",
+    "P206",
+    "P207",
+    "P208",
+    "P210",
+    "P211",
+    "P212",
+    "P215",
+    "P303",
+    "P304",
+    "P305",
+    "P307",
+    "P309",
+    "P319",
+    "P321"
+   ],
+   "schedule_names": [],
+   "schedule_columns": [],
+   "spec_sections": [],
+   "code_references": [],
+   "details_on_page": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "sections_on_page": [],
+   "elevations_on_page": [],
+   "notes_sections": [
+    "GENERAL SHEET NOTES",
+    "SHEET KEYNOTES"
+   ],
+   "key_dimensions": []
+  }
+ },
+ "3 - Finishes Product Schedule.pdf": {
+  "1": {
+   "rooms_found": [],
+   "door_tags_found": [],
+   "wall_type_tags_found": [],
+   "finish_codes_found": [
+    "CG-1",
+    "WV-1",
+    "UPH-1",
+    "MWP-4",
+    "MWP-3",
+    "MWP-2",
+    "MWP-1",
+    "P-5",
+    "PL-2",
+    "PL-1",
+    "FRP-1",
+    "WP-1",
+    "GWP-2",
+    "GWP-1",
+    "T-3",
+    "T-2",
+    "T-1",
+    "SS-3",
+    "SS-2",
+    "P-1B",
+    "TWB-1",
+    "WB-2",
+    "WB-1",
+    "SS-1"
+   ],
+   "fire_ratings_found": [],
+   "grid_lines_found": [],
+   "keynote_numbers_found": [],
+   "schedule_names": [],
+   "schedule_type": "finishes_schedule",
+   "schedule_columns": [
+    "Manufacturer",
+    "Product + Subname",
+    "Approval Status",
+    "Masterformat section",
+    "Category",
+    "Tag",
+    "Remarks"
+   ],
+   "spec_sections": [
+    "10 26 00",
+    "09 50 00",
+    "09 72 19",
+    "09 78 13",
+    "09 51 33",
+    "09 91 23",
+    "06 61 16",
+    "09 00 00",
+    "09 51 00",
+    "09 30 13",
+    "09 30 00",
+    "12 36 00",
+    "09 91 00",
+    "09 65 13"
+   ],
+   "code_references": [],
+   "details_on_page": [],
+   "sections_on_page": [],
+   "elevations_on_page": [],
+   "notes_sections": [],
+   "key_dimensions": []
+  },
+  "2": {
+   "rooms_found": [],
+   "door_tags_found": [],
+   "wall_type_tags_found": [],
+   "finish_codes_found": [
+    "P-4A",
+    "WD-1",
+    "CON-1",
+    "CON-2",
+    "P-4",
+    "CPT-1",
+    "P-3B",
+    "GYP-1",
+    "CPT-2",
+    "P-3A",
+    "CPT-3",
+    "P-2A",
+    "CPT-4",
+    "CPT-5",
+    "ACT-4",
+    "CPT-6",
+    "CPT-7",
+    "ESD-1",
+    "FLT-1",
+    "ACT-3",
+    "ACT-2"
+   ],
+   "fire_ratings_found": [],
+   "grid_lines_found": [],
+   "keynote_numbers_found": [],
+   "schedule_names": [],
+   "schedule_type": "finishes_schedule",
+   "schedule_columns": [],
+   "spec_sections": [
+    "09 91 00",
+    "09 54 23",
+    "03 35 43",
+    "09 93 00",
+    "09 68 00",
+    "09 68 13",
+    "09 54 00",
+    "09 65 33",
+    "09 30 13",
+    "09 51 00",
+    "09 84 13"
+   ],
+   "code_references": [],
+   "details_on_page": [],
+   "sections_on_page": [],
+   "elevations_on_page": [],
+   "notes_sections": [],
+   "key_dimensions": []
+  },
+  "3": {
+   "rooms_found": [],
+   "door_tags_found": [],
+   "wall_type_tags_found": [],
+   "finish_codes_found": [
+    "ACT-1",
+    "GLF-1",
+    "GLF-2",
+    "RSH-01",
+    "RSH-2",
+    "P-1",
+    "P-1A",
+    "P-1C",
+    "P-2",
+    "P-3"
+   ],
+   "fire_ratings_found": [],
+   "grid_lines_found": [],
+   "keynote_numbers_found": [],
+   "schedule_names": [],
+   "schedule_type": "finishes_schedule",
+   "schedule_columns": [],
+   "spec_sections": [
+    "09 51 13",
+    "12 24 13",
+    "09 91 00",
+    "09 97 13"
+   ],
+   "code_references": [
+    "LEED V5"
+   ],
+   "details_on_page": [],
+   "sections_on_page": [],
+   "elevations_on_page": [],
+   "notes_sections": [],
+   "key_dimensions": []
+  }
+ },
+ "4 - Plumbing Product Schedule.pdf": {
+  "1": {
+   "rooms_found": [],
+   "door_tags_found": [],
+   "wall_type_tags_found": [],
+   "finish_codes_found": [],
+   "fire_ratings_found": [],
+   "grid_lines_found": [],
+   "keynote_numbers_found": [],
+   "schedule_names": [],
+   "schedule_type": "equipment_schedule",
+   "schedule_columns": [
+    "Manufacturer",
+    "Product + Subname",
+    "Approval Status",
+    "Masterformat section",
+    "Category",
+    "Tag",
+    "Remarks"
+   ],
+   "spec_sections": [
+    "22 41 26",
+    "22 40 00",
+    "22 33 00"
+   ],
+   "code_references": [
+    "ASSE 1070"
+   ],
+   "details_on_page": [],
+   "sections_on_page": [],
+   "elevations_on_page": [],
+   "notes_sections": [],
+   "key_dimensions": []
+  },
+  "2": {
+   "rooms_found": [],
+   "door_tags_found": [],
+   "wall_type_tags_found": [],
+   "finish_codes_found": [],
+   "fire_ratings_found": [],
+   "grid_lines_found": [],
+   "keynote_numbers_found": [],
+   "schedule_names": [],
+   "schedule_type": "equipment_schedule",
+   "schedule_columns": [],
+   "spec_sections": [
+    "22 40 00"
+   ],
+   "code_references": [],
+   "details_on_page": [],
+   "sections_on_page": [],
+   "elevations_on_page": [],
+   "notes_sections": [],
+   "key_dimensions": []
+  }
+ }
+}

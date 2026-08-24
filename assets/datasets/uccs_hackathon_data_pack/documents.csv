@@ -1,0 +1,4 @@
+document,document_id,folder,page_count,pipeline_status,failed_pages
+1 - Drawings.pdf,e60e52c7-246a-47af-9891-e8e9f265ea7e,1_Drawings,7,ready,0
+3 - Finishes Product Schedule.pdf,ea9a1ed2-69db-4792-ad13-9e9fcfa64306,3_Finishes_Product_Schedule,3,ready,0
+4 - Plumbing Product Schedule.pdf,dffc350b-5dc1-4bbe-8839-d0ab190312d2,4_Plumbing_Product_Schedule,2,ready,0

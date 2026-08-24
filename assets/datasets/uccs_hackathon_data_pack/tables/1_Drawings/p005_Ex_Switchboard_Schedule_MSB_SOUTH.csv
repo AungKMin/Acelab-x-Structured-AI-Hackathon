@@ -1,0 +1,22 @@
+Ex Switchboard: MSB-SOUTH,Ex Switchboard: MSB-SOUTH.1,Ex Switchboard: MSB-SOUTH.2,Ex Switchboard: MSB-SOUTH.3,Ex Switchboard: MSB-SOUTH.4,Ex Switchboard: MSB-SOUTH.5,Ex Switchboard: MSB-SOUTH.6
+Location: ELEC E-1-S11,Location: ELEC E-1-S11,Volts: 480Y/277,Volts: 480Y/277,"A.I.C. Rating: 65,000","A.I.C. Rating: 65,000","A.I.C. Rating: 65,000"
+Supply From:,Supply From:,Phases: 3,Phases: 3,Mains Type: MCB,Mains Type: MCB,Mains Type: MCB
+Mounting:,Mounting:,Wires: 4,Wires: 4,Mains Rating: 4000 A,Mains Rating: 4000 A,Mains Rating: 4000 A
+Enclosure:,Enclosure:,,,MCB Rating: 4000 A,MCB Rating: 4000 A,MCB Rating: 4000 A
+CKT,Circuit Description,# of Poles,Frame Size,Trip Rating,Load,Remarks
+1,EXISTING LOAD PER PREVIOUSLY ENGINEERED PLANS,3,0 A,0 A,1708536 VA,
+2,ISACHA,3,400 A,300 A,151320 VA,
+3,,,,,,
+4,,,,,,
+5,,,,,,
+6,,,,,,
+7,,,,,,
+8,,,,,,
+9,,,,,,
+10,,,,,,
+11,,,,,,
+12,,,,,,
+13,,,,,,
+14,,,,,,
+Total Conn. Load:,Total Conn. Load:,Total Conn. Load:,Total Conn. Load:,Total Conn. Load:,1859856 VA,
+Total Amps:,Total Amps:,Total Amps:,Total Amps:,Total Amps:,2237 A,

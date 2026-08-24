@@ -1,0 +1,1257 @@
+{
+"document": "3 - Finishes Product Schedule.pdf",
+"page_number": 2,
+"page_width_pt": 792.0,
+"page_height_pt": 612.0,
+"bbox_space": "0-1000 normalized, origin top-left",
+"spans": [
+{
+"text": "Dunn-Edwards",
+"x0": 65,
+"y0": 119,
+"x1": 129,
+"y1": 131,
+"angle": null
+},
+{
+"text": "Paints",
+"x0": 65,
+"y0": 133,
+"x1": 91,
+"y1": 145,
+"angle": null
+},
+{
+"text": "Everest\u00ae - Ultra Premium Interior",
+"x0": 137,
+"y0": 119,
+"x1": 276,
+"y1": 131,
+"angle": null
+},
+{
+"text": "Paint",
+"x0": 137,
+"y0": 133,
+"x1": 158,
+"y1": 145,
+"angle": null
+},
+{
+"text": "09 91 00 Painting",
+"x0": 354,
+"y0": 133,
+"x1": 425,
+"y1": 145,
+"angle": null
+},
+{
+"text": "Coatings",
+"x0": 514,
+"y0": 133,
+"x1": 550,
+"y1": 145,
+"angle": null
+},
+{
+"text": "P-4A",
+"x0": 703,
+"y0": 133,
+"x1": 724,
+"y1": 145,
+"angle": null
+},
+{
+"text": "Color: Jet Black DE6378",
+"x0": 775,
+"y0": 92,
+"x1": 875,
+"y1": 104,
+"angle": null
+},
+{
+"text": "Install: Flat",
+"x0": 775,
+"y0": 105,
+"x1": 819,
+"y1": 117,
+"angle": null
+},
+{
+"text": "Location: Gyp ceiling, refer to RCP &",
+"x0": 775,
+"y0": 119,
+"x1": 928,
+"y1": 131,
+"angle": null
+},
+{
+"text": "elevations",
+"x0": 775,
+"y0": 133,
+"x1": 816,
+"y1": 145,
+"angle": null
+},
+{
+"text": "USG",
+"x0": 65,
+"y0": 152,
+"x1": 85,
+"y1": 164,
+"angle": null
+},
+{
+"text": "Barz\u00ae - Baffles",
+"x0": 137,
+"y0": 152,
+"x1": 199,
+"y1": 164,
+"angle": null
+},
+{
+"text": "09 54 23 Linear Metal Ceilings",
+"x0": 354,
+"y0": 152,
+"x1": 478,
+"y1": 164,
+"angle": null
+},
+{
+"text": "Wall Finishes,Ceilings",
+"x0": 514,
+"y0": 152,
+"x1": 604,
+"y1": 164,
+"angle": null
+},
+{
+"text": "WD-1",
+"x0": 703,
+"y0": 152,
+"x1": 727,
+"y1": 164,
+"angle": null
+},
+{
+"text": "LOBBY CEILING, OAKLINE",
+"x0": 775,
+"y0": 152,
+"x1": 890,
+"y1": 164,
+"angle": null
+},
+{
+"text": "RetroPlate",
+"x0": 65,
+"y0": 171,
+"x1": 111,
+"y1": 183,
+"angle": null
+},
+{
+"text": "Concrete",
+"x0": 65,
+"y0": 184,
+"x1": 105,
+"y1": 196,
+"angle": null
+},
+{
+"text": "Polishing",
+"x0": 65,
+"y0": 198,
+"x1": 105,
+"y1": 210,
+"angle": null
+},
+{
+"text": "System",
+"x0": 65,
+"y0": 212,
+"x1": 96,
+"y1": 224,
+"angle": null
+},
+{
+"text": "Concrete Polishing System - Floor",
+"x0": 137,
+"y0": 198,
+"x1": 279,
+"y1": 210,
+"angle": null
+},
+{
+"text": "Polishing System",
+"x0": 137,
+"y0": 212,
+"x1": 208,
+"y1": 224,
+"angle": null
+},
+{
+"text": "03 35 43 Polished Concrete Finishing",
+"x0": 354,
+"y0": 212,
+"x1": 507,
+"y1": 224,
+"angle": null
+},
+{
+"text": "Flooring",
+"x0": 514,
+"y0": 212,
+"x1": 547,
+"y1": 224,
+"angle": null
+},
+{
+"text": "CON-1",
+"x0": 703,
+"y0": 212,
+"x1": 732,
+"y1": 224,
+"angle": null
+},
+{
+"text": "Euclid Chemical",
+"x0": 65,
+"y0": 244,
+"x1": 131,
+"y1": 256,
+"angle": null
+},
+{
+"text": "Increte Vibra Stain SB - Polished",
+"x0": 137,
+"y0": 230,
+"x1": 273,
+"y1": 242,
+"angle": null
+},
+{
+"text": "Concrete",
+"x0": 137,
+"y0": 244,
+"x1": 174,
+"y1": 256,
+"angle": null
+},
+{
+"text": "09 93 00 Staining and Transparent",
+"x0": 354,
+"y0": 230,
+"x1": 498,
+"y1": 242,
+"angle": null
+},
+{
+"text": "Finishing",
+"x0": 354,
+"y0": 244,
+"x1": 391,
+"y1": 256,
+"angle": null
+},
+{
+"text": "Coatings",
+"x0": 514,
+"y0": 244,
+"x1": 550,
+"y1": 256,
+"angle": null
+},
+{
+"text": "CON-2",
+"x0": 703,
+"y0": 244,
+"x1": 732,
+"y1": 256,
+"angle": null
+},
+{
+"text": "Dunn-Edwards",
+"x0": 65,
+"y0": 276,
+"x1": 129,
+"y1": 288,
+"angle": null
+},
+{
+"text": "Paints",
+"x0": 65,
+"y0": 290,
+"x1": 91,
+"y1": 302,
+"angle": null
+},
+{
+"text": "Suprema\u00ae - Ultra Premium",
+"x0": 137,
+"y0": 276,
+"x1": 251,
+"y1": 288,
+"angle": null
+},
+{
+"text": "Interior Paint",
+"x0": 137,
+"y0": 290,
+"x1": 189,
+"y1": 302,
+"angle": null
+},
+{
+"text": "09 91 00 Painting",
+"x0": 354,
+"y0": 290,
+"x1": 425,
+"y1": 302,
+"angle": null
+},
+{
+"text": "Coatings",
+"x0": 514,
+"y0": 290,
+"x1": 550,
+"y1": 302,
+"angle": null
+},
+{
+"text": "P-4",
+"x0": 703,
+"y0": 290,
+"x1": 718,
+"y1": 302,
+"angle": null
+},
+{
+"text": "Color: Jet Black",
+"x0": 775,
+"y0": 262,
+"x1": 839,
+"y1": 274,
+"angle": null
+},
+{
+"text": "Install: Velvet",
+"x0": 775,
+"y0": 276,
+"x1": 829,
+"y1": 288,
+"angle": null
+},
+{
+"text": "Location: Walls, refer to finish plans",
+"x0": 775,
+"y0": 290,
+"x1": 920,
+"y1": 302,
+"angle": null
+},
+{
+"text": "Bentley Mills",
+"x0": 65,
+"y0": 309,
+"x1": 117,
+"y1": 321,
+"angle": null
+},
+{
+"text": "After Dark - Carpet Tile",
+"x0": 137,
+"y0": 309,
+"x1": 231,
+"y1": 321,
+"angle": null
+},
+{
+"text": "09 68 00 Carpeting",
+"x0": 354,
+"y0": 309,
+"x1": 432,
+"y1": 321,
+"angle": null
+},
+{
+"text": "Flooring",
+"x0": 514,
+"y0": 309,
+"x1": 547,
+"y1": 321,
+"angle": null
+},
+{
+"text": "CPT-1",
+"x0": 703,
+"y0": 309,
+"x1": 729,
+"y1": 321,
+"angle": null
+},
+{
+"text": "Dunn-Edwards",
+"x0": 65,
+"y0": 369,
+"x1": 129,
+"y1": 381,
+"angle": null
+},
+{
+"text": "Paints",
+"x0": 65,
+"y0": 382,
+"x1": 91,
+"y1": 394,
+"angle": null
+},
+{
+"text": "Aristoshield\u00ae - Ultra Premium",
+"x0": 137,
+"y0": 369,
+"x1": 261,
+"y1": 381,
+"angle": null
+},
+{
+"text": "Interior/Exterior Paint",
+"x0": 137,
+"y0": 382,
+"x1": 223,
+"y1": 394,
+"angle": null
+},
+{
+"text": "09 91 00 Painting",
+"x0": 354,
+"y0": 382,
+"x1": 425,
+"y1": 394,
+"angle": null
+},
+{
+"text": "Coatings",
+"x0": 514,
+"y0": 382,
+"x1": 550,
+"y1": 394,
+"angle": null
+},
+{
+"text": "P-3B",
+"x0": 703,
+"y0": 382,
+"x1": 724,
+"y1": 394,
+"angle": null
+},
+{
+"text": "Color: Charcoal Smudge DE6370",
+"x0": 775,
+"y0": 328,
+"x1": 912,
+"y1": 339,
+"angle": null
+},
+{
+"text": "Install: Eggshell",
+"x0": 775,
+"y0": 341,
+"x1": 839,
+"y1": 353,
+"angle": null
+},
+{
+"text": "Location: Doors & frames, refer to",
+"x0": 775,
+"y0": 355,
+"x1": 916,
+"y1": 367,
+"angle": null
+},
+{
+"text": "door schedule",
+"x0": 775,
+"y0": 369,
+"x1": 833,
+"y1": 381,
+"angle": null
+},
+{
+"text": "Notes: Aristoshield 30",
+"x0": 775,
+"y0": 382,
+"x1": 864,
+"y1": 394,
+"angle": null
+},
+{
+"text": "American",
+"x0": 65,
+"y0": 401,
+"x1": 107,
+"y1": 413,
+"angle": null
+},
+{
+"text": "Gypsum",
+"x0": 65,
+"y0": 414,
+"x1": 100,
+"y1": 426,
+"angle": null
+},
+{
+"text": "Interior Ceiling Gypsum Board",
+"x0": 137,
+"y0": 414,
+"x1": 260,
+"y1": 426,
+"angle": null
+},
+{
+"text": "Sheathing Decking & SIPS",
+"x0": 514,
+"y0": 414,
+"x1": 624,
+"y1": 426,
+"angle": null
+},
+{
+"text": "GYP-1",
+"x0": 703,
+"y0": 414,
+"x1": 731,
+"y1": 426,
+"angle": null
+},
+{
+"text": "Bentley Mills",
+"x0": 65,
+"y0": 434,
+"x1": 117,
+"y1": 446,
+"angle": null
+},
+{
+"text": "Buzz Worthy - Carpet Tile",
+"x0": 137,
+"y0": 434,
+"x1": 242,
+"y1": 446,
+"angle": null
+},
+{
+"text": "09 68 00 Carpeting",
+"x0": 354,
+"y0": 434,
+"x1": 432,
+"y1": 446,
+"angle": null
+},
+{
+"text": "Flooring",
+"x0": 514,
+"y0": 434,
+"x1": 547,
+"y1": 446,
+"angle": null
+},
+{
+"text": "CPT-2",
+"x0": 703,
+"y0": 434,
+"x1": 729,
+"y1": 446,
+"angle": null
+},
+{
+"text": "Dunn-Edwards",
+"x0": 65,
+"y0": 480,
+"x1": 129,
+"y1": 492,
+"angle": null
+},
+{
+"text": "Paints",
+"x0": 65,
+"y0": 493,
+"x1": 91,
+"y1": 505,
+"angle": null
+},
+{
+"text": "Everest\u00ae - Ultra Premium Interior",
+"x0": 137,
+"y0": 480,
+"x1": 276,
+"y1": 492,
+"angle": null
+},
+{
+"text": "Paint",
+"x0": 137,
+"y0": 493,
+"x1": 158,
+"y1": 505,
+"angle": null
+},
+{
+"text": "09 91 00 Painting",
+"x0": 354,
+"y0": 493,
+"x1": 425,
+"y1": 505,
+"angle": null
+},
+{
+"text": "Coatings",
+"x0": 514,
+"y0": 493,
+"x1": 550,
+"y1": 505,
+"angle": null
+},
+{
+"text": "P-3A",
+"x0": 703,
+"y0": 493,
+"x1": 724,
+"y1": 505,
+"angle": null
+},
+{
+"text": "Color: Charcoal Smudge DE6370",
+"x0": 775,
+"y0": 452,
+"x1": 912,
+"y1": 464,
+"angle": null
+},
+{
+"text": "Install: Flat",
+"x0": 775,
+"y0": 466,
+"x1": 819,
+"y1": 478,
+"angle": null
+},
+{
+"text": "Location: Gyp ceiling, refer to RCP &",
+"x0": 775,
+"y0": 480,
+"x1": 928,
+"y1": 492,
+"angle": null
+},
+{
+"text": "elevations",
+"x0": 775,
+"y0": 493,
+"x1": 816,
+"y1": 505,
+"angle": null
+},
+{
+"text": "Interface",
+"x0": 65,
+"y0": 513,
+"x1": 101,
+"y1": 525,
+"angle": null
+},
+{
+"text": "Karmic Relief - Rising Signs",
+"x0": 137,
+"y0": 513,
+"x1": 251,
+"y1": 525,
+"angle": null
+},
+{
+"text": "09 68 00 Carpeting",
+"x0": 354,
+"y0": 513,
+"x1": 432,
+"y1": 525,
+"angle": null
+},
+{
+"text": "Flooring",
+"x0": 514,
+"y0": 513,
+"x1": 547,
+"y1": 525,
+"angle": null
+},
+{
+"text": "CPT-3",
+"x0": 703,
+"y0": 513,
+"x1": 729,
+"y1": 525,
+"angle": null
+},
+{
+"text": "Dunn-Edwards",
+"x0": 65,
+"y0": 559,
+"x1": 129,
+"y1": 571,
+"angle": null
+},
+{
+"text": "Paints",
+"x0": 65,
+"y0": 572,
+"x1": 91,
+"y1": 584,
+"angle": null
+},
+{
+"text": "Everest\u00ae - Ultra Premium Interior",
+"x0": 137,
+"y0": 559,
+"x1": 276,
+"y1": 571,
+"angle": null
+},
+{
+"text": "Paint",
+"x0": 137,
+"y0": 572,
+"x1": 158,
+"y1": 584,
+"angle": null
+},
+{
+"text": "09 91 00 Painting",
+"x0": 354,
+"y0": 572,
+"x1": 425,
+"y1": 584,
+"angle": null
+},
+{
+"text": "Coatings",
+"x0": 514,
+"y0": 572,
+"x1": 550,
+"y1": 584,
+"angle": null
+},
+{
+"text": "P-2A",
+"x0": 703,
+"y0": 572,
+"x1": 724,
+"y1": 584,
+"angle": null
+},
+{
+"text": "Color: Filtered Rays DE5438",
+"x0": 775,
+"y0": 531,
+"x1": 892,
+"y1": 543,
+"angle": null
+},
+{
+"text": "Install: Flat",
+"x0": 775,
+"y0": 545,
+"x1": 819,
+"y1": 557,
+"angle": null
+},
+{
+"text": "Location: Gyp ceiling, refer to RCP &",
+"x0": 775,
+"y0": 559,
+"x1": 928,
+"y1": 571,
+"angle": null
+},
+{
+"text": "elevations",
+"x0": 775,
+"y0": 572,
+"x1": 816,
+"y1": 584,
+"angle": null
+},
+{
+"text": "Mohawk Group",
+"x0": 65,
+"y0": 592,
+"x1": 128,
+"y1": 603,
+"angle": null
+},
+{
+"text": "Metalmorphic BT388",
+"x0": 137,
+"y0": 592,
+"x1": 222,
+"y1": 603,
+"angle": null
+},
+{
+"text": "09 68 13 Tile Carpeting",
+"x0": 354,
+"y0": 592,
+"x1": 449,
+"y1": 603,
+"angle": null
+},
+{
+"text": "Flooring",
+"x0": 514,
+"y0": 592,
+"x1": 547,
+"y1": 603,
+"angle": null
+},
+{
+"text": "CPT-4",
+"x0": 703,
+"y0": 592,
+"x1": 729,
+"y1": 603,
+"angle": null
+},
+{
+"text": "Mohawk Group",
+"x0": 65,
+"y0": 611,
+"x1": 128,
+"y1": 623,
+"angle": null
+},
+{
+"text": "Metalmorphic BT388",
+"x0": 137,
+"y0": 611,
+"x1": 222,
+"y1": 623,
+"angle": null
+},
+{
+"text": "09 68 13 Tile Carpeting",
+"x0": 354,
+"y0": 611,
+"x1": 449,
+"y1": 623,
+"angle": null
+},
+{
+"text": "Flooring",
+"x0": 514,
+"y0": 611,
+"x1": 547,
+"y1": 623,
+"angle": null
+},
+{
+"text": "CPT-5",
+"x0": 703,
+"y0": 611,
+"x1": 729,
+"y1": 623,
+"angle": null
+},
+{
+"text": "USG",
+"x0": 65,
+"y0": 643,
+"x1": 85,
+"y1": 655,
+"angle": null
+},
+{
+"text": "Compositions\u00ae - Decorative",
+"x0": 137,
+"y0": 629,
+"x1": 254,
+"y1": 641,
+"angle": null
+},
+{
+"text": "Clouds",
+"x0": 137,
+"y0": 643,
+"x1": 166,
+"y1": 655,
+"angle": null
+},
+{
+"text": "09 54 00 Specialty Ceilings",
+"x0": 354,
+"y0": 643,
+"x1": 465,
+"y1": 655,
+"angle": null
+},
+{
+"text": "Ceilings,Wall Finishes",
+"x0": 514,
+"y0": 643,
+"x1": 604,
+"y1": 655,
+"angle": null
+},
+{
+"text": "ACT-4",
+"x0": 703,
+"y0": 643,
+"x1": 729,
+"y1": 655,
+"angle": null
+},
+{
+"text": "Mohawk Group",
+"x0": 65,
+"y0": 662,
+"x1": 128,
+"y1": 674,
+"angle": null
+},
+{
+"text": "LineD - 12 in x 36 in Carpet Tile",
+"x0": 137,
+"y0": 662,
+"x1": 266,
+"y1": 674,
+"angle": null
+},
+{
+"text": "09 68 13 Tile Carpeting",
+"x0": 354,
+"y0": 662,
+"x1": 449,
+"y1": 674,
+"angle": null
+},
+{
+"text": "Flooring",
+"x0": 514,
+"y0": 662,
+"x1": 547,
+"y1": 674,
+"angle": null
+},
+{
+"text": "CPT-6",
+"x0": 703,
+"y0": 662,
+"x1": 729,
+"y1": 674,
+"angle": null
+},
+{
+"text": "Mohawk Group",
+"x0": 65,
+"y0": 681,
+"x1": 128,
+"y1": 693,
+"angle": null
+},
+{
+"text": "Line of Motion GT369",
+"x0": 137,
+"y0": 681,
+"x1": 225,
+"y1": 693,
+"angle": null
+},
+{
+"text": "09 68 13 Tile Carpeting",
+"x0": 354,
+"y0": 681,
+"x1": 449,
+"y1": 693,
+"angle": null
+},
+{
+"text": "Flooring",
+"x0": 514,
+"y0": 681,
+"x1": 547,
+"y1": 693,
+"angle": null
+},
+{
+"text": "CPT-7",
+"x0": 703,
+"y0": 681,
+"x1": 729,
+"y1": 693,
+"angle": null
+},
+{
+"text": "Shaw Contract",
+"x0": 65,
+"y0": 714,
+"x1": 126,
+"y1": 726,
+"angle": null
+},
+{
+"text": "Reed Sheet - Resilient Sheet",
+"x0": 137,
+"y0": 714,
+"x1": 256,
+"y1": 726,
+"angle": null
+},
+{
+"text": "09 65 33 Conductive Resilient",
+"x0": 354,
+"y0": 700,
+"x1": 479,
+"y1": 712,
+"angle": null
+},
+{
+"text": "Flooring",
+"x0": 354,
+"y0": 714,
+"x1": 387,
+"y1": 726,
+"angle": null
+},
+{
+"text": "Flooring",
+"x0": 514,
+"y0": 714,
+"x1": 547,
+"y1": 726,
+"angle": null
+},
+{
+"text": "ESD-1",
+"x0": 703,
+"y0": 714,
+"x1": 730,
+"y1": 726,
+"angle": null
+},
+{
+"text": "Tile Point",
+"x0": 65,
+"y0": 746,
+"x1": 103,
+"y1": 758,
+"angle": null
+},
+{
+"text": "Beige 24x24 Porcelain Tile -",
+"x0": 137,
+"y0": 732,
+"x1": 254,
+"y1": 744,
+"angle": null
+},
+{
+"text": "Plymouth",
+"x0": 137,
+"y0": 746,
+"x1": 175,
+"y1": 758,
+"angle": null
+},
+{
+"text": "09 30 13 Ceramic Tiling",
+"x0": 354,
+"y0": 746,
+"x1": 451,
+"y1": 758,
+"angle": null
+},
+{
+"text": "Wall Finishes,Flooring",
+"x0": 514,
+"y0": 746,
+"x1": 604,
+"y1": 758,
+"angle": null
+},
+{
+"text": "FLT-1",
+"x0": 703,
+"y0": 746,
+"x1": 727,
+"y1": 758,
+"angle": null
+},
+{
+"text": "USG",
+"x0": 65,
+"y0": 792,
+"x1": 85,
+"y1": 804,
+"angle": null
+},
+{
+"text": "Sheetrock\u00ae Brand  - Clean",
+"x0": 137,
+"y0": 764,
+"x1": 250,
+"y1": 776,
+"angle": null
+},
+{
+"text": "Room\u2122 Lay-in Gypsum Ceiling",
+"x0": 137,
+"y0": 778,
+"x1": 268,
+"y1": 790,
+"angle": null
+},
+{
+"text": "Panels",
+"x0": 137,
+"y0": 792,
+"x1": 165,
+"y1": 804,
+"angle": null
+},
+{
+"text": "09 51 00 Acoustical Ceilings",
+"x0": 354,
+"y0": 792,
+"x1": 469,
+"y1": 804,
+"angle": null
+},
+{
+"text": "Ceilings",
+"x0": 514,
+"y0": 792,
+"x1": 547,
+"y1": 804,
+"angle": null
+},
+{
+"text": "ACT-3",
+"x0": 703,
+"y0": 792,
+"x1": 729,
+"y1": 804,
+"angle": null
+},
+{
+"text": "Sound Seal",
+"x0": 65,
+"y0": 851,
+"x1": 113,
+"y1": 863,
+"angle": null
+},
+{
+"text": "Chroma ( Paintable )  - Acoustic",
+"x0": 137,
+"y0": 838,
+"x1": 269,
+"y1": 849,
+"angle": null
+},
+{
+"text": "Wall Panel",
+"x0": 137,
+"y0": 851,
+"x1": 181,
+"y1": 863,
+"angle": null
+},
+{
+"text": "09 84 13 Fixed Sound-Absorptive",
+"x0": 354,
+"y0": 838,
+"x1": 493,
+"y1": 849,
+"angle": null
+},
+{
+"text": "Panels",
+"x0": 354,
+"y0": 851,
+"x1": 382,
+"y1": 863,
+"angle": null
+},
+{
+"text": "Ceilings,Wall Finishes",
+"x0": 514,
+"y0": 851,
+"x1": 604,
+"y1": 863,
+"angle": null
+},
+{
+"text": "ACT-2",
+"x0": 703,
+"y0": 851,
+"x1": 729,
+"y1": 863,
+"angle": null
+},
+{
+"text": "DIRECT MOUNT TO STRUCTURE,",
+"x0": 775,
+"y0": 810,
+"x1": 925,
+"y1": 822,
+"angle": null
+},
+{
+"text": "COLOR:  WHITE, PAINT-READY",
+"x0": 775,
+"y0": 824,
+"x1": 913,
+"y1": 836,
+"angle": null
+},
+{
+"text": "FIBER VEIL, SIZE 2' X 4', LOCATION:",
+"x0": 775,
+"y0": 838,
+"x1": 934,
+"y1": 849,
+"angle": null
+},
+{
+"text": "AS NOTED ON RCP",
+"x0": 775,
+"y0": 851,
+"x1": 860,
+"y1": 863,
+"angle": null
+},
+{
+"text": "P-2A",
+"x0": 699,
+"y0": 566,
+"x1": 731,
+"y1": 589,
+"angle": null
+},
+{
+"text": "USG",
+"x0": 60,
+"y0": 634,
+"x1": 91,
+"y1": 660,
+"angle": null
+},
+{
+"text": "P-4",
+"x0": 700,
+"y0": 284,
+"x1": 723,
+"y1": 305,
+"angle": null
+}
+]
+}

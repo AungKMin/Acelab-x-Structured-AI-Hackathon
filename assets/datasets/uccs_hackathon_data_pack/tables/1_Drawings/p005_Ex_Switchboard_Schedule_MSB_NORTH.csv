@@ -1,0 +1,22 @@
+Ex Switchboard: MSB-NORTH,Ex Switchboard: MSB-NORTH.1,Ex Switchboard: MSB-NORTH.2,Ex Switchboard: MSB-NORTH.3,Ex Switchboard: MSB-NORTH.4,Ex Switchboard: MSB-NORTH.5,Ex Switchboard: MSB-NORTH.6
+Location: ELEC E-1-S21,Location: ELEC E-1-S21,Volts: 480Y/277,Volts: 480Y/277,"A.I.C. Rating: 22,000","A.I.C. Rating: 22,000","A.I.C. Rating: 22,000"
+Supply From:,Supply From:,Phases: 3,Phases: 3,Mains Type: MAIN FUSE,Mains Type: MAIN FUSE,Mains Type: MAIN FUSE
+Mounting:,Mounting:,Wires: 4,Wires: 4,Mains Rating: 2500 A,Mains Rating: 2500 A,Mains Rating: 2500 A
+Enclosure:,Enclosure:,MCB Rating: 2000 A,MCB Rating: 2000 A,MCB Rating: 2000 A,MCB Rating: 2000 A,MCB Rating: 2000 A
+CKT,Circuit Description,# of Poles,Frame Size,Trip Rating,Load,Remarks
+1,EXISTING LOAD PER PERVIOUSLY ENGINEERED PLANS,3,0 A,0 A,1344558 VA,
+2,UCCSHA,3,400 A,300 A,147667 VA,
+3,,,,,,
+4,,,,,,
+5,,,,,,
+6,,,,,,
+7,,,,,,
+8,,,,,,
+9,,,,,,
+10,,,,,,
+11,,,,,,
+12,,,,,,
+13,,,,,,
+14,,,,,,
+Total Conn. Load:,Total Conn. Load:,Total Conn. Load:,Total Conn. Load:,Total Conn. Load:,1492225 VA,
+Total Amps:,Total Amps:,Total Amps:,Total Amps:,Total Amps:,1795 A,

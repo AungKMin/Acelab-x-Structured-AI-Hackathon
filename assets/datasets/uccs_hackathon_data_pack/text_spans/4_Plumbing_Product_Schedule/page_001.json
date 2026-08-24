@@ -1,0 +1,1081 @@
+{
+"document": "4 - Plumbing Product Schedule.pdf",
+"page_number": 1,
+"page_width_pt": 792.0,
+"page_height_pt": 612.0,
+"bbox_space": "0-1000 normalized, origin top-left",
+"spans": [
+{
+"text": "Manufacturer",
+"x0": 65,
+"y0": 93,
+"x1": 121,
+"y1": 105,
+"angle": null
+},
+{
+"text": "Product + Subname",
+"x0": 190,
+"y0": 93,
+"x1": 273,
+"y1": 105,
+"angle": null
+},
+{
+"text": "Approval Status",
+"x0": 315,
+"y0": 93,
+"x1": 381,
+"y1": 105,
+"angle": null
+},
+{
+"text": "Masterformat section",
+"x0": 440,
+"y0": 93,
+"x1": 527,
+"y1": 105,
+"angle": null
+},
+{
+"text": "Category",
+"x0": 564,
+"y0": 93,
+"x1": 602,
+"y1": 105,
+"angle": null
+},
+{
+"text": "Tag",
+"x0": 689,
+"y0": 93,
+"x1": 704,
+"y1": 105,
+"angle": null
+},
+{
+"text": "Remarks",
+"x0": 814,
+"y0": 93,
+"x1": 851,
+"y1": 105,
+"angle": null
+},
+{
+"text": "Elkay",
+"x0": 65,
+"y0": 167,
+"x1": 88,
+"y1": 179,
+"angle": null
+},
+{
+"text": "EFA8L1Z",
+"x0": 190,
+"y0": 167,
+"x1": 229,
+"y1": 179,
+"angle": null
+},
+{
+"text": "Plumbing Fixtures",
+"x0": 564,
+"y0": 153,
+"x1": 642,
+"y1": 165,
+"angle": null
+},
+{
+"text": "Accessories & Distribution",
+"x0": 564,
+"y0": 167,
+"x1": 673,
+"y1": 179,
+"angle": null
+},
+{
+"text": "DF-2",
+"x0": 689,
+"y0": 167,
+"x1": 710,
+"y1": 179,
+"angle": null
+},
+{
+"text": "PROVIDE",
+"x0": 814,
+"y0": 111,
+"x1": 859,
+"y1": 124,
+"angle": null
+},
+{
+"text": "MANUFACTURER AND",
+"x0": 814,
+"y0": 125,
+"x1": 917,
+"y1": 137,
+"angle": null
+},
+{
+"text": "MODEL NUMBER AS",
+"x0": 814,
+"y0": 139,
+"x1": 907,
+"y1": 151,
+"angle": null
+},
+{
+"text": "LISTED OR APPROVED",
+"x0": 814,
+"y0": 153,
+"x1": 920,
+"y1": 165,
+"angle": null
+},
+{
+"text": "EQUAL.",
+"x0": 814,
+"y0": 167,
+"x1": 848,
+"y1": 179,
+"angle": null
+},
+{
+"text": "Insinkerator",
+"x0": 65,
+"y0": 242,
+"x1": 114,
+"y1": 254,
+"angle": null
+},
+{
+"text": "Badger 5 Garbage Disposal,",
+"x0": 190,
+"y0": 228,
+"x1": 311,
+"y1": 240,
+"angle": null
+},
+{
+"text": "1/2 HP",
+"x0": 190,
+"y0": 242,
+"x1": 219,
+"y1": 254,
+"angle": null
+},
+{
+"text": "22 41 26 Residential",
+"x0": 440,
+"y0": 228,
+"x1": 528,
+"y1": 240,
+"angle": null
+},
+{
+"text": "Disposers",
+"x0": 440,
+"y0": 242,
+"x1": 481,
+"y1": 254,
+"angle": null
+},
+{
+"text": "Trash Recycling & Waste",
+"x0": 564,
+"y0": 228,
+"x1": 672,
+"y1": 240,
+"angle": null
+},
+{
+"text": "Systems",
+"x0": 564,
+"y0": 242,
+"x1": 600,
+"y1": 254,
+"angle": null
+},
+{
+"text": "GD-1",
+"x0": 689,
+"y0": 242,
+"x1": 712,
+"y1": 254,
+"angle": null
+},
+{
+"text": "PROVIDE",
+"x0": 814,
+"y0": 186,
+"x1": 859,
+"y1": 198,
+"angle": null
+},
+{
+"text": "MANUFACTURER AND",
+"x0": 814,
+"y0": 200,
+"x1": 917,
+"y1": 212,
+"angle": null
+},
+{
+"text": "MODEL NUMBER AS",
+"x0": 814,
+"y0": 214,
+"x1": 907,
+"y1": 226,
+"angle": null
+},
+{
+"text": "LISTED OR APPROVED",
+"x0": 814,
+"y0": 228,
+"x1": 920,
+"y1": 240,
+"angle": null
+},
+{
+"text": "EQUAL. 120 V",
+"x0": 814,
+"y0": 242,
+"x1": 878,
+"y1": 254,
+"angle": null
+},
+{
+"text": "Victoria + Albert",
+"x0": 65,
+"y0": 317,
+"x1": 131,
+"y1": 329,
+"angle": null
+},
+{
+"text": "High Performance Hot",
+"x0": 190,
+"y0": 289,
+"x1": 285,
+"y1": 301,
+"angle": null
+},
+{
+"text": "Water Tank | Model",
+"x0": 190,
+"y0": 303,
+"x1": 273,
+"y1": 315,
+"angle": null
+},
+{
+"text": "Number: U.1998",
+"x0": 190,
+"y0": 317,
+"x1": 259,
+"y1": 329,
+"angle": null
+},
+{
+"text": "Plumbing Fixtures",
+"x0": 564,
+"y0": 303,
+"x1": 642,
+"y1": 315,
+"angle": null
+},
+{
+"text": "Accessories & Distribution",
+"x0": 564,
+"y0": 317,
+"x1": 673,
+"y1": 329,
+"angle": null
+},
+{
+"text": "EWH-1",
+"x0": 689,
+"y0": 317,
+"x1": 719,
+"y1": 329,
+"angle": null
+},
+{
+"text": "ELECTRIC WATER",
+"x0": 814,
+"y0": 261,
+"x1": 898,
+"y1": 273,
+"angle": null
+},
+{
+"text": "HEATER. PROVIDE",
+"x0": 814,
+"y0": 275,
+"x1": 901,
+"y1": 287,
+"angle": null
+},
+{
+"text": "MANUFACTURER AND",
+"x0": 814,
+"y0": 289,
+"x1": 917,
+"y1": 301,
+"angle": null
+},
+{
+"text": "MODEL AS LISTED OR",
+"x0": 814,
+"y0": 303,
+"x1": 916,
+"y1": 315,
+"angle": null
+},
+{
+"text": "APPROVED EQUAL.",
+"x0": 814,
+"y0": 317,
+"x1": 903,
+"y1": 329,
+"angle": null
+},
+{
+"text": "Colmac WaterHeat",
+"x0": 65,
+"y0": 377,
+"x1": 144,
+"y1": 389,
+"angle": null
+},
+{
+"text": "CXW Series - Water Source",
+"x0": 190,
+"y0": 363,
+"x1": 309,
+"y1": 375,
+"angle": null
+},
+{
+"text": "Heat Pump Water Heater",
+"x0": 190,
+"y0": 377,
+"x1": 295,
+"y1": 389,
+"angle": null
+},
+{
+"text": "Specialty Equipment &",
+"x0": 564,
+"y0": 363,
+"x1": 661,
+"y1": 375,
+"angle": null
+},
+{
+"text": "Appliances",
+"x0": 564,
+"y0": 377,
+"x1": 610,
+"y1": 389,
+"angle": null
+},
+{
+"text": "DWH-1",
+"x0": 689,
+"y0": 377,
+"x1": 720,
+"y1": 389,
+"angle": null
+},
+{
+"text": "ELECTRIC STORAGE",
+"x0": 814,
+"y0": 335,
+"x1": 911,
+"y1": 348,
+"angle": null
+},
+{
+"text": "DOMESTIC WATER",
+"x0": 814,
+"y0": 349,
+"x1": 901,
+"y1": 361,
+"angle": null
+},
+{
+"text": "HEATER. REFER TO SPEC",
+"x0": 814,
+"y0": 363,
+"x1": 934,
+"y1": 375,
+"angle": null
+},
+{
+"text": "22 33 00.",
+"x0": 814,
+"y0": 377,
+"x1": 853,
+"y1": 389,
+"angle": null
+},
+{
+"text": "Elkay",
+"x0": 65,
+"y0": 452,
+"x1": 88,
+"y1": 464,
+"angle": null
+},
+{
+"text": "FLR-3X",
+"x0": 190,
+"y0": 452,
+"x1": 222,
+"y1": 464,
+"angle": null
+},
+{
+"text": "Plumbing Fixtures",
+"x0": 564,
+"y0": 438,
+"x1": 642,
+"y1": 450,
+"angle": null
+},
+{
+"text": "Accessories & Distribution",
+"x0": 564,
+"y0": 452,
+"x1": 673,
+"y1": 464,
+"angle": null
+},
+{
+"text": "MS-1",
+"x0": 689,
+"y0": 452,
+"x1": 712,
+"y1": 464,
+"angle": null
+},
+{
+"text": "PROVIDE",
+"x0": 814,
+"y0": 396,
+"x1": 859,
+"y1": 408,
+"angle": null
+},
+{
+"text": "MANUFACTURER AND",
+"x0": 814,
+"y0": 410,
+"x1": 917,
+"y1": 422,
+"angle": null
+},
+{
+"text": "MODEL NUMBER AS",
+"x0": 814,
+"y0": 424,
+"x1": 907,
+"y1": 436,
+"angle": null
+},
+{
+"text": "LISTED OR APPROVED",
+"x0": 814,
+"y0": 438,
+"x1": 920,
+"y1": 450,
+"angle": null
+},
+{
+"text": "EQUAL.",
+"x0": 814,
+"y0": 452,
+"x1": 848,
+"y1": 464,
+"angle": null
+},
+{
+"text": "American Standard",
+"x0": 65,
+"y0": 541,
+"x1": 146,
+"y1": 553,
+"angle": null
+},
+{
+"text": "Aspirations Under Counter",
+"x0": 190,
+"y0": 527,
+"x1": 303,
+"y1": 539,
+"angle": null
+},
+{
+"text": "Sink",
+"x0": 190,
+"y0": 541,
+"x1": 208,
+"y1": 553,
+"angle": null
+},
+{
+"text": "22 40 00 Plumbing Fixtures",
+"x0": 440,
+"y0": 541,
+"x1": 554,
+"y1": 553,
+"angle": null
+},
+{
+"text": "Plumbing Fixtures",
+"x0": 564,
+"y0": 527,
+"x1": 642,
+"y1": 539,
+"angle": null
+},
+{
+"text": "Accessories & Distribution",
+"x0": 564,
+"y0": 541,
+"x1": 673,
+"y1": 553,
+"angle": null
+},
+{
+"text": "L-2",
+"x0": 689,
+"y0": 541,
+"x1": 703,
+"y1": 553,
+"angle": null
+},
+{
+"text": "PROVIDE ASSE 1070",
+"x0": 814,
+"y0": 471,
+"x1": 909,
+"y1": 483,
+"angle": null
+},
+{
+"text": "DEVICE. PROVIDE",
+"x0": 814,
+"y0": 485,
+"x1": 899,
+"y1": 497,
+"angle": null
+},
+{
+"text": "MANUFACTURER AND",
+"x0": 814,
+"y0": 499,
+"x1": 917,
+"y1": 511,
+"angle": null
+},
+{
+"text": "MODEL NUMBER AS",
+"x0": 814,
+"y0": 513,
+"x1": 907,
+"y1": 525,
+"angle": null
+},
+{
+"text": "LISTED OR APPROVED",
+"x0": 814,
+"y0": 527,
+"x1": 920,
+"y1": 539,
+"angle": null
+},
+{
+"text": "EQUAL.",
+"x0": 814,
+"y0": 541,
+"x1": 848,
+"y1": 553,
+"angle": null
+},
+{
+"text": "American Standard",
+"x0": 65,
+"y0": 629,
+"x1": 146,
+"y1": 641,
+"angle": null
+},
+{
+"text": "Studio Under Counter Sink",
+"x0": 190,
+"y0": 629,
+"x1": 302,
+"y1": 641,
+"angle": null
+},
+{
+"text": "22 40 00 Plumbing Fixtures",
+"x0": 440,
+"y0": 629,
+"x1": 554,
+"y1": 641,
+"angle": null
+},
+{
+"text": "Plumbing Fixtures",
+"x0": 564,
+"y0": 615,
+"x1": 642,
+"y1": 627,
+"angle": null
+},
+{
+"text": "Accessories & Distribution",
+"x0": 564,
+"y0": 629,
+"x1": 673,
+"y1": 641,
+"angle": null
+},
+{
+"text": "L-1",
+"x0": 689,
+"y0": 629,
+"x1": 703,
+"y1": 641,
+"angle": null
+},
+{
+"text": "PROVIDE ASSE 1070",
+"x0": 814,
+"y0": 559,
+"x1": 909,
+"y1": 572,
+"angle": null
+},
+{
+"text": "DEVICE. PROVIDE",
+"x0": 814,
+"y0": 573,
+"x1": 899,
+"y1": 586,
+"angle": null
+},
+{
+"text": "MANUFACTURER AND",
+"x0": 814,
+"y0": 587,
+"x1": 917,
+"y1": 600,
+"angle": null
+},
+{
+"text": "MODEL NUMBER AS",
+"x0": 814,
+"y0": 601,
+"x1": 907,
+"y1": 613,
+"angle": null
+},
+{
+"text": "LISTED OR APPROVED",
+"x0": 814,
+"y0": 615,
+"x1": 920,
+"y1": 627,
+"angle": null
+},
+{
+"text": "EQUAL.",
+"x0": 814,
+"y0": 629,
+"x1": 848,
+"y1": 641,
+"angle": null
+},
+{
+"text": "Elkay",
+"x0": 65,
+"y0": 704,
+"x1": 88,
+"y1": 716,
+"angle": null
+},
+{
+"text": "Circuit Chef Workstation",
+"x0": 190,
+"y0": 648,
+"x1": 294,
+"y1": 660,
+"angle": null
+},
+{
+"text": "Stainless Steel 45-1/2\" x 20-",
+"x0": 190,
+"y0": 662,
+"x1": 308,
+"y1": 674,
+"angle": null
+},
+{
+"text": "1/2\" x 10\" Single Bowl",
+"x0": 190,
+"y0": 676,
+"x1": 284,
+"y1": 688,
+"angle": null
+},
+{
+"text": "Undermount Sink Kit - with",
+"x0": 190,
+"y0": 690,
+"x1": 304,
+"y1": 702,
+"angle": null
+},
+{
+"text": "White Polymer Boards",
+"x0": 190,
+"y0": 704,
+"x1": 283,
+"y1": 716,
+"angle": null
+},
+{
+"text": "Plumbing Fixtures",
+"x0": 564,
+"y0": 690,
+"x1": 642,
+"y1": 702,
+"angle": null
+},
+{
+"text": "Accessories & Distribution",
+"x0": 564,
+"y0": 704,
+"x1": 673,
+"y1": 716,
+"angle": null
+},
+{
+"text": "KS-1",
+"x0": 689,
+"y0": 704,
+"x1": 710,
+"y1": 716,
+"angle": null
+},
+{
+"text": "PROVIDE",
+"x0": 814,
+"y0": 648,
+"x1": 859,
+"y1": 660,
+"angle": null
+},
+{
+"text": "MANUFACTURER AND",
+"x0": 814,
+"y0": 662,
+"x1": 917,
+"y1": 674,
+"angle": null
+},
+{
+"text": "MODEL NUMBER AS",
+"x0": 814,
+"y0": 676,
+"x1": 907,
+"y1": 688,
+"angle": null
+},
+{
+"text": "LISTED OR APPROVED",
+"x0": 814,
+"y0": 690,
+"x1": 920,
+"y1": 702,
+"angle": null
+},
+{
+"text": "EQUAL.",
+"x0": 814,
+"y0": 704,
+"x1": 848,
+"y1": 716,
+"angle": null
+},
+{
+"text": "Zurn",
+"x0": 65,
+"y0": 793,
+"x1": 85,
+"y1": 805,
+"angle": null
+},
+{
+"text": "Zurn One EcoVantage\u00ae",
+"x0": 190,
+"y0": 737,
+"x1": 292,
+"y1": 749,
+"angle": null
+},
+{
+"text": "Urinal System wih Top",
+"x0": 190,
+"y0": 751,
+"x1": 285,
+"y1": 763,
+"angle": null
+},
+{
+"text": "Mount 0.125 GPF",
+"x0": 190,
+"y0": 765,
+"x1": 267,
+"y1": 777,
+"angle": null
+},
+{
+"text": "Hydropower Sensor Flush",
+"x0": 190,
+"y0": 779,
+"x1": 301,
+"y1": 791,
+"angle": null
+},
+{
+"text": "Valve",
+"x0": 190,
+"y0": 793,
+"x1": 213,
+"y1": 805,
+"angle": null
+},
+{
+"text": "Plumbing Fixtures",
+"x0": 564,
+"y0": 779,
+"x1": 642,
+"y1": 791,
+"angle": null
+},
+{
+"text": "Accessories & Distribution",
+"x0": 564,
+"y0": 793,
+"x1": 673,
+"y1": 805,
+"angle": null
+},
+{
+"text": "U-1",
+"x0": 689,
+"y0": 793,
+"x1": 704,
+"y1": 805,
+"angle": null
+},
+{
+"text": "VITREOUS CHINA, WALL-",
+"x0": 814,
+"y0": 723,
+"x1": 927,
+"y1": 735,
+"angle": null
+},
+{
+"text": "MOUNT. PROVIDE",
+"x0": 814,
+"y0": 737,
+"x1": 897,
+"y1": 749,
+"angle": null
+},
+{
+"text": "MANUFACTURER AND",
+"x0": 814,
+"y0": 751,
+"x1": 917,
+"y1": 763,
+"angle": null
+},
+{
+"text": "MODEL NUMBER AS",
+"x0": 814,
+"y0": 765,
+"x1": 907,
+"y1": 777,
+"angle": null
+},
+{
+"text": "LISTED OR APPROVED",
+"x0": 814,
+"y0": 779,
+"x1": 920,
+"y1": 791,
+"angle": null
+},
+{
+"text": "EQUAL.",
+"x0": 814,
+"y0": 793,
+"x1": 848,
+"y1": 805,
+"angle": null
+},
+{
+"text": "American Standard",
+"x0": 65,
+"y0": 895,
+"x1": 146,
+"y1": 907,
+"angle": null
+},
+{
+"text": "Afwall Millennium Wall-Hung",
+"x0": 190,
+"y0": 839,
+"x1": 311,
+"y1": 852,
+"angle": null
+},
+{
+"text": "Toilet System - EverClean",
+"x0": 190,
+"y0": 853,
+"x1": 300,
+"y1": 866,
+"angle": null
+},
+{
+"text": "with Touchless Selectronic",
+"x0": 190,
+"y0": 867,
+"x1": 302,
+"y1": 879,
+"angle": null
+},
+{
+"text": "Piston Flush Valve, 1.28",
+"x0": 190,
+"y0": 881,
+"x1": 293,
+"y1": 893,
+"angle": null
+},
+{
+"text": "gpf/4.8 Lpf",
+"x0": 190,
+"y0": 895,
+"x1": 234,
+"y1": 907,
+"angle": null
+},
+{
+"text": "22 40 00 Plumbing Fixtures",
+"x0": 440,
+"y0": 895,
+"x1": 554,
+"y1": 907,
+"angle": null
+},
+{
+"text": "Plumbing Fixtures",
+"x0": 564,
+"y0": 881,
+"x1": 642,
+"y1": 893,
+"angle": null
+},
+{
+"text": "Accessories & Distribution",
+"x0": 564,
+"y0": 895,
+"x1": 673,
+"y1": 907,
+"angle": null
+},
+{
+"text": "WC-2",
+"x0": 689,
+"y0": 895,
+"x1": 713,
+"y1": 907,
+"angle": null
+},
+{
+"text": "FIXTURE SHALL BE",
+"x0": 814,
+"y0": 812,
+"x1": 904,
+"y1": 824,
+"angle": null
+},
+{
+"text": "WATERSENSE LABELED.",
+"x0": 814,
+"y0": 826,
+"x1": 928,
+"y1": 838,
+"angle": null
+},
+{
+"text": "PROVIDE",
+"x0": 814,
+"y0": 839,
+"x1": 859,
+"y1": 852,
+"angle": null
+},
+{
+"text": "MANUFACTURER AND",
+"x0": 814,
+"y0": 853,
+"x1": 917,
+"y1": 866,
+"angle": null
+},
+{
+"text": "MODEL NUMBER AS",
+"x0": 814,
+"y0": 867,
+"x1": 907,
+"y1": 879,
+"angle": null
+},
+{
+"text": "LISTED OR APPROVED",
+"x0": 814,
+"y0": 881,
+"x1": 920,
+"y1": 893,
+"angle": null
+},
+{
+"text": "EQUAL.",
+"x0": 814,
+"y0": 895,
+"x1": 848,
+"y1": 907,
+"angle": null
+},
+{
+"text": "Tag",
+"x0": 685,
+"y0": 87,
+"x1": 708,
+"y1": 110,
+"angle": 4.0
+}
+]
+}

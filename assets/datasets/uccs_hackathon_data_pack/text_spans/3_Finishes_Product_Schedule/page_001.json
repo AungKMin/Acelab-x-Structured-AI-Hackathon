@@ -1,0 +1,1441 @@
+{
+"document": "3 - Finishes Product Schedule.pdf",
+"page_number": 1,
+"page_width_pt": 792.0,
+"page_height_pt": 612.0,
+"bbox_space": "0-1000 normalized, origin top-left",
+"spans": [
+{
+"text": "Manufacturer",
+"x0": 65,
+"y0": 92,
+"x1": 120,
+"y1": 104,
+"angle": null
+},
+{
+"text": "Product + Subname",
+"x0": 137,
+"y0": 92,
+"x1": 219,
+"y1": 104,
+"angle": null
+},
+{
+"text": "Approval Status",
+"x0": 282,
+"y0": 92,
+"x1": 347,
+"y1": 104,
+"angle": null
+},
+{
+"text": "Masterformat section",
+"x0": 354,
+"y0": 92,
+"x1": 440,
+"y1": 104,
+"angle": null
+},
+{
+"text": "Category",
+"x0": 514,
+"y0": 92,
+"x1": 551,
+"y1": 104,
+"angle": null
+},
+{
+"text": "Tag",
+"x0": 703,
+"y0": 92,
+"x1": 718,
+"y1": 104,
+"angle": null
+},
+{
+"text": "Remarks",
+"x0": 775,
+"y0": 92,
+"x1": 812,
+"y1": 104,
+"angle": null
+},
+{
+"text": "Nicos Group",
+"x0": 65,
+"y0": 125,
+"x1": 116,
+"y1": 137,
+"angle": null
+},
+{
+"text": "Wall to Wall Connections -",
+"x0": 137,
+"y0": 111,
+"x1": 247,
+"y1": 123,
+"angle": null
+},
+{
+"text": "Cleanroom System",
+"x0": 137,
+"y0": 125,
+"x1": 215,
+"y1": 137,
+"angle": null
+},
+{
+"text": "10 26 00 Wall and Door Protection",
+"x0": 354,
+"y0": 125,
+"x1": 494,
+"y1": 137,
+"angle": null
+},
+{
+"text": "Wall Finish Accessories",
+"x0": 514,
+"y0": 125,
+"x1": 610,
+"y1": 137,
+"angle": null
+},
+{
+"text": "CG-1",
+"x0": 703,
+"y0": 125,
+"x1": 725,
+"y1": 137,
+"angle": null
+},
+{
+"text": "STAINLESS STELL INSTALLATION",
+"x0": 775,
+"y0": 125,
+"x1": 922,
+"y1": 137,
+"angle": null
+},
+{
+"text": "9Wood, Inc.",
+"x0": 65,
+"y0": 144,
+"x1": 114,
+"y1": 156,
+"angle": null
+},
+{
+"text": "1500 Baffle - Real Wood Veneer",
+"x0": 137,
+"y0": 144,
+"x1": 269,
+"y1": 156,
+"angle": null
+},
+{
+"text": "09 50 00 Ceilings",
+"x0": 354,
+"y0": 144,
+"x1": 425,
+"y1": 156,
+"angle": null
+},
+{
+"text": "Ceilings",
+"x0": 514,
+"y0": 144,
+"x1": 547,
+"y1": 156,
+"angle": null
+},
+{
+"text": "WV-1",
+"x0": 703,
+"y0": 144,
+"x1": 726,
+"y1": 156,
+"angle": null
+},
+{
+"text": "2 3/4\" DIMENSION",
+"x0": 775,
+"y0": 144,
+"x1": 853,
+"y1": 156,
+"angle": null
+},
+{
+"text": "LDI Interiors",
+"x0": 65,
+"y0": 163,
+"x1": 115,
+"y1": 175,
+"angle": null
+},
+{
+"text": "Tuft  - Envirowoven\u2122",
+"x0": 137,
+"y0": 163,
+"x1": 225,
+"y1": 175,
+"angle": null
+},
+{
+"text": "09 72 19 Textile Wall Coverings",
+"x0": 354,
+"y0": 163,
+"x1": 482,
+"y1": 175,
+"angle": null
+},
+{
+"text": "Upholstery",
+"x0": 514,
+"y0": 163,
+"x1": 558,
+"y1": 175,
+"angle": null
+},
+{
+"text": "UPH-1",
+"x0": 703,
+"y0": 163,
+"x1": 731,
+"y1": 175,
+"angle": null
+},
+{
+"text": "USG",
+"x0": 65,
+"y0": 182,
+"x1": 85,
+"y1": 194,
+"angle": null
+},
+{
+"text": "Pixels\u00ae - Wall Mounted Panels",
+"x0": 137,
+"y0": 182,
+"x1": 263,
+"y1": 194,
+"angle": null
+},
+{
+"text": "09 78 13 Metal Interior Wall Paneling",
+"x0": 354,
+"y0": 182,
+"x1": 504,
+"y1": 194,
+"angle": null
+},
+{
+"text": "Wall Finishes",
+"x0": 514,
+"y0": 182,
+"x1": 568,
+"y1": 194,
+"angle": null
+},
+{
+"text": "MWP-4",
+"x0": 703,
+"y0": 182,
+"x1": 734,
+"y1": 194,
+"angle": null
+},
+{
+"text": "OAKLINE, STYLE WALLFORMS",
+"x0": 775,
+"y0": 182,
+"x1": 910,
+"y1": 194,
+"angle": null
+},
+{
+"text": "USG",
+"x0": 65,
+"y0": 202,
+"x1": 85,
+"y1": 214,
+"angle": null
+},
+{
+"text": "Pixels\u00ae - Wall Mounted Panels",
+"x0": 137,
+"y0": 202,
+"x1": 263,
+"y1": 214,
+"angle": null
+},
+{
+"text": "09 78 13 Metal Interior Wall Paneling",
+"x0": 354,
+"y0": 202,
+"x1": 504,
+"y1": 214,
+"angle": null
+},
+{
+"text": "Wall Finishes",
+"x0": 514,
+"y0": 202,
+"x1": 568,
+"y1": 214,
+"angle": null
+},
+{
+"text": "MWP-3",
+"x0": 703,
+"y0": 202,
+"x1": 734,
+"y1": 214,
+"angle": null
+},
+{
+"text": "CHARCOAL 534",
+"x0": 775,
+"y0": 202,
+"x1": 844,
+"y1": 214,
+"angle": null
+},
+{
+"text": "USG",
+"x0": 65,
+"y0": 234,
+"x1": 85,
+"y1": 246,
+"angle": null
+},
+{
+"text": "Celebration\u2122 - Snap-In Metal",
+"x0": 137,
+"y0": 220,
+"x1": 261,
+"y1": 232,
+"angle": null
+},
+{
+"text": "Panels",
+"x0": 137,
+"y0": 234,
+"x1": 165,
+"y1": 246,
+"angle": null
+},
+{
+"text": "09 51 33 Acoustical Metal Pan",
+"x0": 354,
+"y0": 220,
+"x1": 480,
+"y1": 232,
+"angle": null
+},
+{
+"text": "Ceilings",
+"x0": 354,
+"y0": 234,
+"x1": 387,
+"y1": 246,
+"angle": null
+},
+{
+"text": "Ceilings,Wall Finishes",
+"x0": 514,
+"y0": 234,
+"x1": 604,
+"y1": 246,
+"angle": null
+},
+{
+"text": "MWP-2",
+"x0": 703,
+"y0": 234,
+"x1": 734,
+"y1": 246,
+"angle": null
+},
+{
+"text": "COLOR: CHARCOAL 534",
+"x0": 775,
+"y0": 234,
+"x1": 882,
+"y1": 246,
+"angle": null
+},
+{
+"text": "USG",
+"x0": 65,
+"y0": 266,
+"x1": 85,
+"y1": 278,
+"angle": null
+},
+{
+"text": "Celebration\u2122 - Snap-In Metal",
+"x0": 137,
+"y0": 252,
+"x1": 261,
+"y1": 264,
+"angle": null
+},
+{
+"text": "Panels",
+"x0": 137,
+"y0": 266,
+"x1": 165,
+"y1": 278,
+"angle": null
+},
+{
+"text": "09 51 33 Acoustical Metal Pan",
+"x0": 354,
+"y0": 252,
+"x1": 480,
+"y1": 264,
+"angle": null
+},
+{
+"text": "Ceilings",
+"x0": 354,
+"y0": 266,
+"x1": 387,
+"y1": 278,
+"angle": null
+},
+{
+"text": "Ceilings,Wall Finishes",
+"x0": 514,
+"y0": 266,
+"x1": 604,
+"y1": 278,
+"angle": null
+},
+{
+"text": "MWP-1",
+"x0": 703,
+"y0": 266,
+"x1": 734,
+"y1": 278,
+"angle": null
+},
+{
+"text": "Color: FLAT BLACK 205",
+"x0": 775,
+"y0": 266,
+"x1": 874,
+"y1": 278,
+"angle": null
+},
+{
+"text": "Scuffmaster",
+"x0": 65,
+"y0": 339,
+"x1": 114,
+"y1": 351,
+"angle": null
+},
+{
+"text": "Solid Metal - Interior Paint",
+"x0": 137,
+"y0": 339,
+"x1": 243,
+"y1": 351,
+"angle": null
+},
+{
+"text": "09 91 23 Interior Painting",
+"x0": 354,
+"y0": 339,
+"x1": 457,
+"y1": 351,
+"angle": null
+},
+{
+"text": "Coatings",
+"x0": 514,
+"y0": 339,
+"x1": 550,
+"y1": 351,
+"angle": null
+},
+{
+"text": "P-5",
+"x0": 703,
+"y0": 339,
+"x1": 718,
+"y1": 351,
+"angle": null
+},
+{
+"text": "Color: Solid Metal, SM9502",
+"x0": 775,
+"y0": 284,
+"x1": 887,
+"y1": 296,
+"angle": null
+},
+{
+"text": "Install: Metallic",
+"x0": 775,
+"y0": 298,
+"x1": 835,
+"y1": 310,
+"angle": null
+},
+{
+"text": "Location: Walls & ceilings, watch",
+"x0": 775,
+"y0": 312,
+"x1": 911,
+"y1": 324,
+"angle": null
+},
+{
+"text": "center",
+"x0": 775,
+"y0": 326,
+"x1": 801,
+"y1": 337,
+"angle": null
+},
+{
+"text": "Notes: Refer to specifications.",
+"x0": 775,
+"y0": 339,
+"x1": 897,
+"y1": 351,
+"angle": null
+},
+{
+"text": "Formica",
+"x0": 65,
+"y0": 371,
+"x1": 101,
+"y1": 383,
+"angle": null
+},
+{
+"text": "Corporation",
+"x0": 65,
+"y0": 385,
+"x1": 113,
+"y1": 397,
+"angle": null
+},
+{
+"text": "ColorCore\u00ae2 Compact -",
+"x0": 137,
+"y0": 371,
+"x1": 238,
+"y1": 383,
+"angle": null
+},
+{
+"text": "Formica\u00ae Compact",
+"x0": 137,
+"y0": 385,
+"x1": 216,
+"y1": 397,
+"angle": null
+},
+{
+"text": "06 61 16 Solid Surfacing Fabrications",
+"x0": 354,
+"y0": 385,
+"x1": 507,
+"y1": 397,
+"angle": null
+},
+{
+"text": "Furniture & Furniture Systems,Slabs &",
+"x0": 514,
+"y0": 358,
+"x1": 674,
+"y1": 370,
+"angle": null
+},
+{
+"text": "Countertops,Laboratories Kitchens",
+"x0": 514,
+"y0": 371,
+"x1": 658,
+"y1": 383,
+"angle": null
+},
+{
+"text": "Bathrooms & Healthcare",
+"x0": 514,
+"y0": 385,
+"x1": 614,
+"y1": 397,
+"angle": null
+},
+{
+"text": "PL-2",
+"x0": 703,
+"y0": 385,
+"x1": 723,
+"y1": 397,
+"angle": null
+},
+{
+"text": "Formica",
+"x0": 65,
+"y0": 417,
+"x1": 101,
+"y1": 429,
+"angle": null
+},
+{
+"text": "Corporation",
+"x0": 65,
+"y0": 431,
+"x1": 113,
+"y1": 443,
+"angle": null
+},
+{
+"text": "ColorCore\u00ae2 Compact -",
+"x0": 137,
+"y0": 417,
+"x1": 238,
+"y1": 429,
+"angle": null
+},
+{
+"text": "Formica\u00ae Compact",
+"x0": 137,
+"y0": 431,
+"x1": 216,
+"y1": 443,
+"angle": null
+},
+{
+"text": "06 61 16 Solid Surfacing Fabrications",
+"x0": 354,
+"y0": 431,
+"x1": 507,
+"y1": 443,
+"angle": null
+},
+{
+"text": "Furniture & Furniture Systems,Slabs &",
+"x0": 514,
+"y0": 404,
+"x1": 674,
+"y1": 416,
+"angle": null
+},
+{
+"text": "Countertops,Laboratories Kitchens",
+"x0": 514,
+"y0": 417,
+"x1": 658,
+"y1": 429,
+"angle": null
+},
+{
+"text": "Bathrooms & Healthcare",
+"x0": 514,
+"y0": 431,
+"x1": 614,
+"y1": 443,
+"angle": null
+},
+{
+"text": "PL-1",
+"x0": 703,
+"y0": 431,
+"x1": 723,
+"y1": 443,
+"angle": null
+},
+{
+"text": "Marlite",
+"x0": 65,
+"y0": 450,
+"x1": 93,
+"y1": 462,
+"angle": null
+},
+{
+"text": "Smooth Surface FRP",
+"x0": 137,
+"y0": 450,
+"x1": 224,
+"y1": 462,
+"angle": null
+},
+{
+"text": "09 00 00 Finishes",
+"x0": 354,
+"y0": 450,
+"x1": 427,
+"y1": 462,
+"angle": null
+},
+{
+"text": "Wall Finishes,Ceilings",
+"x0": 514,
+"y0": 450,
+"x1": 604,
+"y1": 462,
+"angle": null
+},
+{
+"text": "FRP-1",
+"x0": 703,
+"y0": 450,
+"x1": 730,
+"y1": 462,
+"angle": null
+},
+{
+"text": "Acoufelt",
+"x0": 65,
+"y0": 470,
+"x1": 99,
+"y1": 481,
+"angle": null
+},
+{
+"text": "Solid - Wall Panels",
+"x0": 137,
+"y0": 470,
+"x1": 214,
+"y1": 481,
+"angle": null
+},
+{
+"text": "09 51 00 Acoustical Ceilings",
+"x0": 354,
+"y0": 470,
+"x1": 469,
+"y1": 481,
+"angle": null
+},
+{
+"text": "Wall Finishes,Ceilings",
+"x0": 514,
+"y0": 470,
+"x1": 604,
+"y1": 481,
+"angle": null
+},
+{
+"text": "WP-1",
+"x0": 703,
+"y0": 470,
+"x1": 726,
+"y1": 481,
+"angle": null
+},
+{
+"text": "Inpro",
+"x0": 65,
+"y0": 502,
+"x1": 86,
+"y1": 514,
+"angle": null
+},
+{
+"text": "Surface Mount Corner Guard -",
+"x0": 137,
+"y0": 488,
+"x1": 264,
+"y1": 500,
+"angle": null
+},
+{
+"text": "Wall Protection",
+"x0": 137,
+"y0": 502,
+"x1": 198,
+"y1": 514,
+"angle": null
+},
+{
+"text": "10 26 00 Wall and Door Protection",
+"x0": 354,
+"y0": 502,
+"x1": 494,
+"y1": 514,
+"angle": null
+},
+{
+"text": "Wall Finish Accessories",
+"x0": 514,
+"y0": 502,
+"x1": 610,
+"y1": 514,
+"angle": null
+},
+{
+"text": "CG-1",
+"x0": 703,
+"y0": 502,
+"x1": 725,
+"y1": 514,
+"angle": null
+},
+{
+"text": "STAINLESS STELL INSTALLATION",
+"x0": 775,
+"y0": 502,
+"x1": 922,
+"y1": 514,
+"angle": null
+},
+{
+"text": "Skyline Design",
+"x0": 65,
+"y0": 521,
+"x1": 126,
+"y1": 533,
+"angle": null
+},
+{
+"text": "Vitracolor\u00ae Back-paint",
+"x0": 137,
+"y0": 521,
+"x1": 228,
+"y1": 533,
+"angle": null
+},
+{
+"text": "Glazing",
+"x0": 514,
+"y0": 521,
+"x1": 545,
+"y1": 533,
+"angle": null
+},
+{
+"text": "GWP-2",
+"x0": 703,
+"y0": 521,
+"x1": 734,
+"y1": 533,
+"angle": null
+},
+{
+"text": "Clarus",
+"x0": 65,
+"y0": 553,
+"x1": 92,
+"y1": 565,
+"angle": null
+},
+{
+"text": "Float Depth - Wall Mounted Glass",
+"x0": 137,
+"y0": 539,
+"x1": 277,
+"y1": 551,
+"angle": null
+},
+{
+"text": "Boards",
+"x0": 137,
+"y0": 553,
+"x1": 166,
+"y1": 565,
+"angle": null
+},
+{
+"text": "09 00 00 Finishes",
+"x0": 354,
+"y0": 553,
+"x1": 427,
+"y1": 565,
+"angle": null
+},
+{
+"text": "Wall Finishes,Ceilings",
+"x0": 514,
+"y0": 553,
+"x1": 604,
+"y1": 565,
+"angle": null
+},
+{
+"text": "GWP-1",
+"x0": 703,
+"y0": 553,
+"x1": 734,
+"y1": 565,
+"angle": null
+},
+{
+"text": "Bedrosians",
+"x0": 65,
+"y0": 572,
+"x1": 111,
+"y1": 584,
+"angle": null
+},
+{
+"text": "Rectangular Clo\u00e9 - Ceramic Tile",
+"x0": 137,
+"y0": 572,
+"x1": 267,
+"y1": 584,
+"angle": null
+},
+{
+"text": "09 30 13 Ceramic Tiling",
+"x0": 354,
+"y0": 572,
+"x1": 451,
+"y1": 584,
+"angle": null
+},
+{
+"text": "Wall Finishes",
+"x0": 514,
+"y0": 572,
+"x1": 568,
+"y1": 584,
+"angle": null
+},
+{
+"text": "T-3",
+"x0": 703,
+"y0": 572,
+"x1": 717,
+"y1": 584,
+"angle": null
+},
+{
+"text": "Bedrosians",
+"x0": 65,
+"y0": 604,
+"x1": 111,
+"y1": 616,
+"angle": null
+},
+{
+"text": "Sahara 3\" x 12\" - Matte Porcelain",
+"x0": 137,
+"y0": 591,
+"x1": 275,
+"y1": 603,
+"angle": null
+},
+{
+"text": "Tile",
+"x0": 137,
+"y0": 604,
+"x1": 151,
+"y1": 616,
+"angle": null
+},
+{
+"text": "09 30 00 Tiling",
+"x0": 354,
+"y0": 604,
+"x1": 414,
+"y1": 616,
+"angle": null
+},
+{
+"text": "Flooring,Wall Finishes",
+"x0": 514,
+"y0": 604,
+"x1": 604,
+"y1": 616,
+"angle": null
+},
+{
+"text": "T-2",
+"x0": 703,
+"y0": 604,
+"x1": 717,
+"y1": 616,
+"angle": null
+},
+{
+"text": "Ann Sacks",
+"x0": 65,
+"y0": 624,
+"x1": 109,
+"y1": 636,
+"angle": null
+},
+{
+"text": "Penny Mosaic - Ceramic Tile",
+"x0": 137,
+"y0": 624,
+"x1": 254,
+"y1": 636,
+"angle": null
+},
+{
+"text": "09 30 13 Ceramic Tiling",
+"x0": 354,
+"y0": 624,
+"x1": 451,
+"y1": 636,
+"angle": null
+},
+{
+"text": "Wall Finishes,Flooring",
+"x0": 514,
+"y0": 624,
+"x1": 604,
+"y1": 636,
+"angle": null
+},
+{
+"text": "T-1",
+"x0": 703,
+"y0": 624,
+"x1": 717,
+"y1": 636,
+"angle": null
+},
+{
+"text": "Cambria",
+"x0": 65,
+"y0": 656,
+"x1": 100,
+"y1": 668,
+"angle": null
+},
+{
+"text": "Cambria Black - Quartz",
+"x0": 137,
+"y0": 642,
+"x1": 235,
+"y1": 654,
+"angle": null
+},
+{
+"text": "Countertops",
+"x0": 137,
+"y0": 656,
+"x1": 187,
+"y1": 668,
+"angle": null
+},
+{
+"text": "12 36 00 Countertops",
+"x0": 354,
+"y0": 656,
+"x1": 442,
+"y1": 668,
+"angle": null
+},
+{
+"text": "Slabs & Countertops",
+"x0": 514,
+"y0": 656,
+"x1": 599,
+"y1": 668,
+"angle": null
+},
+{
+"text": "SS-3",
+"x0": 703,
+"y0": 656,
+"x1": 724,
+"y1": 668,
+"angle": null
+},
+{
+"text": "Cambria",
+"x0": 65,
+"y0": 675,
+"x1": 100,
+"y1": 687,
+"angle": null
+},
+{
+"text": "Kenwood - Quartz Countertops",
+"x0": 137,
+"y0": 675,
+"x1": 264,
+"y1": 687,
+"angle": null
+},
+{
+"text": "12 36 00 Countertops",
+"x0": 354,
+"y0": 675,
+"x1": 442,
+"y1": 687,
+"angle": null
+},
+{
+"text": "Slabs & Countertops",
+"x0": 514,
+"y0": 675,
+"x1": 599,
+"y1": 687,
+"angle": null
+},
+{
+"text": "SS-2",
+"x0": 703,
+"y0": 675,
+"x1": 724,
+"y1": 687,
+"angle": null
+},
+{
+"text": "Dunn-Edwards",
+"x0": 65,
+"y0": 721,
+"x1": 129,
+"y1": 733,
+"angle": null
+},
+{
+"text": "Paints",
+"x0": 65,
+"y0": 735,
+"x1": 91,
+"y1": 747,
+"angle": null
+},
+{
+"text": "Suprema\u00ae - Ultra Premium",
+"x0": 137,
+"y0": 721,
+"x1": 251,
+"y1": 733,
+"angle": null
+},
+{
+"text": "Interior Paint",
+"x0": 137,
+"y0": 735,
+"x1": 189,
+"y1": 747,
+"angle": null
+},
+{
+"text": "09 91 00 Painting",
+"x0": 354,
+"y0": 735,
+"x1": 425,
+"y1": 747,
+"angle": null
+},
+{
+"text": "Coatings",
+"x0": 514,
+"y0": 735,
+"x1": 550,
+"y1": 747,
+"angle": null
+},
+{
+"text": "P-1B",
+"x0": 703,
+"y0": 735,
+"x1": 724,
+"y1": 747,
+"angle": null
+},
+{
+"text": "Color: Cool December DEW383",
+"x0": 775,
+"y0": 694,
+"x1": 905,
+"y1": 705,
+"angle": null
+},
+{
+"text": "Install: Semi-Gloss",
+"x0": 775,
+"y0": 707,
+"x1": 852,
+"y1": 719,
+"angle": null
+},
+{
+"text": "Location: Doors & frames, refer to",
+"x0": 775,
+"y0": 721,
+"x1": 916,
+"y1": 733,
+"angle": null
+},
+{
+"text": "door schedule",
+"x0": 775,
+"y0": 735,
+"x1": 833,
+"y1": 747,
+"angle": null
+},
+{
+"text": "Bedrosians",
+"x0": 65,
+"y0": 754,
+"x1": 111,
+"y1": 766,
+"angle": null
+},
+{
+"text": "Magnifica Solid - Porcelain Tile",
+"x0": 137,
+"y0": 754,
+"x1": 263,
+"y1": 766,
+"angle": null
+},
+{
+"text": "09 30 13 Ceramic Tiling",
+"x0": 354,
+"y0": 754,
+"x1": 451,
+"y1": 766,
+"angle": null
+},
+{
+"text": "Flooring,Wall Finishes",
+"x0": 514,
+"y0": 754,
+"x1": 604,
+"y1": 766,
+"angle": null
+},
+{
+"text": "TWB-1",
+"x0": 703,
+"y0": 754,
+"x1": 732,
+"y1": 766,
+"angle": null
+},
+{
+"text": "Roppe",
+"x0": 65,
+"y0": 786,
+"x1": 92,
+"y1": 798,
+"angle": null
+},
+{
+"text": "Standard Toe - Pinnacle Rubber",
+"x0": 137,
+"y0": 772,
+"x1": 270,
+"y1": 784,
+"angle": null
+},
+{
+"text": "Base",
+"x0": 137,
+"y0": 786,
+"x1": 158,
+"y1": 798,
+"angle": null
+},
+{
+"text": "09 65 13 Resilient Base and",
+"x0": 354,
+"y0": 772,
+"x1": 472,
+"y1": 784,
+"angle": null
+},
+{
+"text": "Accessories",
+"x0": 354,
+"y0": 786,
+"x1": 403,
+"y1": 798,
+"angle": null
+},
+{
+"text": "Wall Finish Accessories",
+"x0": 514,
+"y0": 786,
+"x1": 610,
+"y1": 798,
+"angle": null
+},
+{
+"text": "WB-2",
+"x0": 703,
+"y0": 786,
+"x1": 726,
+"y1": 798,
+"angle": null
+},
+{
+"text": "Roppe",
+"x0": 65,
+"y0": 818,
+"x1": 92,
+"y1": 830,
+"angle": null
+},
+{
+"text": "Standard Toe - Pinnacle Rubber",
+"x0": 137,
+"y0": 804,
+"x1": 270,
+"y1": 816,
+"angle": null
+},
+{
+"text": "Base",
+"x0": 137,
+"y0": 818,
+"x1": 158,
+"y1": 830,
+"angle": null
+},
+{
+"text": "09 65 13 Resilient Base and",
+"x0": 354,
+"y0": 804,
+"x1": 472,
+"y1": 816,
+"angle": null
+},
+{
+"text": "Accessories",
+"x0": 354,
+"y0": 818,
+"x1": 403,
+"y1": 830,
+"angle": null
+},
+{
+"text": "Wall Finish Accessories",
+"x0": 514,
+"y0": 818,
+"x1": 610,
+"y1": 830,
+"angle": null
+},
+{
+"text": "WB-1",
+"x0": 703,
+"y0": 818,
+"x1": 729,
+"y1": 830,
+"angle": null
+},
+{
+"text": "Cambria",
+"x0": 65,
+"y0": 837,
+"x1": 100,
+"y1": 849,
+"angle": null
+},
+{
+"text": "St. Isley - Quartz Countertops",
+"x0": 137,
+"y0": 837,
+"x1": 258,
+"y1": 849,
+"angle": null
+},
+{
+"text": "12 36 00 Countertops",
+"x0": 354,
+"y0": 837,
+"x1": 442,
+"y1": 849,
+"angle": null
+},
+{
+"text": "Slabs & Countertops",
+"x0": 514,
+"y0": 837,
+"x1": 599,
+"y1": 849,
+"angle": null
+},
+{
+"text": "SS-1",
+"x0": 703,
+"y0": 837,
+"x1": 724,
+"y1": 849,
+"angle": null
+},
+{
+"text": "PL-1",
+"x0": 698,
+"y0": 424,
+"x1": 729,
+"y1": 448,
+"angle": null
+},
+{
+"text": "CG-1",
+"x0": 698,
+"y0": 494,
+"x1": 731,
+"y1": 518,
+"angle": null
+},
+{
+"text": "Tag",
+"x0": 698,
+"y0": 86,
+"x1": 724,
+"y1": 111,
+"angle": null
+},
+{
+"text": "USG",
+"x0": 61,
+"y0": 226,
+"x1": 91,
+"y1": 251,
+"angle": null
+},
+{
+"text": "USG",
+"x0": 60,
+"y0": 259,
+"x1": 91,
+"y1": 283,
+"angle": null
+},
+{
+"text": "T-3",
+"x0": 698,
+"y0": 566,
+"x1": 722,
+"y1": 589,
+"angle": null
+},
+{
+"text": "T-1",
+"x0": 698,
+"y0": 617,
+"x1": 722,
+"y1": 641,
+"angle": null
+},
+{
+"text": "P-5",
+"x0": 700,
+"y0": 334,
+"x1": 723,
+"y1": 355,
+"angle": null
+},
+{
+"text": "T-2",
+"x0": 698,
+"y0": 597,
+"x1": 723,
+"y1": 621,
+"angle": null
+}
+]
+}

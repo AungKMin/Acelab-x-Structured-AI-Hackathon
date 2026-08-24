@@ -1,0 +1,626 @@
+document,page_number,id,label,category,confidence,ymin,xmin,ymax,xmax
+1 - Drawings.pdf,1,1,LEVEL 1 - FINISH FLOOR PLAN - NORTH - AREA A,sub_drawing,high,69,37,976,803
+1 - Drawings.pdf,1,2,N-1,grid_line,high,69,58,86,70
+1 - Drawings.pdf,1,3,N-2,grid_line,high,69,142,86,154
+1 - Drawings.pdf,1,4,N-3,grid_line,high,69,226,86,238
+1 - Drawings.pdf,1,5,N-4,grid_line,high,69,393,86,405
+1 - Drawings.pdf,1,6,N-5,grid_line,high,69,476,86,488
+1 - Drawings.pdf,1,7,N-6,grid_line,high,69,572,86,584
+1 - Drawings.pdf,1,8,N-7,grid_line,high,69,742,86,754
+1 - Drawings.pdf,1,9,N-E,grid_line,high,128,789,145,801
+1 - Drawings.pdf,1,10,N-F,grid_line,high,261,789,278,801
+1 - Drawings.pdf,1,11,N-G,grid_line,high,394,789,411,801
+1 - Drawings.pdf,1,12,N-H,grid_line,high,527,789,544,801
+1 - Drawings.pdf,1,13,N-I,grid_line,high,660,789,677,801
+1 - Drawings.pdf,1,14,N-J,grid_line,high,736,789,753,801
+1 - Drawings.pdf,1,15,N-K,grid_line,high,790,789,807,801
+1 - Drawings.pdf,1,16,"CLASSROOM
+(40)
+N106
+P-1/4
+WB-2
+CPT-2/3",room_label,high,242,97,278,113
+1 - Drawings.pdf,1,17,"GRAD LAB
+LARGE
+N110
+P-1
+WB-2
+CPT-2/3",room_label,high,233,263,269,279
+1 - Drawings.pdf,1,18,"GRAD LAB
+LARGE
+N114
+P-1
+WB-2
+CPT-2/3",room_label,high,233,346,269,362
+1 - Drawings.pdf,1,19,"COLLAB.
+N107B
+P-1/2/4
+WB-2
+CONC-1/CPT-3",room_label,high,278,204,314,224
+1 - Drawings.pdf,1,20,"CYBER
+RANGE LAB
+N111
+P-1
+WB-2
+CPT-2/3",room_label,high,311,263,347,280
+1 - Drawings.pdf,1,21,"GRAD LAB
+MEDIUM
+N115
+P-1
+WB-2
+CPT-2/3",room_label,high,321,348,357,364
+1 - Drawings.pdf,1,22,"GRAD LAB
+MEDIUM
+N116
+P-1
+WB-2
+CPT-2/3",room_label,high,386,348,422,364
+1 - Drawings.pdf,1,23,"EXECUTIVE
+CONFERENCE
+N105
+P-1/4
+WB-2
+CPT-2/3",room_label,high,395,97,431,116
+1 - Drawings.pdf,1,24,"COLLAB.
+N107C
+P-1/2/4
+WB-2
+CONC-1/CPT-3",room_label,high,412,204,448,224
+1 - Drawings.pdf,1,25,"COMPUTER
+LAB
+N112
+P-1/5
+WB-2
+CPT-2/3",room_label,high,422,263,458,280
+1 - Drawings.pdf,1,26,"GRAD LAB
+MEDIUM
+N117
+P-1
+WB-2
+CPT-2/3",room_label,high,457,348,493,364
+1 - Drawings.pdf,1,27,"OFFICE
+N104F
+P-1
+WB-2
+CPT-1",room_label,high,472,71,502,85
+1 - Drawings.pdf,1,28,"OFFICE
+N104E
+P-1
+WB-2
+CPT-1",room_label,high,472,100,502,114
+1 - Drawings.pdf,1,29,"OFFICE
+N104D
+P-1
+WB-2
+CPT-1",room_label,high,472,130,502,144
+1 - Drawings.pdf,1,30,"CIRCULATION
+N104
+P-1/2
+WB-2
+CPT-1",room_label,high,521,98,557,118
+1 - Drawings.pdf,1,31,"GRAD LAB
+MEDIUM
+N118
+P-1
+WB-2
+CPT-2/3",room_label,high,528,348,564,364
+1 - Drawings.pdf,1,32,"VENDING
+N139
+P-1/4
+WB-2
+CONC-2/CG-1",room_label,high,538,253,574,275
+1 - Drawings.pdf,1,33,"BREAK ROOM
+N138
+P-1/T-1
+WB-2
+CONC-1",room_label,high,538,297,574,317
+1 - Drawings.pdf,1,34,"OFFICE
+N104C
+P-1
+WB-2
+CPT-1",room_label,high,561,71,591,85
+1 - Drawings.pdf,1,35,"OFFICE
+N104B
+P-1
+WB-2
+CPT-1",room_label,high,561,100,591,114
+1 - Drawings.pdf,1,36,"OFFICE
+N104A
+P-1
+WB-2
+CPT-1",room_label,high,561,130,591,144
+1 - Drawings.pdf,1,37,"ELEC.
+N140
+P-1
+WB-2
+CONC-1",room_label,high,608,266,638,280
+1 - Drawings.pdf,1,38,"PROGRAM
+ASST.
+N120A
+P-1
+WB-2
+CPT-1/2",room_label,high,611,345,647,361
+1 - Drawings.pdf,1,39,"COPY OFFICE
+SUPPLIES
+N120B
+P-1
+WB-2
+CPT-1/2",room_label,high,611,380,647,399
+1 - Drawings.pdf,1,40,"SMALL
+CONFERENCE
+N120C
+P-1
+WB-2
+CPT-1/2",room_label,high,611,425,647,446
+1 - Drawings.pdf,1,41,"FLEX OFFICE
+N121
+P-1
+WB-2
+CPT-1/2",room_label,high,611,469,647,488
+1 - Drawings.pdf,1,42,"ONLINE
+STUDIO
+N123
+P-1
+WB-2
+CPT-1",room_label,high,611,524,647,540
+1 - Drawings.pdf,1,43,"CAFE
+N103
+P-1
+WB-2
+CONC-2",room_label,high,627,135,657,149
+1 - Drawings.pdf,1,44,"EXISTING
+WOMEN'S
+RESTROOM
+N141
+P-1/ T-1/3
+TWB-1
+CPT-2",room_label,high,635,289,677,311
+1 - Drawings.pdf,1,45,"CIRCULATION
+N120
+P-1/2
+WB-2
+CPT-1/2",room_label,high,667,378,703,398
+1 - Drawings.pdf,1,46,"STUDENT
+LIVING ROOM
+N102
+P-1/4
+WB-2
+CPT-8",room_label,high,676,124,712,144
+1 - Drawings.pdf,1,47,"JC
+E-197
+P-1
+WB-1
+CONC-1",room_label,high,671,210,701,224
+1 - Drawings.pdf,1,48,"EXISTING
+MEN'S
+RESTROOM
+N142
+P-1/T-2/3
+TWB-1
+TL-1",room_label,high,687,289,729,311
+1 - Drawings.pdf,1,49,"OFFICE
+N120K
+P-1
+WB-2
+CPT-1",room_label,high,709,328,739,342
+1 - Drawings.pdf,1,50,"OFFICE
+N120J
+P-1
+WB-2
+CPT-1",room_label,high,709,361,739,375
+1 - Drawings.pdf,1,51,"OFFICE
+N120H
+P-1
+WB-2
+CPT-1",room_label,high,709,394,739,408
+1 - Drawings.pdf,1,52,"OFFICE
+N120G
+P-1
+WB-2
+CPT-1",room_label,high,709,427,739,441
+1 - Drawings.pdf,1,53,"OFFICE
+N120F
+P-1
+WB-2
+CPT-1",room_label,high,709,459,739,473
+1 - Drawings.pdf,1,54,"OFFICE
+N120E
+P-1
+WB-2
+CPT-1",room_label,high,709,492,739,506
+1 - Drawings.pdf,1,55,"OFFICE
+N120D
+P-1
+WB-2
+CPT-1",room_label,high,709,525,739,539
+1 - Drawings.pdf,1,56,"CIRCULATION
+N119
+P-1
+WB-2
+CONC-1",room_label,high,722,170,752,188
+1 - Drawings.pdf,1,57,"DATA ROOM
+N124
+P-1
+WB-2
+CONC-1",room_label,high,745,558,775,574
+1 - Drawings.pdf,1,58,"VESTIBULE
+N101
+P-1/4/ MWP-1/2
+WB-2",room_label,high,804,151,834,173
+1 - Drawings.pdf,1,59,"28'-2""",dimension,high,104,101,110,113
+1 - Drawings.pdf,1,60,"28'-2""",dimension,high,104,185,110,197
+1 - Drawings.pdf,1,61,"56'-2""",dimension,high,104,313,110,325
+1 - Drawings.pdf,1,62,"229'-10"" VIF",dimension,high,91,397,97,421
+1 - Drawings.pdf,1,63,"25'-10""",dimension,high,104,438,110,450
+1 - Drawings.pdf,1,64,"32'-4""",dimension,high,104,525,110,537
+1 - Drawings.pdf,1,65,"57'-2""",dimension,high,104,658,110,670
+1 - Drawings.pdf,1,66,"2'-8""
+V.I.F.",dimension,high,173,63,185,73
+1 - Drawings.pdf,1,67,"24'-0""",dimension,high,173,101,179,113
+1 - Drawings.pdf,1,68,"2'-10""",dimension,high,173,141,179,153
+1 - Drawings.pdf,1,69,"10'-0""",dimension,high,229,169,235,181
+1 - Drawings.pdf,1,70,"42'-8 5/8""",dimension,high,333,181,357,187
+1 - Drawings.pdf,1,71,"7'-2""",dimension,high,412,181,424,187
+1 - Drawings.pdf,1,72,"32'-0""",dimension,high,195,771,207,777
+1 - Drawings.pdf,1,73,"32'-0""",dimension,high,328,771,340,777
+1 - Drawings.pdf,1,74,"159'-2"" VIF",dimension,high,455,780,479,786
+1 - Drawings.pdf,1,75,"32'-0""",dimension,high,461,771,473,777
+1 - Drawings.pdf,1,76,"32'-0""",dimension,high,594,771,606,777
+1 - Drawings.pdf,1,77,"18'-2""",dimension,high,698,771,710,777
+1 - Drawings.pdf,1,78,"13'-0""",dimension,high,763,771,775,777
+1 - Drawings.pdf,1,79,ALIGN TO WALL,construction_note,high,438,78,444,106
+1 - Drawings.pdf,1,80,ALIGN TO WALL,construction_note,high,438,111,444,139
+1 - Drawings.pdf,1,81,"ALIGN TILE
+TO CORNER",construction_note,high,685,78,697,98
+1 - Drawings.pdf,1,82,GENERAL SHEET NOTES,notes_block,high,429,807,571,986
+1 - Drawings.pdf,1,83,SHEET KEYNOTES,notes_block,high,621,807,674,986
+1 - Drawings.pdf,1,84,GRAPHIC LEGEND,legend,high,21,807,373,902
+1 - Drawings.pdf,1,85,AF2.1 — LEVEL 1 - FINISH FLOOR PLAN - NORTH - AREA A,title_block,high,863,903,986,986
+1 - Drawings.pdf,1,86,North Arrow,north_scale,high,951,788,971,803
+1 - Drawings.pdf,1,87,"1/8"" = 1'-0""",north_scale,high,968,694,974,708
+1 - Drawings.pdf,1,88,"MERCEDES COBB, ARCHITECT — 404736",stamp_seal,high,645,923,711,971
+1 - Drawings.pdf,1,89,MATCH LINE — SHEET AF2.3,match_line,high,96,38,945,51
+1 - Drawings.pdf,1,90,MATCH LINE — SHEET AF2.2,match_line,high,150,432,169,750
+1 - Drawings.pdf,2,1,LEVEL 1 - FINISH FLOOR PLAN - SOUTH - AREA A,sub_drawing,high,29,59,978,800
+1 - Drawings.pdf,2,2,S-4,grid_line,high,29,95,44,109
+1 - Drawings.pdf,2,3,S-5,grid_line,high,29,208,44,222
+1 - Drawings.pdf,2,4,S-6,grid_line,high,29,321,44,335
+1 - Drawings.pdf,2,5,S-7,grid_line,high,29,434,44,448
+1 - Drawings.pdf,2,6,S-8,grid_line,high,29,547,44,561
+1 - Drawings.pdf,2,7,N-1,grid_line,high,29,733,44,747
+1 - Drawings.pdf,2,8,S-B,grid_line,high,125,59,140,73
+1 - Drawings.pdf,2,9,S-C,grid_line,high,284,59,299,73
+1 - Drawings.pdf,2,10,S-D,grid_line,high,443,59,458,73
+1 - Drawings.pdf,2,11,S-E,grid_line,high,602,59,617,73
+1 - Drawings.pdf,2,12,S-F,grid_line,high,761,59,776,73
+1 - Drawings.pdf,2,13,S-G,grid_line,high,919,59,934,73
+1 - Drawings.pdf,2,14,"38'-0""",dimension,high,62,150,67,166
+1 - Drawings.pdf,2,15,"38'-0""",dimension,high,62,263,67,279
+1 - Drawings.pdf,2,16,"38'-0""",dimension,high,62,376,67,392
+1 - Drawings.pdf,2,17,"38'-0""",dimension,high,62,489,67,505
+1 - Drawings.pdf,2,18,"62'-6""",dimension,high,62,639,67,655
+1 - Drawings.pdf,2,19,ELEC S105,room_label,high,297,279,305,291
+1 - Drawings.pdf,2,20,P-1,tag,high,306,280,312,290
+1 - Drawings.pdf,2,21,WB-1,tag,high,312,280,318,290
+1 - Drawings.pdf,2,22,CONC-1,tag,high,318,278,324,292
+1 - Drawings.pdf,2,23,TELECOM / MDF E-1-S18,room_label,high,328,235,342,252
+1 - Drawings.pdf,2,24,DATA/SERVER S103,room_label,high,417,346,425,367
+1 - Drawings.pdf,2,25,P-1,tag,high,426,351,432,361
+1 - Drawings.pdf,2,26,WB-1,tag,high,432,351,438,361
+1 - Drawings.pdf,2,27,CONC-1,tag,high,438,349,444,363
+1 - Drawings.pdf,2,28,WATCH CENTER S107,room_label,high,363,445,375,459
+1 - Drawings.pdf,2,29,P-3/5,tag,high,376,447,382,457
+1 - Drawings.pdf,2,30,WB-2,tag,high,382,447,388,457
+1 - Drawings.pdf,2,31,CPT-5,tag,high,388,446,394,458
+1 - Drawings.pdf,2,32,OFFICE S108B,room_label,high,338,530,346,544
+1 - Drawings.pdf,2,33,P-1,tag,high,347,532,353,542
+1 - Drawings.pdf,2,34,WB-1,tag,high,353,532,359,542
+1 - Drawings.pdf,2,35,CPT-6,tag,high,359,531,365,543
+1 - Drawings.pdf,2,36,OFFICE S108C,room_label,high,379,530,387,544
+1 - Drawings.pdf,2,37,P-1,tag,high,388,532,394,542
+1 - Drawings.pdf,2,38,WB-1,tag,high,394,532,400,542
+1 - Drawings.pdf,2,39,CPT-6,tag,high,400,531,406,543
+1 - Drawings.pdf,2,40,OFFICE S108D,room_label,high,420,530,428,544
+1 - Drawings.pdf,2,41,P-1,tag,high,429,532,435,542
+1 - Drawings.pdf,2,42,WB-1,tag,high,435,532,441,542
+1 - Drawings.pdf,2,43,CPT-6,tag,high,441,531,447,543
+1 - Drawings.pdf,2,44,CIRCULATION S108,room_label,high,426,500,434,518
+1 - Drawings.pdf,2,45,P-1/3,tag,high,435,504,441,514
+1 - Drawings.pdf,2,46,WB-1,tag,high,441,504,447,514
+1 - Drawings.pdf,2,47,CPT-4,tag,high,447,503,453,515
+1 - Drawings.pdf,2,48,OFFICE S108E,room_label,high,461,530,469,544
+1 - Drawings.pdf,2,49,P-1,tag,high,470,532,476,542
+1 - Drawings.pdf,2,50,WB-1,tag,high,476,532,482,542
+1 - Drawings.pdf,2,51,CPT-6,tag,high,482,531,488,543
+1 - Drawings.pdf,2,52,CIRCULATION S109,room_label,high,505,308,513,326
+1 - Drawings.pdf,2,53,P-1,tag,high,514,312,520,322
+1 - Drawings.pdf,2,54,WB-1,tag,high,520,312,526,322
+1 - Drawings.pdf,2,55,CONC-1,tag,high,526,310,532,324
+1 - Drawings.pdf,2,56,CYBER VULNERABILITY LAB S102,room_label,high,526,361,542,383
+1 - Drawings.pdf,2,57,P-1C,tag,high,543,369,549,379
+1 - Drawings.pdf,2,58,WB-1,tag,high,549,369,555,379
+1 - Drawings.pdf,2,59,CPT-6,tag,high,555,368,561,380
+1 - Drawings.pdf,2,60,CVL VESTIBULE S102A,room_label,high,501,429,513,447
+1 - Drawings.pdf,2,61,P-1C,tag,high,514,433,520,443
+1 - Drawings.pdf,2,62,WB-1,tag,high,520,433,526,443
+1 - Drawings.pdf,2,63,ESD-1,tag,high,526,432,532,444
+1 - Drawings.pdf,2,64,SPACE ISAC RECEPTION S101,room_label,high,549,472,561,488
+1 - Drawings.pdf,2,65,P-1/3,tag,high,562,475,568,485
+1 - Drawings.pdf,2,66,WB-1,tag,high,568,475,574,485
+1 - Drawings.pdf,2,67,CPT-4/6,tag,high,574,474,580,486
+1 - Drawings.pdf,2,68,SMALL CONFERENCE S101A,room_label,high,549,528,561,546
+1 - Drawings.pdf,2,69,P-1,tag,high,562,532,568,542
+1 - Drawings.pdf,2,70,WB-1,tag,high,568,532,574,542
+1 - Drawings.pdf,2,71,CPT-6,tag,high,574,531,580,543
+1 - Drawings.pdf,2,72,EAST CORRIDOR S100,room_label,high,563,635,575,651
+1 - Drawings.pdf,2,73,P-1,tag,high,576,638,582,648
+1 - Drawings.pdf,2,74,WB-1,tag,high,582,638,588,648
+1 - Drawings.pdf,2,75,CONC-1,tag,high,588,636,594,650
+1 - Drawings.pdf,2,76,GRAPHIC LEGEND,legend,high,29,813,376,900
+1 - Drawings.pdf,2,77,GENERAL SHEET NOTES,notes_block,high,431,811,571,900
+1 - Drawings.pdf,2,78,AF2.3 — LEVEL 1 - FINISH FLOOR PLAN - SOUTH - AREA A,title_block,high,859,905,978,987
+1 - Drawings.pdf,2,79,ISSUED FOR REV DATE,revision_block,high,499,905,628,987
+1 - Drawings.pdf,2,80,North Arrow,north_scale,high,950,788,978,800
+1 - Drawings.pdf,2,81,North Arrow,north_scale,high,745,969,773,983
+1 - Drawings.pdf,2,82,MATCH LINE,match_line,high,847,736,877,741
+1 - Drawings.pdf,2,83,KEYPLAN,diagram,high,745,905,847,987
+1 - Drawings.pdf,3,1,1 ELECTRICAL POWER PLAN - NORTH - AREA B,sub_drawing,high,135,58,917,805
+1 - Drawings.pdf,3,2,N-1,grid_line,high,135,67,148,80
+1 - Drawings.pdf,3,3,N-2,grid_line,high,135,150,148,163
+1 - Drawings.pdf,3,4,N-3,grid_line,high,135,234,148,247
+1 - Drawings.pdf,3,5,N-4,grid_line,high,135,407,148,420
+1 - Drawings.pdf,3,6,N-5,grid_line,high,135,484,148,497
+1 - Drawings.pdf,3,7,N-6,grid_line,high,135,580,148,593
+1 - Drawings.pdf,3,8,N-A,grid_line,high,268,790,281,803
+1 - Drawings.pdf,3,9,N-B,grid_line,high,382,790,395,803
+1 - Drawings.pdf,3,10,N-C,grid_line,high,496,790,509,803
+1 - Drawings.pdf,3,11,N-D,grid_line,high,631,790,644,803
+1 - Drawings.pdf,3,12,N-E,grid_line,high,765,790,778,803
+1 - Drawings.pdf,3,13,GENERAL SHEET NOTES,notes_block,high,26,809,395,901
+1 - Drawings.pdf,3,14,SHEET KEYNOTES,notes_block,high,506,809,578,901
+1 - Drawings.pdf,3,15,2/E2.3,detail_callout,high,398,125,411,138
+1 - Drawings.pdf,3,16,1B/E5.1,detail_callout,high,894,189,907,202
+1 - Drawings.pdf,3,17,ELEC E-1S21,tag,high,468,81,481,96
+1 - Drawings.pdf,3,18,DATA E-1S99,tag,high,545,180,558,195
+1 - Drawings.pdf,3,19,UCCSLD-35,tag,high,606,215,611,231
+1 - Drawings.pdf,3,20,UCCSLD-35,tag,high,742,215,747,231
+1 - Drawings.pdf,3,21,UCCSLD-35,tag,high,776,114,781,130
+1 - Drawings.pdf,3,22,UCCSLD-35,tag,high,776,148,781,164
+1 - Drawings.pdf,3,23,UCCSLD-35,tag,high,786,172,791,188
+1 - Drawings.pdf,3,24,UCCSLD-33,tag,high,811,157,816,173
+1 - Drawings.pdf,3,25,UCCSLC-5,tag,high,825,246,830,262
+1 - Drawings.pdf,3,26,UCCSLC-4,tag,high,809,319,814,335
+1 - Drawings.pdf,3,27,WOMEN E-1K-11,room_label,high,631,141,644,156
+1 - Drawings.pdf,3,28,MEN E-1K-10,room_label,high,707,141,720,156
+1 - Drawings.pdf,3,29,TOILET N109,room_label,high,753,153,766,168
+1 - Drawings.pdf,3,30,JAN N108,room_label,high,771,131,784,146
+1 - Drawings.pdf,3,31,CIRCULATION N110,room_label,high,685,219,698,234
+1 - Drawings.pdf,3,32,GRAD COLLABORATION N113B,room_label,high,818,301,831,316
+1 - Drawings.pdf,3,33,E2.1.3 — ELECTRICAL POWER PLAN - NORTH - AREA B,title_block,high,863,904,988,988
+1 - Drawings.pdf,3,34,BID SET 04MAY2021,revision_block,high,500,904,615,988
+1 - Drawings.pdf,3,35,"BRYAN P. JEALOUS, 46278",stamp_seal,high,647,920,722,966
+1 - Drawings.pdf,3,36,North Arrow,north_scale,high,750,971,769,988
+1 - Drawings.pdf,3,37,E205,keynote,high,546,197,555,208
+1 - Drawings.pdf,3,38,E223,keynote,high,618,186,627,197
+1 - Drawings.pdf,3,39,E223,keynote,high,706,177,715,188
+1 - Drawings.pdf,3,40,UCCSLD-33,match_line,high,803,58,808,778
+1 - Drawings.pdf,3,41,Keyplan,diagram,high,750,907,851,988
+1 - Drawings.pdf,4,1,GENERAL SHEET NOTES,notes_block,high,28,808,401,901
+1 - Drawings.pdf,4,2,SHEET KEYNOTES,notes_block,high,500,808,633,901
+1 - Drawings.pdf,4,3,E205,keynote,high,763,314,773,323
+1 - Drawings.pdf,4,4,E502,keynote,high,777,314,786,323
+1 - Drawings.pdf,4,5,E225,keynote,high,792,639,802,648
+1 - Drawings.pdf,4,6,E503,keynote,high,836,639,847,648
+1 - Drawings.pdf,4,7,E205,keynote,high,818,722,828,731
+1 - Drawings.pdf,4,8,MSB-SOUTH,tag,high,458,353,464,370
+1 - Drawings.pdf,4,9,ELEC E-1-S11,tag,high,430,376,442,390
+1 - Drawings.pdf,4,10,ELEC E-1-S21,tag,high,408,647,421,661
+1 - Drawings.pdf,4,11,MDP,tag,high,429,678,435,686
+1 - Drawings.pdf,4,12,MSB-NORTH,tag,high,472,634,478,651
+1 - Drawings.pdf,4,13,T-MDP,tag,high,521,672,527,681
+1 - Drawings.pdf,4,14,I-INV,tag,high,786,309,792,317
+1 - Drawings.pdf,4,15,ISACHA,tag,high,804,306,810,318
+1 - Drawings.pdf,4,16,T,tag,high,836,315,842,318
+1 - Drawings.pdf,4,17,T-ISAC-SA,tag,high,854,310,860,324
+1 - Drawings.pdf,4,18,ELEC S105,tag,high,797,354,810,368
+1 - Drawings.pdf,4,19,T,tag,high,836,364,842,368
+1 - Drawings.pdf,4,20,T-ISAC-LAWA,tag,high,854,356,860,375
+1 - Drawings.pdf,4,21,ISACWA,tag,high,847,383,853,395
+1 - Drawings.pdf,4,22,UCCSLA,tag,high,779,640,785,653
+1 - Drawings.pdf,4,23,UCCSLB,tag,high,779,660,785,673
+1 - Drawings.pdf,4,24,UCCSLC,tag,high,779,680,785,693
+1 - Drawings.pdf,4,25,UCCSLA-B,tag,high,788,722,794,737
+1 - Drawings.pdf,4,26,T,tag,high,795,615,801,619
+1 - Drawings.pdf,4,27,T,tag,high,804,618,810,622
+1 - Drawings.pdf,4,28,T-UCCS-SA,tag,high,804,632,810,647
+1 - Drawings.pdf,4,29,T-UCCS-LA/LC,tag,high,811,632,817,650
+1 - Drawings.pdf,4,30,ELEC N140,tag,high,803,669,815,683
+1 - Drawings.pdf,4,31,U-INV,tag,high,831,632,837,640
+1 - Drawings.pdf,4,32,UCCSHA,tag,high,831,672,837,684
+1 - Drawings.pdf,4,33,1 MAIN ELECTRICAL ROOM E-1-S11,sub_drawing,high,289,273,631,462
+1 - Drawings.pdf,4,34,2 MAIN ELECTRICAL ROOM E-1-S21,sub_drawing,high,319,565,631,714
+1 - Drawings.pdf,4,35,3 ISAC ELECTRICAL ROOM S105,sub_drawing,high,739,274,931,452
+1 - Drawings.pdf,4,36,4 UCCS ELECTRICAL ROOM N140,sub_drawing,high,761,590,931,772
+1 - Drawings.pdf,4,37,E2.3 — ELECTRICAL - ENLARGED ROOMS,title_block,high,863,907,983,988
+1 - Drawings.pdf,4,38,"BID SET 04MAY2021
+CONSTRUCTION DOCUMENTS 15APR2021
+DESIGN DEVELOPMENT 23DEC2020
+SCHEMATIC DESIGN 19OCT2020",revision_block,high,500,907,621,988
+1 - Drawings.pdf,4,39,BRYAN P. JEALING 46278,stamp_seal,high,644,922,722,967
+1 - Drawings.pdf,5,1,GENERAL SHEET NOTES,notes_block,high,28,808,135,900
+1 - Drawings.pdf,5,2,UCCS,other,high,62,907,92,988
+1 - Drawings.pdf,5,3,UCCS CYBERSECURITY AND SPACE ECOSYSTEM EXPANSION,other,high,151,918,203,993
+1 - Drawings.pdf,5,4,SMITHGROUP,other,high,271,907,328,988
+1 - Drawings.pdf,5,5,RIDER LEVETT BUCKNALL,other,high,399,918,426,963
+1 - Drawings.pdf,5,6,NV5,other,high,433,918,460,987
+1 - Drawings.pdf,5,7,"MARTIN/MARTIN, INC.",other,high,467,918,494,957
+1 - Drawings.pdf,5,8,SHEET KEYNOTES,notes_block,high,501,808,739,900
+1 - Drawings.pdf,5,9,E501,keynote,high,526,810,551,899
+1 - Drawings.pdf,5,10,E502,keynote,high,553,810,578,899
+1 - Drawings.pdf,5,11,E503,keynote,high,580,810,611,900
+1 - Drawings.pdf,5,12,"BRYAN J. PEALING, 46278",stamp_seal,high,648,923,722,967
+1 - Drawings.pdf,5,13,FEEDER SCHEDULE,schedule,high,743,808,841,900
+1 - Drawings.pdf,5,14,E5.1 — ELECTRICAL DIAGRAMS & CALCULATIONS,title_block,high,861,904,988,993
+1 - Drawings.pdf,5,15,Short-Circuit Calculations,schedule,high,96,109,208,396
+1 - Drawings.pdf,5,16,Short-Circuit Calculations,schedule,high,96,466,208,752
+1 - Drawings.pdf,5,17,Ex Switchboard: MSB-SOUTH,schedule,high,241,109,473,396
+1 - Drawings.pdf,5,18,Ex Switchboard: MSB-NORTH,schedule,high,241,466,473,752
+1 - Drawings.pdf,5,19,SOUTH BUILDING - ISAC,schematic,high,533,88,931,413
+1 - Drawings.pdf,5,20,NORTH BUILDING - UCCS,schematic,high,526,467,931,749
+1 - Drawings.pdf,5,21,ELECTRICAL ONE-LINE DIAGRAMS,schematic,high,526,88,973,749
+1 - Drawings.pdf,6,1,FIRST LEVEL PLUMBING PLAN - NORTH - AREA B,sub_drawing,high,70,37,972,791
+1 - Drawings.pdf,6,2,N-1,grid_line,high,70,75,85,86
+1 - Drawings.pdf,6,3,N-2,grid_line,high,70,159,85,170
+1 - Drawings.pdf,6,4,N-3,grid_line,high,70,243,85,255
+1 - Drawings.pdf,6,5,N-4,grid_line,high,70,416,85,428
+1 - Drawings.pdf,6,6,N-5,grid_line,high,70,493,85,504
+1 - Drawings.pdf,6,7,N-6,grid_line,high,70,589,85,600
+1 - Drawings.pdf,6,8,N-A,grid_line,high,205,37,219,51
+1 - Drawings.pdf,6,9,N-B,grid_line,high,318,37,332,51
+1 - Drawings.pdf,6,10,N-C,grid_line,high,431,37,445,51
+1 - Drawings.pdf,6,11,N-D,grid_line,high,566,37,580,51
+1 - Drawings.pdf,6,12,N-E,grid_line,high,700,37,714,51
+1 - Drawings.pdf,6,13,GENERAL SHEET NOTES,notes_block,high,20,808,176,904
+1 - Drawings.pdf,6,14,SHEET KEYNOTES,notes_block,high,500,808,547,904
+1 - Drawings.pdf,6,15,P208,keynote,high,357,84,365,94
+1 - Drawings.pdf,6,16,P209,keynote,high,229,182,237,192
+1 - Drawings.pdf,6,17,MS-1,tag,high,694,108,701,118
+1 - Drawings.pdf,6,18,DWH-1,tag,high,700,139,707,153
+1 - Drawings.pdf,6,19,WC-2,tag,high,683,161,690,172
+1 - Drawings.pdf,6,20,DF-1,tag,high,568,230,575,238
+1 - Drawings.pdf,6,21,DF-2,tag,high,585,230,592,238
+1 - Drawings.pdf,6,22,L-1,tag,high,708,161,715,168
+1 - Drawings.pdf,6,23,E-1S25,tag,high,299,140,307,152
+1 - Drawings.pdf,6,24,E-1S21,tag,high,402,92,410,104
+1 - Drawings.pdf,6,25,E-1R-11,tag,high,512,181,520,193
+1 - Drawings.pdf,6,26,E-1R-10,tag,high,651,181,659,193
+1 - Drawings.pdf,6,27,E-190,tag,high,524,96,532,108
+1 - Drawings.pdf,6,28,N108,tag,high,712,122,720,134
+1 - Drawings.pdf,6,29,N109,tag,high,693,183,701,195
+1 - Drawings.pdf,6,30,EXISTING WOMEN'S RESTROOM,room_label,high,505,159,512,214
+1 - Drawings.pdf,6,31,EXISTING MEN'S RESTROOM,room_label,high,644,162,651,211
+1 - Drawings.pdf,6,32,TOILET,room_label,high,686,183,693,196
+1 - Drawings.pdf,6,33,JAN,room_label,high,705,122,712,131
+1 - Drawings.pdf,6,34,MECH,room_label,high,292,140,299,152
+1 - Drawings.pdf,6,35,ELEC,room_label,high,395,92,402,103
+1 - Drawings.pdf,6,36,VACANT,room_label,high,517,96,524,111
+1 - Drawings.pdf,6,37,4/P4.1,detail_callout,high,653,86,668,100
+1 - Drawings.pdf,6,38,1/P4.1,detail_callout,high,676,86,691,100
+1 - Drawings.pdf,6,39,3/P4.1,detail_callout,high,710,86,725,100
+1 - Drawings.pdf,6,40,P2.1.B — FIRST LEVEL PLUMBING PLAN - NORTH - AREA B,title_block,high,858,904,988,988
+1 - Drawings.pdf,6,41,BID SET 04MAY2021,revision_block,high,493,904,613,988
+1 - Drawings.pdf,6,42,"FLETCHER J. CLANCY, P.E. 49046",stamp_seal,high,644,927,705,968
+1 - Drawings.pdf,6,43,North Arrow,north_scale,high,745,971,763,988
+1 - Drawings.pdf,6,44,"1/8"" = 1'-0""",north_scale,high,965,379,971,404
+1 - Drawings.pdf,7,1,N-2,grid_line,high,81,199,97,213
+1 - Drawings.pdf,7,2,N-3,grid_line,high,36,541,52,555
+1 - Drawings.pdf,7,3,N-D,grid_line,high,271,74,287,88
+1 - Drawings.pdf,7,4,N-1,grid_line,high,205,506,221,520
+1 - Drawings.pdf,7,5,N-2,grid_line,high,738,199,754,213
+1 - Drawings.pdf,7,6,N-E,grid_line,high,850,74,866,88
+1 - Drawings.pdf,7,7,N-2,grid_line,high,738,594,754,608
+1 - Drawings.pdf,7,8,N-E,grid_line,high,850,469,866,483
+1 - Drawings.pdf,7,9,GENERAL SHEET NOTES,notes_block,high,17,808,174,901
+1 - Drawings.pdf,7,10,SHEET KEYNOTES,notes_block,high,498,808,732,901
+1 - Drawings.pdf,7,11,"P201 CONNECT NEW 2"" SANITARY FROM POINT OF CONNECTION TO EXISTING 4"" SANITARY PIPE BELOW GRADE.",keynote,high,524,810,533,899
+1 - Drawings.pdf,7,12,"P202 CONNECT NEW 2"" VENT FROM POINT OF CONNECTION TO EXISTING 2"" VENT.",keynote,high,534,810,543,899
+1 - Drawings.pdf,7,13,"P203 2"" VENT UP FROM MOP SINK.",keynote,high,545,810,549,861
+1 - Drawings.pdf,7,14,"P204 CONNECT NEW 4"" SANITARY FROM POINT OF CONNECTION TO 4"" SANITARY PIPE BELOW GRADE.",keynote,high,551,810,560,899
+1 - Drawings.pdf,7,15,"P205 CONNECT NEW 3"" SANITARY FROM POINT OF CONNECTION TO 4"" SANITARY PIPE BELOW GRADE.",keynote,high,561,810,570,899
+1 - Drawings.pdf,7,16,"P206 CONNECT NEW 2"" VENT FROM POINT OF CONNECTION TO 3"" VENT.",keynote,high,572,810,581,899
+1 - Drawings.pdf,7,17,"P207 TERMINATE 3/4"" CONDENSATE DRAIN AT EXISTING MOP SINK WITH A MINIMUM 2"" AIR GAP.",keynote,high,583,810,592,899
+1 - Drawings.pdf,7,18,"P208 PROVIDE 3/4"" TRAPPED AND VENTED CONDENSATE DRAIN. SEE DETAIL 32/P7.1.",keynote,high,593,810,602,899
+1 - Drawings.pdf,7,19,P210 NEW LAVATORY FIXTURE AND FAUCET CONNECTION TO EXISTING ROUGH-INS.,keynote,high,604,810,613,899
+1 - Drawings.pdf,7,20,P211 NEW WATER CLOSET AND FLUSH VALVE CONNECTION TO EXISTING ROUGH-INS.,keynote,high,614,810,623,899
+1 - Drawings.pdf,7,21,P212 NEW URINAL AND FLUSH VALVE CONNECTION TO EXISTING ROUGH-INS.,keynote,high,625,810,634,899
+1 - Drawings.pdf,7,22,P215 ALTERNATE - REPLACING EXISTING LAVATORY SINK AND FAUCET WITH NEW L-2 SINK AND FAUCET.,keynote,high,635,810,644,899
+1 - Drawings.pdf,7,23,"P303 CONNECT NEW 1 1/2"" DOMESTIC COLD WATER FROM POINT OF CONNECTION TO EXISTING 2"" PIPE ABOVE CEILING.",keynote,high,646,810,655,899
+1 - Drawings.pdf,7,24,"P304 CONNECT NEW 1"" DOMESTIC HOT WATER FROM POINT OF CONNECTION TO EXISTING 1"" PIPE ABOVE CEILING.",keynote,high,656,810,665,899
+1 - Drawings.pdf,7,25,"P305 CONNECT NEW 1"" DOMESTIC HOT WATER RETURN FROM POINT OF CONNECTION TO EXISTING 1"" PIPE ABOVE CEILING.",keynote,high,667,810,676,899
+1 - Drawings.pdf,7,26,"P307 CONNECT NEW 1"" DOMESTIC COLD WATER FROM POINT OF CONNECTION TO EXISTING 2"" DOMESTIC COLD WATER.",keynote,high,677,810,686,899
+1 - Drawings.pdf,7,27,P309 PROVIDE WATER HAMMER ARRESTOR SIOUX CHIEF 'SIZE A' WITH ACCESS PANEL.,keynote,high,688,810,697,899
+1 - Drawings.pdf,7,28,"P319 CONNECT NEW 2"" DOMESTIC COLD WATER FROM POINT OF CONNECTION TO EXISTING 3/4"" DOMESTIC COLD WATER.",keynote,high,698,810,707,899
+1 - Drawings.pdf,7,29,"P321 PROVIDE FLOW-SPLITTER UNIT, KEMPER MODEL 651-06 WITH SHUT-OFF VALVES.",keynote,high,709,810,718,899
+1 - Drawings.pdf,7,30,ISSUED FOR,revision_block,high,495,907,613,988
+1 - Drawings.pdf,7,31,P4.1 — PLUMBING ENLARGED PLANS,title_block,high,858,907,976,988
+1 - Drawings.pdf,7,32,"FLETCHER, P.E. — 49046",stamp_seal,high,646,927,709,968
+1 - Drawings.pdf,7,33,4 DEDUCT ALTERNATE - FIRST LEVEL ENLARGED PLUMBING PLAN - NORTH - AREA B,sub_drawing,high,123,113,542,335
+1 - Drawings.pdf,7,34,2 FIRST LEVEL ENLARGED PLUMBING PLAN - NORTH - AREA A,sub_drawing,high,91,517,376,727
+1 - Drawings.pdf,7,35,3 FIRST LEVEL ENLARGED PLUMBING SAN/VENT PLAN - NORTH - AREA B,sub_drawing,high,789,74,965,356
+1 - Drawings.pdf,7,36,1 FIRST LEVEL ENLARGED PLUMBING WATER PLAN - NORTH - AREA B,sub_drawing,high,792,465,965,708
+1 - Drawings.pdf,7,37,P215,tag,high,161,198,167,208
+1 - Drawings.pdf,7,38,P215,tag,high,161,221,167,231
+1 - Drawings.pdf,7,39,P215,tag,high,161,244,167,254
+1 - Drawings.pdf,7,40,P215,tag,high,161,267,167,277
+1 - Drawings.pdf,7,41,P215,tag,high,153,290,159,300
+1 - Drawings.pdf,7,42,P215,tag,high,181,290,187,300
+1 - Drawings.pdf,7,43,P215,tag,high,209,290,215,300
+1 - Drawings.pdf,7,44,P215,tag,high,237,290,243,300
+1 - Drawings.pdf,7,45,P215,tag,high,480,178,486,188
+1 - Drawings.pdf,7,46,P215,tag,high,480,198,486,208
+1 - Drawings.pdf,7,47,P215,tag,high,480,217,486,227
+1 - Drawings.pdf,7,48,P215,tag,high,480,236,486,246
+1 - Drawings.pdf,7,49,P215,tag,high,480,255,486,265
+1 - Drawings.pdf,7,50,P215,tag,high,480,274,486,284
+1 - Drawings.pdf,7,51,P303,tag,high,441,301,447,311
+1 - Drawings.pdf,7,52,ELEC.,room_label,high,104,653,109,664
+1 - Drawings.pdf,7,53,N140,room_label,high,111,653,116,664
+1 - Drawings.pdf,7,54,EXISTING WOMEN'S RESTROOM,room_label,high,158,629,163,683
+1 - Drawings.pdf,7,55,N141,room_label,high,165,651,170,662
+1 - Drawings.pdf,7,56,JC,room_label,high,245,579,250,585
+1 - Drawings.pdf,7,57,E-197,room_label,high,252,577,257,588
+1 - Drawings.pdf,7,58,CIRCULATION,room_label,high,288,568,293,597
+1 - Drawings.pdf,7,59,N119,room_label,high,295,577,300,588
+1 - Drawings.pdf,7,60,EXISTING MEN'S RESTROOM,room_label,high,293,628,298,677
+1 - Drawings.pdf,7,61,N142,room_label,high,300,647,305,658
+1 - Drawings.pdf,7,62,P208,tag,high,127,711,133,721
+1 - Drawings.pdf,7,63,P207,tag,high,198,568,204,578
+1 - Drawings.pdf,7,64,P210,tag,high,191,602,197,612
+1 - Drawings.pdf,7,65,P210,tag,high,203,602,209,612
+1 - Drawings.pdf,7,66,P211,tag,high,186,628,192,638
+1 - Drawings.pdf,7,67,P211,tag,high,186,648,192,658
+1 - Drawings.pdf,7,68,P211,tag,high,186,666,192,676
+1 - Drawings.pdf,7,69,P211,tag,high,201,711,207,721
+1 - Drawings.pdf,7,70,P310,tag,high,250,548,256,558
+1 - Drawings.pdf,7,71,P210,tag,high,271,602,277,612
+1 - Drawings.pdf,7,72,P210,tag,high,283,602,289,612
+1 - Drawings.pdf,7,73,P212,tag,high,271,648,277,658
+1 - Drawings.pdf,7,74,P212,tag,high,271,676,277,686
+1 - Drawings.pdf,7,75,P211,tag,high,261,701,267,711
+1 - Drawings.pdf,7,76,WC-1,tag,high,199,638,204,649
+1 - Drawings.pdf,7,77,WC-1,tag,high,199,661,204,672
+1 - Drawings.pdf,7,78,WC-1,tag,high,199,680,204,691
+1 - Drawings.pdf,7,79,WC-2,tag,high,212,698,217,709
+1 - Drawings.pdf,7,80,U-1,tag,high,255,638,260,645
+1 - Drawings.pdf,7,81,U-1,tag,high,255,658,260,665
+1 - Drawings.pdf,7,82,U-1,tag,high,255,676,260,683
+1 - Drawings.pdf,7,83,WC-2,tag,high,251,698,256,709
+1 - Drawings.pdf,7,84,FD-1,tag,high,305,579,310,589
+1 - Drawings.pdf,7,85,TOILET,room_label,high,802,191,807,204
+1 - Drawings.pdf,7,86,N109,room_label,high,810,192,815,203
+1 - Drawings.pdf,7,87,JAN,room_label,high,873,120,878,128
+1 - Drawings.pdf,7,88,N108,room_label,high,881,118,886,129
+1 - Drawings.pdf,7,89,P205,tag,high,805,149,811,159
+1 - Drawings.pdf,7,90,P203,tag,high,826,103,832,113
+1 - Drawings.pdf,7,91,P206,tag,high,864,145,870,155
+1 - Drawings.pdf,7,92,P202,tag,high,898,201,904,211
+1 - Drawings.pdf,7,93,P202,tag,high,898,239,904,249
+1 - Drawings.pdf,7,94,P201,tag,high,842,254,848,264
+1 - Drawings.pdf,7,95,P201,tag,high,851,289,857,299
+1 - Drawings.pdf,7,96,P204,tag,high,822,304,828,314
+1 - Drawings.pdf,7,97,WC-2,tag,high,803,210,808,221
+1 - Drawings.pdf,7,98,FD-1,tag,high,844,220,849,230
+1 - Drawings.pdf,7,99,MS-1,tag,high,861,118,866,129
+1 - Drawings.pdf,7,100,DWH-1,tag,high,861,153,866,168
+1 - Drawings.pdf,7,101,TOILET,room_label,high,802,585,807,598
+1 - Drawings.pdf,7,102,N109,room_label,high,810,586,815,597
+1 - Drawings.pdf,7,103,JAN,room_label,high,873,545,878,553
+1 - Drawings.pdf,7,104,N108,room_label,high,881,544,886,555
+1 - Drawings.pdf,7,105,P307,tag,high,810,553,816,563
+1 - Drawings.pdf,7,106,P309,tag,high,810,641,816,651
+1 - Drawings.pdf,7,107,P305,tag,high,810,654,816,664
+1 - Drawings.pdf,7,108,P304,tag,high,801,684,807,694
+1 - Drawings.pdf,7,109,P321,tag,high,841,631,847,641
+1 - Drawings.pdf,7,110,MS-1,tag,high,803,604,808,615
+1 - Drawings.pdf,7,111,MS-1,tag,high,851,523,856,534
+1 - Drawings.pdf,7,112,DWH-1,tag,high,822,553,827,568

@@ -1,0 +1,5537 @@
+{
+"document": "1 - Drawings.pdf",
+"page_number": 5,
+"page_width_pt": 3024.0,
+"page_height_pt": 2160.0,
+"bbox_space": "0-1000 normalized, origin top-left",
+"spans": [
+{
+"text": "MAIN",
+"x0": 561,
+"y0": 554,
+"x1": 568,
+"y1": 559,
+"angle": null
+},
+{
+"text": "1000/3-900AT",
+"x0": 556,
+"y0": 542,
+"x1": 573,
+"y1": 547,
+"angle": null
+},
+{
+"text": "2000AS",
+"x0": 585,
+"y0": 542,
+"x1": 595,
+"y1": 547,
+"angle": null
+},
+{
+"text": "2000AF",
+"x0": 596,
+"y0": 544,
+"x1": 606,
+"y1": 549,
+"angle": null
+},
+{
+"text": "300/3",
+"x0": 688,
+"y0": 568,
+"x1": 692,
+"y1": 577,
+"angle": 90.0
+},
+{
+"text": "UCCSHA",
+"x0": 689,
+"y0": 648,
+"x1": 701,
+"y1": 653,
+"angle": null
+},
+{
+"text": "480/277V",
+"x0": 689,
+"y0": 653,
+"x1": 701,
+"y1": 658,
+"angle": null
+},
+{
+"text": "400A",
+"x0": 692,
+"y0": 658,
+"x1": 698,
+"y1": 663,
+"angle": null
+},
+{
+"text": "MLO",
+"x0": 692,
+"y0": 663,
+"x1": 698,
+"y1": 668,
+"angle": null
+},
+{
+"text": "UCCSLC",
+"x0": 705,
+"y0": 861,
+"x1": 716,
+"y1": 866,
+"angle": null
+},
+{
+"text": "208/120V",
+"x0": 705,
+"y0": 866,
+"x1": 716,
+"y1": 871,
+"angle": null
+},
+{
+"text": "225A",
+"x0": 707,
+"y0": 871,
+"x1": 714,
+"y1": 876,
+"angle": null
+},
+{
+"text": "MCB/FTL",
+"x0": 705,
+"y0": 876,
+"x1": 716,
+"y1": 881,
+"angle": null
+},
+{
+"text": "UCCSLD",
+"x0": 736,
+"y0": 861,
+"x1": 747,
+"y1": 866,
+"angle": null
+},
+{
+"text": "208/120V",
+"x0": 736,
+"y0": 866,
+"x1": 747,
+"y1": 871,
+"angle": null
+},
+{
+"text": "225A",
+"x0": 738,
+"y0": 871,
+"x1": 745,
+"y1": 876,
+"angle": null
+},
+{
+"text": "MLO",
+"x0": 739,
+"y0": 876,
+"x1": 744,
+"y1": 881,
+"angle": null
+},
+{
+"text": "UCCSLA",
+"x0": 674,
+"y0": 861,
+"x1": 685,
+"y1": 866,
+"angle": null
+},
+{
+"text": "208/120V",
+"x0": 674,
+"y0": 866,
+"x1": 685,
+"y1": 871,
+"angle": null
+},
+{
+"text": "225A",
+"x0": 676,
+"y0": 871,
+"x1": 683,
+"y1": 876,
+"angle": null
+},
+{
+"text": "MCB/FTL",
+"x0": 674,
+"y0": 876,
+"x1": 685,
+"y1": 881,
+"angle": null
+},
+{
+"text": "UCCSLB",
+"x0": 643,
+"y0": 861,
+"x1": 654,
+"y1": 866,
+"angle": null
+},
+{
+"text": "208/120V",
+"x0": 643,
+"y0": 866,
+"x1": 654,
+"y1": 871,
+"angle": null
+},
+{
+"text": "225A",
+"x0": 645,
+"y0": 871,
+"x1": 652,
+"y1": 876,
+"angle": null
+},
+{
+"text": "MLO",
+"x0": 646,
+"y0": 876,
+"x1": 652,
+"y1": 881,
+"angle": null
+},
+{
+"text": "UCCSA",
+"x0": 613,
+"y0": 861,
+"x1": 622,
+"y1": 866,
+"angle": null
+},
+{
+"text": "208/120V",
+"x0": 612,
+"y0": 866,
+"x1": 623,
+"y1": 871,
+"angle": null
+},
+{
+"text": "100A",
+"x0": 614,
+"y0": 871,
+"x1": 621,
+"y1": 876,
+"angle": null
+},
+{
+"text": "MCB",
+"x0": 615,
+"y0": 876,
+"x1": 621,
+"y1": 881,
+"angle": null
+},
+{
+"text": "SPD",
+"x0": 692,
+"y0": 639,
+"x1": 698,
+"y1": 644,
+"angle": null
+},
+{
+"text": "ISACHA",
+"x0": 367,
+"y0": 648,
+"x1": 377,
+"y1": 653,
+"angle": null
+},
+{
+"text": "480/277V",
+"x0": 366,
+"y0": 653,
+"x1": 378,
+"y1": 658,
+"angle": null
+},
+{
+"text": "400A",
+"x0": 369,
+"y0": 658,
+"x1": 375,
+"y1": 663,
+"angle": null
+},
+{
+"text": "MLO",
+"x0": 369,
+"y0": 663,
+"x1": 375,
+"y1": 668,
+"angle": null
+},
+{
+"text": "SPD",
+"x0": 369,
+"y0": 639,
+"x1": 375,
+"y1": 644,
+"angle": null
+},
+{
+"text": "300/3",
+"x0": 365,
+"y0": 568,
+"x1": 369,
+"y1": 577,
+"angle": 90.0
+},
+{
+"text": "MAIN",
+"x0": 202,
+"y0": 554,
+"x1": 209,
+"y1": 559,
+"angle": null
+},
+{
+"text": "LSIG",
+"x0": 211,
+"y0": 546,
+"x1": 217,
+"y1": 551,
+"angle": null
+},
+{
+"text": "4000/3",
+"x0": 202,
+"y0": 542,
+"x1": 210,
+"y1": 547,
+"angle": null
+},
+{
+"text": "M",
+"x0": 248,
+"y0": 565,
+"x1": 251,
+"y1": 570,
+"angle": null
+},
+{
+"text": "SPD",
+"x0": 229,
+"y0": 586,
+"x1": 235,
+"y1": 591,
+"angle": null
+},
+{
+"text": "60/3",
+"x0": 225,
+"y0": 569,
+"x1": 229,
+"y1": 576,
+"angle": 90.0
+},
+{
+"text": "1000kVA",
+"x0": 120,
+"y0": 660,
+"x1": 131,
+"y1": 665,
+"angle": null
+},
+{
+"text": "2500kVA",
+"x0": 506,
+"y0": 660,
+"x1": 517,
+"y1": 665,
+"angle": null
+},
+{
+"text": "M",
+"x0": 550,
+"y0": 660,
+"x1": 552,
+"y1": 665,
+"angle": null
+},
+{
+"text": "ISACLA",
+"x0": 383,
+"y0": 861,
+"x1": 392,
+"y1": 866,
+"angle": null
+},
+{
+"text": "208/120V",
+"x0": 382,
+"y0": 866,
+"x1": 393,
+"y1": 871,
+"angle": null
+},
+{
+"text": "125A",
+"x0": 384,
+"y0": 871,
+"x1": 391,
+"y1": 876,
+"angle": null
+},
+{
+"text": "MCB",
+"x0": 385,
+"y0": 876,
+"x1": 391,
+"y1": 881,
+"angle": null
+},
+{
+"text": "ISACWA",
+"x0": 351,
+"y0": 861,
+"x1": 362,
+"y1": 866,
+"angle": null
+},
+{
+"text": "208/120V",
+"x0": 351,
+"y0": 866,
+"x1": 362,
+"y1": 871,
+"angle": null
+},
+{
+"text": "125A",
+"x0": 354,
+"y0": 871,
+"x1": 360,
+"y1": 876,
+"angle": null
+},
+{
+"text": "MCB/FTL",
+"x0": 351,
+"y0": 876,
+"x1": 362,
+"y1": 881,
+"angle": null
+},
+{
+"text": "ISACWB",
+"x0": 320,
+"y0": 861,
+"x1": 331,
+"y1": 866,
+"angle": null
+},
+{
+"text": "208/120V",
+"x0": 320,
+"y0": 866,
+"x1": 331,
+"y1": 871,
+"angle": null
+},
+{
+"text": "125A",
+"x0": 323,
+"y0": 871,
+"x1": 329,
+"y1": 876,
+"angle": null
+},
+{
+"text": "MLO",
+"x0": 323,
+"y0": 876,
+"x1": 329,
+"y1": 881,
+"angle": null
+},
+{
+"text": "ISACSA",
+"x0": 290,
+"y0": 861,
+"x1": 300,
+"y1": 866,
+"angle": null
+},
+{
+"text": "208/120V",
+"x0": 289,
+"y0": 866,
+"x1": 300,
+"y1": 871,
+"angle": null
+},
+{
+"text": "200A",
+"x0": 292,
+"y0": 871,
+"x1": 298,
+"y1": 876,
+"angle": null
+},
+{
+"text": "MCB",
+"x0": 292,
+"y0": 876,
+"x1": 298,
+"y1": 881,
+"angle": null
+},
+{
+"text": "SPD",
+"x0": 292,
+"y0": 852,
+"x1": 297,
+"y1": 857,
+"angle": null
+},
+{
+"text": "SPD",
+"x0": 354,
+"y0": 852,
+"x1": 359,
+"y1": 857,
+"angle": null
+},
+{
+"text": "SPD",
+"x0": 615,
+"y0": 852,
+"x1": 620,
+"y1": 857,
+"angle": null
+},
+{
+"text": "SPD",
+"x0": 708,
+"y0": 852,
+"x1": 713,
+"y1": 857,
+"angle": null
+},
+{
+"text": "I-INV",
+"x0": 400,
+"y0": 648,
+"x1": 406,
+"y1": 653,
+"angle": null
+},
+{
+"text": "277V",
+"x0": 400,
+"y0": 653,
+"x1": 406,
+"y1": 658,
+"angle": null
+},
+{
+"text": "EM LTG",
+"x0": 398,
+"y0": 658,
+"x1": 408,
+"y1": 663,
+"angle": null
+},
+{
+"text": "INVERTER",
+"x0": 396,
+"y0": 663,
+"x1": 410,
+"y1": 668,
+"angle": null
+},
+{
+"text": "U-INV",
+"x0": 722,
+"y0": 648,
+"x1": 730,
+"y1": 653,
+"angle": null
+},
+{
+"text": "277V",
+"x0": 723,
+"y0": 653,
+"x1": 729,
+"y1": 658,
+"angle": null
+},
+{
+"text": "EM LTG",
+"x0": 721,
+"y0": 658,
+"x1": 731,
+"y1": 663,
+"angle": null
+},
+{
+"text": "INVERTER",
+"x0": 719,
+"y0": 663,
+"x1": 733,
+"y1": 668,
+"angle": null
+},
+{
+"text": "TO EXISTING",
+"x0": 542,
+"y0": 616,
+"x1": 559,
+"y1": 621,
+"angle": null
+},
+{
+"text": "BUS DUCT",
+"x0": 544,
+"y0": 621,
+"x1": 557,
+"y1": 626,
+"angle": null
+},
+{
+"text": "EXISTING DEVICES",
+"x0": 625,
+"y0": 557,
+"x1": 649,
+"y1": 562,
+"angle": null
+},
+{
+"text": "TO REMAIN",
+"x0": 630,
+"y0": 562,
+"x1": 644,
+"y1": 567,
+"angle": null
+},
+{
+"text": "UNCHANGED",
+"x0": 629,
+"y0": 567,
+"x1": 645,
+"y1": 572,
+"angle": null
+},
+{
+"text": "LIGHTING &",
+"x0": 697,
+"y0": 674,
+"x1": 712,
+"y1": 679,
+"angle": null
+},
+{
+"text": "MECHANICAL",
+"x0": 697,
+"y0": 679,
+"x1": 714,
+"y1": 684,
+"angle": null
+},
+{
+"text": "LAB AND",
+"x0": 721,
+"y0": 887,
+"x1": 733,
+"y1": 892,
+"angle": null
+},
+{
+"text": "CLASSROOM POWER",
+"x0": 713,
+"y0": 892,
+"x1": 740,
+"y1": 897,
+"angle": null
+},
+{
+"text": "T-UCCS-LA/LC",
+"x0": 701,
+"y0": 757,
+"x1": 719,
+"y1": 762,
+"angle": null
+},
+{
+"text": "150kVA K13",
+"x0": 701,
+"y0": 762,
+"x1": 716,
+"y1": 767,
+"angle": null
+},
+{
+"text": "480-208/120V",
+"x0": 701,
+"y0": 767,
+"x1": 717,
+"y1": 772,
+"angle": null
+},
+{
+"text": "GENERAL POWER",
+"x0": 653,
+"y0": 887,
+"x1": 676,
+"y1": 892,
+"angle": null
+},
+{
+"text": "SERVER ROOM",
+"x0": 608,
+"y0": 887,
+"x1": 628,
+"y1": 892,
+"angle": null
+},
+{
+"text": "T-UCCS-SA",
+"x0": 624,
+"y0": 757,
+"x1": 638,
+"y1": 762,
+"angle": null
+},
+{
+"text": "30kVA K13",
+"x0": 624,
+"y0": 762,
+"x1": 637,
+"y1": 767,
+"angle": null
+},
+{
+"text": "480-208/120V",
+"x0": 624,
+"y0": 767,
+"x1": 640,
+"y1": 772,
+"angle": null
+},
+{
+"text": "MAIN",
+"x0": 591,
+"y0": 557,
+"x1": 598,
+"y1": 562,
+"angle": null
+},
+{
+"text": "EXISTING MSB DISTRUBUTION SECTIONS",
+"x0": 618,
+"y0": 526,
+"x1": 671,
+"y1": 531,
+"angle": null
+},
+{
+"text": "2500A/480-277/3PH/4W",
+"x0": 618,
+"y0": 531,
+"x1": 646,
+"y1": 536,
+"angle": null
+},
+{
+"text": "65kAIC",
+"x0": 618,
+"y0": 536,
+"x1": 627,
+"y1": 541,
+"angle": null
+},
+{
+"text": "LIGHTING &",
+"x0": 374,
+"y0": 674,
+"x1": 390,
+"y1": 679,
+"angle": null
+},
+{
+"text": "MECHANICAL",
+"x0": 374,
+"y0": 679,
+"x1": 391,
+"y1": 684,
+"angle": null
+},
+{
+"text": "T-ISAC-LA/WA",
+"x0": 378,
+"y0": 757,
+"x1": 396,
+"y1": 762,
+"angle": null
+},
+{
+"text": "75kVA K13",
+"x0": 378,
+"y0": 762,
+"x1": 391,
+"y1": 767,
+"angle": null
+},
+{
+"text": "480-208/120V",
+"x0": 378,
+"y0": 767,
+"x1": 395,
+"y1": 772,
+"angle": null
+},
+{
+"text": "EXISTING DEVICES",
+"x0": 267,
+"y0": 557,
+"x1": 292,
+"y1": 562,
+"angle": null
+},
+{
+"text": "TO REMAIN",
+"x0": 272,
+"y0": 562,
+"x1": 287,
+"y1": 567,
+"angle": null
+},
+{
+"text": "UNCHANGED",
+"x0": 271,
+"y0": 567,
+"x1": 288,
+"y1": 572,
+"angle": null
+},
+{
+"text": "EXISTING MSB SOUTH",
+"x0": 251,
+"y0": 533,
+"x1": 280,
+"y1": 538,
+"angle": null
+},
+{
+"text": "4000A/480-277/3PH/4W",
+"x0": 251,
+"y0": 538,
+"x1": 279,
+"y1": 543,
+"angle": null
+},
+{
+"text": "65kAIC",
+"x0": 261,
+"y0": 543,
+"x1": 270,
+"y1": 548,
+"angle": null
+},
+{
+"text": "EXISTING MSB NORTH",
+"x0": 586,
+"y0": 526,
+"x1": 615,
+"y1": 531,
+"angle": null
+},
+{
+"text": "4000A/480-277/3PH/4W",
+"x0": 587,
+"y0": 531,
+"x1": 615,
+"y1": 536,
+"angle": null
+},
+{
+"text": "65kAIC",
+"x0": 606,
+"y0": 536,
+"x1": 615,
+"y1": 541,
+"angle": null
+},
+{
+"text": "EXISTING",
+"x0": 157,
+"y0": 692,
+"x1": 169,
+"y1": 697,
+"angle": null
+},
+{
+"text": "UTILITY SECONDARY",
+"x0": 149,
+"y0": 697,
+"x1": 176,
+"y1": 702,
+"angle": null
+},
+{
+"text": "EXISTING",
+"x0": 94,
+"y0": 692,
+"x1": 106,
+"y1": 697,
+"angle": null
+},
+{
+"text": "UTILITY PRIMARY",
+"x0": 89,
+"y0": 697,
+"x1": 111,
+"y1": 702,
+"angle": null
+},
+{
+"text": "EXISTING",
+"x0": 120,
+"y0": 638,
+"x1": 132,
+"y1": 643,
+"angle": null
+},
+{
+"text": "UTILITY TRANSFORMER",
+"x0": 110,
+"y0": 643,
+"x1": 141,
+"y1": 648,
+"angle": null
+},
+{
+"text": "EXISTING",
+"x0": 543,
+"y0": 692,
+"x1": 555,
+"y1": 697,
+"angle": null
+},
+{
+"text": "UTILITY SECONDARY",
+"x0": 535,
+"y0": 697,
+"x1": 562,
+"y1": 702,
+"angle": null
+},
+{
+"text": "EXISTING",
+"x0": 480,
+"y0": 692,
+"x1": 492,
+"y1": 697,
+"angle": null
+},
+{
+"text": "UTILITY PRIMARY",
+"x0": 475,
+"y0": 697,
+"x1": 497,
+"y1": 702,
+"angle": null
+},
+{
+"text": "EXISTING",
+"x0": 506,
+"y0": 638,
+"x1": 518,
+"y1": 643,
+"angle": null
+},
+{
+"text": "UTILITY TRANSFORMER",
+"x0": 496,
+"y0": 643,
+"x1": 527,
+"y1": 648,
+"angle": null
+},
+{
+"text": "SOUTH BUILDING - ISAC",
+"x0": 222,
+"y0": 925,
+"x1": 272,
+"y1": 934,
+"angle": null
+},
+{
+"text": "NORTH BUILDING - UCCS",
+"x0": 612,
+"y0": 925,
+"x1": 665,
+"y1": 934,
+"angle": null
+},
+{
+"text": "A300",
+"x0": 365,
+"y0": 605,
+"x1": 370,
+"y1": 609,
+"angle": null
+},
+{
+"text": "WATCH CENTER,",
+"x0": 346,
+"y0": 887,
+"x1": 368,
+"y1": 892,
+"angle": null
+},
+{
+"text": "CVL",
+"x0": 354,
+"y0": 892,
+"x1": 359,
+"y1": 897,
+"angle": null
+},
+{
+"text": "(FUTURE PANEL AND",
+"x0": 313,
+"y0": 887,
+"x1": 340,
+"y1": 892,
+"angle": null
+},
+{
+"text": "FEEDER, NIC)",
+"x0": 318,
+"y0": 892,
+"x1": 335,
+"y1": 897,
+"angle": null
+},
+{
+"text": "T-ISAC-SA",
+"x0": 276,
+"y0": 757,
+"x1": 289,
+"y1": 762,
+"angle": null
+},
+{
+"text": "75kVA K13",
+"x0": 276,
+"y0": 762,
+"x1": 289,
+"y1": 767,
+"angle": null
+},
+{
+"text": "480-208/120V",
+"x0": 272,
+"y0": 767,
+"x1": 289,
+"y1": 772,
+"angle": null
+},
+{
+"text": "SERVER ROOM",
+"x0": 285,
+"y0": 887,
+"x1": 305,
+"y1": 892,
+"angle": null
+},
+{
+"text": "A110-3",
+"x0": 364,
+"y0": 710,
+"x1": 371,
+"y1": 714,
+"angle": null
+},
+{
+"text": "A125T",
+"x0": 349,
+"y0": 827,
+"x1": 355,
+"y1": 831,
+"angle": null
+},
+{
+"text": "A125T",
+"x0": 380,
+"y0": 827,
+"x1": 386,
+"y1": 831,
+"angle": null
+},
+{
+"text": "#2 Cu",
+"x0": 360,
+"y0": 779,
+"x1": 367,
+"y1": 784,
+"angle": null
+},
+{
+"text": "A110-3",
+"x0": 286,
+"y0": 710,
+"x1": 294,
+"y1": 714,
+"angle": null
+},
+{
+"text": "A200T",
+"x0": 287,
+"y0": 827,
+"x1": 293,
+"y1": 831,
+"angle": null
+},
+{
+"text": "#2 Cu",
+"x0": 300,
+"y0": 779,
+"x1": 307,
+"y1": 784,
+"angle": null
+},
+{
+"text": "200A/3P/HD/NEMA-1",
+"x0": 266,
+"y0": 795,
+"x1": 290,
+"y1": 800,
+"angle": null
+},
+{
+"text": "200A RK1 FUSES",
+"x0": 269,
+"y0": 800,
+"x1": 290,
+"y1": 805,
+"angle": null
+},
+{
+"text": "100A/3P/HD/NEMA-1",
+"x0": 588,
+"y0": 795,
+"x1": 613,
+"y1": 800,
+"angle": null
+},
+{
+"text": "100A RK1 FUSES",
+"x0": 592,
+"y0": 800,
+"x1": 613,
+"y1": 805,
+"angle": null
+},
+{
+"text": "E501",
+"x0": 382,
+"y0": 570,
+"x1": 389,
+"y1": 575,
+"angle": null
+},
+{
+"text": "E501",
+"x0": 705,
+"y0": 570,
+"x1": 711,
+"y1": 575,
+"angle": null
+},
+{
+"text": "A300",
+"x0": 688,
+"y0": 605,
+"x1": 693,
+"y1": 609,
+"angle": null
+},
+{
+"text": "A225TB",
+"x0": 671,
+"y0": 827,
+"x1": 679,
+"y1": 831,
+"angle": null
+},
+{
+"text": "A225TB",
+"x0": 702,
+"y0": 827,
+"x1": 710,
+"y1": 831,
+"angle": null
+},
+{
+"text": "A225-3",
+"x0": 687,
+"y0": 710,
+"x1": 694,
+"y1": 714,
+"angle": null
+},
+{
+"text": "T30",
+"x0": 603,
+"y0": 763,
+"x1": 607,
+"y1": 767,
+"angle": null
+},
+{
+"text": "#6 Cu",
+"x0": 605,
+"y0": 779,
+"x1": 612,
+"y1": 784,
+"angle": null
+},
+{
+"text": "2/0 Cu",
+"x0": 682,
+"y0": 779,
+"x1": 690,
+"y1": 784,
+"angle": null
+},
+{
+"text": "GENERAL POWER",
+"x0": 376,
+"y0": 887,
+"x1": 399,
+"y1": 892,
+"angle": null
+},
+{
+"text": "E502",
+"x0": 400,
+"y0": 686,
+"x1": 407,
+"y1": 691,
+"angle": null
+},
+{
+"text": "E503",
+"x0": 723,
+"y0": 686,
+"x1": 729,
+"y1": 691,
+"angle": null
+},
+{
+"text": "A225",
+"x0": 661,
+"y0": 865,
+"x1": 667,
+"y1": 869,
+"angle": null
+},
+{
+"text": "A225",
+"x0": 723,
+"y0": 865,
+"x1": 729,
+"y1": 869,
+"angle": null
+},
+{
+"text": "A.",
+"x0": 811,
+"y0": 45,
+"x1": 814,
+"y1": 50,
+"angle": null
+},
+{
+"text": "SEE DRAWING E0.01 FOR ABBREVIATIONS, SYMBOLS, GENERAL",
+"x0": 817,
+"y0": 45,
+"x1": 899,
+"y1": 50,
+"angle": null
+},
+{
+"text": "NOTES.",
+"x0": 817,
+"y0": 50,
+"x1": 826,
+"y1": 55,
+"angle": null
+},
+{
+"text": "B.",
+"x0": 811,
+"y0": 60,
+"x1": 814,
+"y1": 65,
+"angle": null
+},
+{
+"text": "SOLE PRODUCT OR MANUFACTURER/SOURCE:  WHERE A",
+"x0": 817,
+"y0": 60,
+"x1": 891,
+"y1": 65,
+"angle": null
+},
+{
+"text": "SINGLE PRODUCT OR MANUFACTURER/SOURCE IS NAMED,",
+"x0": 817,
+"y0": 65,
+"x1": 894,
+"y1": 71,
+"angle": null
+},
+{
+"text": "SUBJECT TO COMPLIANCE WITH REQUIREMENTS, COMPARABLE",
+"x0": 817,
+"y0": 71,
+"x1": 900,
+"y1": 76,
+"angle": null
+},
+{
+"text": "PRODUCTS WILL BE CONSIDERED.",
+"x0": 817,
+"y0": 76,
+"x1": 861,
+"y1": 81,
+"angle": null
+},
+{
+"text": "C.",
+"x0": 811,
+"y0": 86,
+"x1": 814,
+"y1": 91,
+"angle": null
+},
+{
+"text": "VOLTAGE DROP SHALL BE LIMITED TO LESS THAN 3% FOR ALL",
+"x0": 817,
+"y0": 86,
+"x1": 898,
+"y1": 91,
+"angle": null
+},
+{
+"text": "BRANCH CIRCUITS AND 2% FOR ALL FEEDERS.",
+"x0": 817,
+"y0": 91,
+"x1": 877,
+"y1": 96,
+"angle": null
+},
+{
+"text": "D.",
+"x0": 811,
+"y0": 101,
+"x1": 814,
+"y1": 106,
+"angle": null
+},
+{
+"text": "ALL PANELBOARDS SHALL BE EQUIPPED WITH BOLT ON",
+"x0": 817,
+"y0": 101,
+"x1": 889,
+"y1": 106,
+"angle": null
+},
+{
+"text": "BREAKERS ONLY.",
+"x0": 817,
+"y0": 106,
+"x1": 839,
+"y1": 111,
+"angle": null
+},
+{
+"text": "E.",
+"x0": 811,
+"y0": 117,
+"x1": 814,
+"y1": 122,
+"angle": null
+},
+{
+"text": "CONTRACTOR TO VERIFY THAT LUGS ON ALL ELECTRICAL",
+"x0": 817,
+"y0": 117,
+"x1": 893,
+"y1": 122,
+"angle": null
+},
+{
+"text": "EQUIPMENT CAN ACCEPT THE WIRE SIZES INDICATED ON",
+"x0": 817,
+"y0": 122,
+"x1": 892,
+"y1": 127,
+"angle": null
+},
+{
+"text": "SCHEDULE AND PLANS.",
+"x0": 817,
+"y0": 127,
+"x1": 847,
+"y1": 132,
+"angle": null
+},
+{
+"text": "GENERAL SHEET NOTES",
+"x0": 815,
+"y0": 22,
+"x1": 897,
+"y1": 35,
+"angle": null
+},
+{
+"text": "SHEET NUMBER",
+"x0": 907,
+"y0": 970,
+"x1": 928,
+"y1": 975,
+"angle": null
+},
+{
+"text": "PROJECT NUMBER",
+"x0": 907,
+"y0": 944,
+"x1": 931,
+"y1": 949,
+"angle": null
+},
+{
+"text": "SHEET TITLE",
+"x0": 907,
+"y0": 865,
+"x1": 924,
+"y1": 870,
+"angle": null
+},
+{
+"text": "SEALS AND SIGNATURES",
+"x0": 907,
+"y0": 624,
+"x1": 939,
+"y1": 629,
+"angle": null
+},
+{
+"text": "ISSUED FOR",
+"x0": 907,
+"y0": 502,
+"x1": 923,
+"y1": 507,
+"angle": null
+},
+{
+"text": "REV",
+"x0": 958,
+"y0": 502,
+"x1": 963,
+"y1": 507,
+"angle": null
+},
+{
+"text": "DATE",
+"x0": 967,
+"y0": 502,
+"x1": 974,
+"y1": 507,
+"angle": null
+},
+{
+"text": "MARTIN/MARTIN, INC.",
+"x0": 919,
+"y0": 465,
+"x1": 955,
+"y1": 471,
+"angle": null
+},
+{
+"text": "STRUCTURAL ENGINEER",
+"x0": 919,
+"y0": 472,
+"x1": 952,
+"y1": 477,
+"angle": null
+},
+{
+"text": "12499 WEST COLFAX AVENUE",
+"x0": 919,
+"y0": 477,
+"x1": 958,
+"y1": 482,
+"angle": null
+},
+{
+"text": "LAKEWOOD, CO, 80215",
+"x0": 919,
+"y0": 482,
+"x1": 948,
+"y1": 487,
+"angle": null
+},
+{
+"text": "303-431-6100",
+"x0": 919,
+"y0": 487,
+"x1": 935,
+"y1": 493,
+"angle": null
+},
+{
+"text": "NV5",
+"x0": 919,
+"y0": 431,
+"x1": 926,
+"y1": 438,
+"angle": null
+},
+{
+"text": "ACOUSTICS, IT/TELECOM & SECURITY, AUDIOVISUAL",
+"x0": 919,
+"y0": 439,
+"x1": 987,
+"y1": 444,
+"angle": null
+},
+{
+"text": "2650 18TH STREET, SUITES 201-203",
+"x0": 919,
+"y0": 444,
+"x1": 965,
+"y1": 449,
+"angle": null
+},
+{
+"text": "DENVER, CO 80211",
+"x0": 919,
+"y0": 449,
+"x1": 943,
+"y1": 454,
+"angle": null
+},
+{
+"text": "720-213-7550",
+"x0": 919,
+"y0": 454,
+"x1": 935,
+"y1": 459,
+"angle": null
+},
+{
+"text": "RIDER LEVETT BUCKNALL",
+"x0": 919,
+"y0": 398,
+"x1": 963,
+"y1": 405,
+"angle": null
+},
+{
+"text": "COST ESTIMATOR",
+"x0": 919,
+"y0": 405,
+"x1": 942,
+"y1": 410,
+"angle": null
+},
+{
+"text": "1675 LARIMER STREET",
+"x0": 919,
+"y0": 411,
+"x1": 949,
+"y1": 416,
+"angle": null
+},
+{
+"text": "DENVER, CO, 80202",
+"x0": 919,
+"y0": 416,
+"x1": 944,
+"y1": 421,
+"angle": null
+},
+{
+"text": "720-904-1480",
+"x0": 919,
+"y0": 421,
+"x1": 935,
+"y1": 426,
+"angle": null
+},
+{
+"text": "Plot Date:",
+"x0": 26,
+"y0": 954,
+"x1": 30,
+"y1": 975,
+"angle": 90.0
+},
+{
+"text": "UCCS CYBERSECURITY",
+"x0": 918,
+"y0": 150,
+"x1": 989,
+"y1": 161,
+"angle": null
+},
+{
+"text": "AND SPACE ECOSYSTEM",
+"x0": 918,
+"y0": 161,
+"x1": 994,
+"y1": 173,
+"angle": null
+},
+{
+"text": "EXPANSION",
+"x0": 918,
+"y0": 173,
+"x1": 953,
+"y1": 184,
+"angle": null
+},
+{
+"text": "3650 North Nevada Ave",
+"x0": 918,
+"y0": 188,
+"x1": 955,
+"y1": 195,
+"angle": null
+},
+{
+"text": "Colorado Springs, CO,  80907",
+"x0": 918,
+"y0": 195,
+"x1": 964,
+"y1": 202,
+"angle": null
+},
+{
+"text": "899 LOGAN STREET",
+"x0": 919,
+"y0": 295,
+"x1": 952,
+"y1": 301,
+"angle": null
+},
+{
+"text": "SUITE 508",
+"x0": 919,
+"y0": 301,
+"x1": 936,
+"y1": 308,
+"angle": null
+},
+{
+"text": "DENVER, CO 80203",
+"x0": 919,
+"y0": 308,
+"x1": 951,
+"y1": 315,
+"angle": null
+},
+{
+"text": "303.832.3272",
+"x0": 919,
+"y0": 315,
+"x1": 940,
+"y1": 321,
+"angle": null
+},
+{
+"text": "smithgroup.com",
+"x0": 919,
+"y0": 321,
+"x1": 943,
+"y1": 328,
+"angle": null
+},
+{
+"text": "5/4/2021 8:44:20 AM",
+"x0": 26,
+"y0": 888,
+"x1": 31,
+"y1": 933,
+"angle": 90.0
+},
+{
+"text": "ELECTRICAL DIAGRAMS &",
+"x0": 910,
+"y0": 872,
+"x1": 985,
+"y1": 883,
+"angle": null
+},
+{
+"text": "CALCULATIONS",
+"x0": 925,
+"y0": 883,
+"x1": 970,
+"y1": 895,
+"angle": null
+},
+{
+"text": "E5.1",
+"x0": 966,
+"y0": 948,
+"x1": 989,
+"y1": 970,
+"angle": null
+},
+{
+"text": "CD",
+"x0": 907,
+"y0": 949,
+"x1": 926,
+"y1": 971,
+"angle": null
+},
+{
+"text": "Author",
+"x0": 26,
+"y0": 845,
+"x1": 30,
+"y1": 859,
+"angle": 90.0
+},
+{
+"text": "12654.000",
+"x0": 972,
+"y0": 934,
+"x1": 988,
+"y1": 941,
+"angle": null
+},
+{
+"text": "A110-3",
+"x0": 810,
+"y0": 769,
+"x1": 818,
+"y1": 774,
+"angle": null
+},
+{
+"text": "3#2/0 + 1#4 G, 1 1/2\" C",
+"x0": 828,
+"y0": 769,
+"x1": 855,
+"y1": 774,
+"angle": null
+},
+{
+"text": "A125T",
+"x0": 810,
+"y0": 775,
+"x1": 818,
+"y1": 780,
+"angle": null
+},
+{
+"text": "4#2/0 + 1#1/0 G, 2\" C",
+"x0": 828,
+"y0": 775,
+"x1": 853,
+"y1": 780,
+"angle": null
+},
+{
+"text": "A200T",
+"x0": 810,
+"y0": 781,
+"x1": 818,
+"y1": 786,
+"angle": null
+},
+{
+"text": "4#250KCMIL + 1#2 G, 2 1/2\" C",
+"x0": 828,
+"y0": 781,
+"x1": 863,
+"y1": 786,
+"angle": null
+},
+{
+"text": "A225",
+"x0": 810,
+"y0": 787,
+"x1": 816,
+"y1": 792,
+"angle": null
+},
+{
+"text": "4#300KCMIL + 1#2 G, 2 1/2\" C",
+"x0": 828,
+"y0": 787,
+"x1": 863,
+"y1": 792,
+"angle": null
+},
+{
+"text": "A225-3",
+"x0": 810,
+"y0": 793,
+"x1": 818,
+"y1": 799,
+"angle": null
+},
+{
+"text": "3#300KCMIL + 1#2 G, 2 1/2\" C",
+"x0": 828,
+"y0": 793,
+"x1": 863,
+"y1": 799,
+"angle": null
+},
+{
+"text": "A225TB",
+"x0": 810,
+"y0": 799,
+"x1": 819,
+"y1": 805,
+"angle": null
+},
+{
+"text": "4#300KCMIL + 1#3/0 G, 2 1/2\" C",
+"x0": 828,
+"y0": 799,
+"x1": 865,
+"y1": 805,
+"angle": null
+},
+{
+"text": "A300",
+"x0": 810,
+"y0": 806,
+"x1": 816,
+"y1": 811,
+"angle": null
+},
+{
+"text": "4#500KCMIL + 1#2 G, 3\" C",
+"x0": 828,
+"y0": 806,
+"x1": 859,
+"y1": 811,
+"angle": null
+},
+{
+"text": "T30",
+"x0": 810,
+"y0": 812,
+"x1": 815,
+"y1": 817,
+"angle": null
+},
+{
+"text": "30KVA TRANSFORMER, 480-208Y/120V, 3PH",
+"x0": 828,
+"y0": 812,
+"x1": 882,
+"y1": 817,
+"angle": null
+},
+{
+"text": "PRIMARY FEEDER: 3#6 + 1#10 G, 3/4\" C",
+"x0": 828,
+"y0": 817,
+"x1": 876,
+"y1": 822,
+"angle": null
+},
+{
+"text": "SECONDARY FEEDER: 4#1 + 1#6 G, 1 1/2\" C",
+"x0": 828,
+"y0": 822,
+"x1": 881,
+"y1": 827,
+"angle": null
+},
+{
+"text": "BONDING JUMPERS & GROUNDING ELECTRODE",
+"x0": 828,
+"y0": 827,
+"x1": 888,
+"y1": 832,
+"angle": null
+},
+{
+"text": "CONDUCTOR: #6",
+"x0": 828,
+"y0": 832,
+"x1": 849,
+"y1": 837,
+"angle": null
+},
+{
+"text": "X",
+"x0": 818,
+"y0": 751,
+"x1": 819,
+"y1": 756,
+"angle": null
+},
+{
+"text": "FEEDER SCHEDULE",
+"x0": 831,
+"y0": 746,
+"x1": 897,
+"y1": 760,
+"angle": null
+},
+{
+"text": "E501",
+"x0": 811,
+"y0": 527,
+"x1": 817,
+"y1": 533,
+"angle": null
+},
+{
+"text": "PROVIDE NEW CIRCUIT BREAKER IN EXISTING ELECTRICAL",
+"x0": 824,
+"y0": 527,
+"x1": 899,
+"y1": 533,
+"angle": null
+},
+{
+"text": "EQUIPMENT. NEW CIRCUIT BREAKER SHALL MATCH",
+"x0": 824,
+"y0": 533,
+"x1": 889,
+"y1": 538,
+"angle": null
+},
+{
+"text": "EXISTING CIRCUIT BREAKER TYPE AND MANUFACTURER.",
+"x0": 824,
+"y0": 538,
+"x1": 896,
+"y1": 543,
+"angle": null
+},
+{
+"text": "SHORT CIRCUIT WITHSTAND RATING SHALL MEET OR",
+"x0": 824,
+"y0": 543,
+"x1": 892,
+"y1": 548,
+"angle": null
+},
+{
+"text": "EXCEED EXISTING DEVICE RATING.",
+"x0": 824,
+"y0": 548,
+"x1": 868,
+"y1": 553,
+"angle": null
+},
+{
+"text": "E502",
+"x0": 811,
+"y0": 554,
+"x1": 817,
+"y1": 559,
+"angle": null
+},
+{
+"text": "PROVIDE 1.6KVA EMERGENCY LIGHTING INVERTER, MYERS",
+"x0": 824,
+"y0": 554,
+"x1": 899,
+"y1": 559,
+"angle": null
+},
+{
+"text": "ILLUMINATOR EM #6-EM-2-S-B-D-20-02-TW, 65KAIC, OR",
+"x0": 824,
+"y0": 559,
+"x1": 892,
+"y1": 564,
+"angle": null
+},
+{
+"text": "EQUAL. INSTALL PER EQUIPMENT MANUFACTURER",
+"x0": 824,
+"y0": 564,
+"x1": 889,
+"y1": 569,
+"angle": null
+},
+{
+"text": "SPECIFICATIONS. INCLUDE STARTUP, TRAINING AND",
+"x0": 824,
+"y0": 569,
+"x1": 890,
+"y1": 574,
+"angle": null
+},
+{
+"text": "EXTENDED WARRANTY.",
+"x0": 824,
+"y0": 574,
+"x1": 854,
+"y1": 579,
+"angle": null
+},
+{
+"text": "E503",
+"x0": 811,
+"y0": 581,
+"x1": 817,
+"y1": 586,
+"angle": null
+},
+{
+"text": "PROVIDE 3.75KVA EMERGENCY LIGHTING INVERTER, MYERS",
+"x0": 824,
+"y0": 581,
+"x1": 900,
+"y1": 586,
+"angle": null
+},
+{
+"text": "ILLUMINATOR SUPERNOVA #6-I-03-S-B-A-20-03-T, 65KAIC, OR",
+"x0": 824,
+"y0": 586,
+"x1": 900,
+"y1": 591,
+"angle": null
+},
+{
+"text": "EQUAL. INSTALL PER EQUIPMENT MANUFACTURER",
+"x0": 824,
+"y0": 591,
+"x1": 889,
+"y1": 596,
+"angle": null
+},
+{
+"text": "SPECIFICATIONS. INCLUDE STARTUP, TRAINING AND",
+"x0": 824,
+"y0": 596,
+"x1": 890,
+"y1": 601,
+"angle": null
+},
+{
+"text": "EXTENDED WARRANTY.",
+"x0": 824,
+"y0": 601,
+"x1": 854,
+"y1": 606,
+"angle": null
+},
+{
+"text": "SHEET KEYNOTES",
+"x0": 825,
+"y0": 505,
+"x1": 887,
+"y1": 518,
+"angle": null
+},
+{
+"text": "SCALE:",
+"x0": 390,
+"y0": 967,
+"x1": 399,
+"y1": 973,
+"angle": null
+},
+{
+"text": "NTS",
+"x0": 401,
+"y0": 967,
+"x1": 406,
+"y1": 972,
+"angle": null
+},
+{
+"text": "1",
+"x0": 380,
+"y0": 962,
+"x1": 382,
+"y1": 970,
+"angle": null
+},
+{
+"text": "ELECTRICAL ONE-LINE DIAGRAMS",
+"x0": 389,
+"y0": 958,
+"x1": 460,
+"y1": 966,
+"angle": null
+},
+{
+"text": "SWITCHBOARD SCHEDULE IS NOT INDICITIVE OF EXISTING ELECTRICAL EQUIPMENT DEVICE CONFIGURATION AND IS SHOWN FOR LOAD CALCULATION PURPOSES ONLY",
+"x0": 466,
+"y0": 467,
+"x1": 725,
+"y1": 472,
+"angle": null
+},
+{
+"text": "Notes:",
+"x0": 466,
+"y0": 461,
+"x1": 476,
+"y1": 466,
+"angle": null
+},
+{
+"text": "Total Est. Demand:",
+"x0": 675,
+"y0": 442,
+"x1": 703,
+"y1": 448,
+"angle": null
+},
+{
+"text": "1787 A",
+"x0": 704,
+"y0": 443,
+"x1": 714,
+"y1": 447,
+"angle": null
+},
+{
+"text": "Mechanical Equipment",
+"x0": 466,
+"y0": 436,
+"x1": 498,
+"y1": 441,
+"angle": null
+},
+{
+"text": "15542 VA",
+"x0": 560,
+"y0": 436,
+"x1": 574,
+"y1": 441,
+"angle": null
+},
+{
+"text": "106.69%",
+"x0": 596,
+"y0": 436,
+"x1": 609,
+"y1": 441,
+"angle": null
+},
+{
+"text": "16582 VA",
+"x0": 631,
+"y0": 436,
+"x1": 645,
+"y1": 441,
+"angle": null
+},
+{
+"text": "Total Conn.:",
+"x0": 685,
+"y0": 436,
+"x1": 703,
+"y1": 441,
+"angle": null
+},
+{
+"text": "1795 A",
+"x0": 704,
+"y0": 436,
+"x1": 714,
+"y1": 441,
+"angle": null
+},
+{
+"text": "Receptacle",
+"x0": 466,
+"y0": 430,
+"x1": 482,
+"y1": 435,
+"angle": null
+},
+{
+"text": "32440 VA",
+"x0": 560,
+"y0": 430,
+"x1": 574,
+"y1": 435,
+"angle": null
+},
+{
+"text": "65.41%",
+"x0": 597,
+"y0": 430,
+"x1": 608,
+"y1": 435,
+"angle": null
+},
+{
+"text": "21220 VA",
+"x0": 631,
+"y0": 430,
+"x1": 645,
+"y1": 435,
+"angle": null
+},
+{
+"text": "Total Est. Demand:",
+"x0": 675,
+"y0": 430,
+"x1": 703,
+"y1": 435,
+"angle": null
+},
+{
+"text": "1485702 VA",
+"x0": 704,
+"y0": 430,
+"x1": 722,
+"y1": 435,
+"angle": null
+},
+{
+"text": "Power",
+"x0": 466,
+"y0": 424,
+"x1": 475,
+"y1": 429,
+"angle": null
+},
+{
+"text": "1429618 VA",
+"x0": 558,
+"y0": 424,
+"x1": 575,
+"y1": 429,
+"angle": null
+},
+{
+"text": "100.00%",
+"x0": 596,
+"y0": 424,
+"x1": 609,
+"y1": 429,
+"angle": null
+},
+{
+"text": "1429618 VA",
+"x0": 630,
+"y0": 424,
+"x1": 647,
+"y1": 429,
+"angle": null
+},
+{
+"text": "Total Conn. Load:",
+"x0": 676,
+"y0": 424,
+"x1": 703,
+"y1": 429,
+"angle": null
+},
+{
+"text": "1492225 VA",
+"x0": 704,
+"y0": 424,
+"x1": 722,
+"y1": 429,
+"angle": null
+},
+{
+"text": "Lighting",
+"x0": 466,
+"y0": 418,
+"x1": 477,
+"y1": 422,
+"angle": null
+},
+{
+"text": "14625 VA",
+"x0": 560,
+"y0": 418,
+"x1": 574,
+"y1": 422,
+"angle": null
+},
+{
+"text": "125.00%",
+"x0": 596,
+"y0": 418,
+"x1": 609,
+"y1": 422,
+"angle": null
+},
+{
+"text": "18282 VA",
+"x0": 631,
+"y0": 418,
+"x1": 645,
+"y1": 422,
+"angle": null
+},
+{
+"text": "Load Classification",
+"x0": 466,
+"y0": 411,
+"x1": 495,
+"y1": 416,
+"angle": null
+},
+{
+"text": "Connected Load",
+"x0": 554,
+"y0": 411,
+"x1": 579,
+"y1": 416,
+"angle": null
+},
+{
+"text": "Demand Factor",
+"x0": 591,
+"y0": 411,
+"x1": 614,
+"y1": 416,
+"angle": null
+},
+{
+"text": "Estimated Demand",
+"x0": 624,
+"y0": 411,
+"x1": 652,
+"y1": 416,
+"angle": null
+},
+{
+"text": "Panel Totals",
+"x0": 694,
+"y0": 411,
+"x1": 713,
+"y1": 416,
+"angle": null
+},
+{
+"text": "Total Amps:",
+"x0": 649,
+"y0": 392,
+"x1": 667,
+"y1": 398,
+"angle": null
+},
+{
+"text": "1795 A",
+"x0": 675,
+"y0": 393,
+"x1": 685,
+"y1": 397,
+"angle": null
+},
+{
+"text": "Total Conn. Load:",
+"x0": 641,
+"y0": 386,
+"x1": 667,
+"y1": 391,
+"angle": null
+},
+{
+"text": "1492225 VA",
+"x0": 671,
+"y0": 386,
+"x1": 688,
+"y1": 391,
+"angle": null
+},
+{
+"text": "14",
+"x0": 473,
+"y0": 380,
+"x1": 476,
+"y1": 385,
+"angle": null
+},
+{
+"text": "13",
+"x0": 473,
+"y0": 374,
+"x1": 476,
+"y1": 379,
+"angle": null
+},
+{
+"text": "12",
+"x0": 473,
+"y0": 368,
+"x1": 476,
+"y1": 372,
+"angle": null
+},
+{
+"text": "11",
+"x0": 473,
+"y0": 361,
+"x1": 476,
+"y1": 366,
+"angle": null
+},
+{
+"text": "10",
+"x0": 473,
+"y0": 355,
+"x1": 476,
+"y1": 360,
+"angle": null
+},
+{
+"text": "9",
+"x0": 474,
+"y0": 349,
+"x1": 475,
+"y1": 354,
+"angle": null
+},
+{
+"text": "8",
+"x0": 474,
+"y0": 343,
+"x1": 475,
+"y1": 347,
+"angle": null
+},
+{
+"text": "7",
+"x0": 474,
+"y0": 336,
+"x1": 475,
+"y1": 341,
+"angle": null
+},
+{
+"text": "6",
+"x0": 474,
+"y0": 330,
+"x1": 475,
+"y1": 335,
+"angle": null
+},
+{
+"text": "5",
+"x0": 474,
+"y0": 324,
+"x1": 475,
+"y1": 329,
+"angle": null
+},
+{
+"text": "4",
+"x0": 474,
+"y0": 318,
+"x1": 475,
+"y1": 322,
+"angle": null
+},
+{
+"text": "3",
+"x0": 474,
+"y0": 311,
+"x1": 475,
+"y1": 316,
+"angle": null
+},
+{
+"text": "2",
+"x0": 474,
+"y0": 305,
+"x1": 475,
+"y1": 310,
+"angle": null
+},
+{
+"text": "UCCSHA",
+"x0": 484,
+"y0": 305,
+"x1": 497,
+"y1": 310,
+"angle": null
+},
+{
+"text": "3",
+"x0": 607,
+"y0": 305,
+"x1": 609,
+"y1": 310,
+"angle": null
+},
+{
+"text": "400 A",
+"x0": 628,
+"y0": 305,
+"x1": 636,
+"y1": 310,
+"angle": null
+},
+{
+"text": "300 A",
+"x0": 652,
+"y0": 305,
+"x1": 660,
+"y1": 310,
+"angle": null
+},
+{
+"text": "147667 VA",
+"x0": 672,
+"y0": 305,
+"x1": 687,
+"y1": 310,
+"angle": null
+},
+{
+"text": "1",
+"x0": 474,
+"y0": 299,
+"x1": 475,
+"y1": 304,
+"angle": null
+},
+{
+"text": "EXISTING LOAD PER PERVIOUSLY ENGINEERED PLANS",
+"x0": 484,
+"y0": 299,
+"x1": 568,
+"y1": 304,
+"angle": null
+},
+{
+"text": "3",
+"x0": 607,
+"y0": 299,
+"x1": 609,
+"y1": 304,
+"angle": null
+},
+{
+"text": "0 A",
+"x0": 630,
+"y0": 299,
+"x1": 634,
+"y1": 304,
+"angle": null
+},
+{
+"text": "0 A",
+"x0": 654,
+"y0": 299,
+"x1": 658,
+"y1": 304,
+"angle": null
+},
+{
+"text": "1344558 VA",
+"x0": 671,
+"y0": 299,
+"x1": 688,
+"y1": 304,
+"angle": null
+},
+{
+"text": "CKT",
+"x0": 471,
+"y0": 293,
+"x1": 478,
+"y1": 298,
+"angle": null
+},
+{
+"text": "Circuit Description",
+"x0": 526,
+"y0": 293,
+"x1": 554,
+"y1": 298,
+"angle": null
+},
+{
+"text": "# of Poles",
+"x0": 601,
+"y0": 293,
+"x1": 616,
+"y1": 298,
+"angle": null
+},
+{
+"text": "Frame Size",
+"x0": 624,
+"y0": 293,
+"x1": 640,
+"y1": 298,
+"angle": null
+},
+{
+"text": "Trip Rating",
+"x0": 648,
+"y0": 293,
+"x1": 664,
+"y1": 298,
+"angle": null
+},
+{
+"text": "Load",
+"x0": 676,
+"y0": 293,
+"x1": 684,
+"y1": 298,
+"angle": null
+},
+{
+"text": "Remarks",
+"x0": 692,
+"y0": 293,
+"x1": 706,
+"y1": 298,
+"angle": null
+},
+{
+"text": "Enclosure:",
+"x0": 508,
+"y0": 267,
+"x1": 524,
+"y1": 273,
+"angle": null
+},
+{
+"text": "MCB Rating:",
+"x0": 672,
+"y0": 267,
+"x1": 691,
+"y1": 273,
+"angle": null
+},
+{
+"text": "2000 A",
+"x0": 692,
+"y0": 268,
+"x1": 702,
+"y1": 272,
+"angle": null
+},
+{
+"text": "Mounting:",
+"x0": 509,
+"y0": 261,
+"x1": 524,
+"y1": 266,
+"angle": null
+},
+{
+"text": "Wires:",
+"x0": 598,
+"y0": 261,
+"x1": 608,
+"y1": 266,
+"angle": null
+},
+{
+"text": "4",
+"x0": 609,
+"y0": 261,
+"x1": 611,
+"y1": 266,
+"angle": null
+},
+{
+"text": "Mains Rating:",
+"x0": 671,
+"y0": 261,
+"x1": 691,
+"y1": 266,
+"angle": null
+},
+{
+"text": "2500 A",
+"x0": 692,
+"y0": 261,
+"x1": 702,
+"y1": 266,
+"angle": null
+},
+{
+"text": "Supply From:",
+"x0": 504,
+"y0": 255,
+"x1": 524,
+"y1": 260,
+"angle": null
+},
+{
+"text": "Phases:",
+"x0": 596,
+"y0": 255,
+"x1": 608,
+"y1": 260,
+"angle": null
+},
+{
+"text": "3",
+"x0": 609,
+"y0": 255,
+"x1": 611,
+"y1": 260,
+"angle": null
+},
+{
+"text": "Mains Type:",
+"x0": 673,
+"y0": 255,
+"x1": 691,
+"y1": 260,
+"angle": null
+},
+{
+"text": "MAIN FUSE",
+"x0": 692,
+"y0": 255,
+"x1": 709,
+"y1": 260,
+"angle": null
+},
+{
+"text": "Location:",
+"x0": 510,
+"y0": 249,
+"x1": 524,
+"y1": 254,
+"angle": null
+},
+{
+"text": "ELEC E-1-S21",
+"x0": 526,
+"y0": 249,
+"x1": 546,
+"y1": 254,
+"angle": null
+},
+{
+"text": "Volts:",
+"x0": 599,
+"y0": 249,
+"x1": 608,
+"y1": 254,
+"angle": null
+},
+{
+"text": "480Y/277",
+"x0": 609,
+"y0": 249,
+"x1": 622,
+"y1": 254,
+"angle": null
+},
+{
+"text": "A.I.C. Rating:",
+"x0": 671,
+"y0": 249,
+"x1": 691,
+"y1": 254,
+"angle": null
+},
+{
+"text": "22,000",
+"x0": 692,
+"y0": 249,
+"x1": 702,
+"y1": 254,
+"angle": null
+},
+{
+"text": "Ex Switchboard: MSB-NORTH",
+"x0": 475,
+"y0": 237,
+"x1": 564,
+"y1": 247,
+"angle": null
+},
+{
+"text": "SWITCHBOARD SCHEDULE IS NOT INDICITIVE OF EXISTING ELECTRICAL EQUIPMENT DEVICE CONFIGURATION AND IS SHOWN FOR LOAD CALCULATION PURPOSES ONLY",
+"x0": 111,
+"y0": 467,
+"x1": 369,
+"y1": 472,
+"angle": null
+},
+{
+"text": "Notes:",
+"x0": 111,
+"y0": 461,
+"x1": 120,
+"y1": 466,
+"angle": null
+},
+{
+"text": "Total Est. Demand:",
+"x0": 319,
+"y0": 442,
+"x1": 347,
+"y1": 448,
+"angle": null
+},
+{
+"text": "2240 A",
+"x0": 349,
+"y0": 443,
+"x1": 358,
+"y1": 447,
+"angle": null
+},
+{
+"text": "Mechanical Equipment",
+"x0": 111,
+"y0": 436,
+"x1": 142,
+"y1": 441,
+"angle": null
+},
+{
+"text": "50527 VA",
+"x0": 204,
+"y0": 436,
+"x1": 218,
+"y1": 441,
+"angle": null
+},
+{
+"text": "111.74%",
+"x0": 241,
+"y0": 436,
+"x1": 253,
+"y1": 441,
+"angle": null
+},
+{
+"text": "56458 VA",
+"x0": 276,
+"y0": 436,
+"x1": 289,
+"y1": 441,
+"angle": null
+},
+{
+"text": "Total Conn.:",
+"x0": 329,
+"y0": 436,
+"x1": 347,
+"y1": 441,
+"angle": null
+},
+{
+"text": "2237 A",
+"x0": 349,
+"y0": 436,
+"x1": 358,
+"y1": 441,
+"angle": null
+},
+{
+"text": "Receptacle",
+"x0": 111,
+"y0": 430,
+"x1": 126,
+"y1": 435,
+"angle": null
+},
+{
+"text": "18000 VA",
+"x0": 204,
+"y0": 430,
+"x1": 218,
+"y1": 435,
+"angle": null
+},
+{
+"text": "77.78%",
+"x0": 241,
+"y0": 430,
+"x1": 252,
+"y1": 435,
+"angle": null
+},
+{
+"text": "14000 VA",
+"x0": 276,
+"y0": 430,
+"x1": 289,
+"y1": 435,
+"angle": null
+},
+{
+"text": "Total Est. Demand:",
+"x0": 319,
+"y0": 430,
+"x1": 347,
+"y1": 435,
+"angle": null
+},
+{
+"text": "1862536 VA",
+"x0": 349,
+"y0": 430,
+"x1": 366,
+"y1": 435,
+"angle": null
+},
+{
+"text": "Power",
+"x0": 111,
+"y0": 424,
+"x1": 119,
+"y1": 429,
+"angle": null
+},
+{
+"text": "1788332 VA",
+"x0": 202,
+"y0": 424,
+"x1": 220,
+"y1": 429,
+"angle": null
+},
+{
+"text": "100.00%",
+"x0": 241,
+"y0": 424,
+"x1": 253,
+"y1": 429,
+"angle": null
+},
+{
+"text": "1788332 VA",
+"x0": 274,
+"y0": 424,
+"x1": 291,
+"y1": 429,
+"angle": null
+},
+{
+"text": "Total Conn. Load:",
+"x0": 321,
+"y0": 424,
+"x1": 347,
+"y1": 429,
+"angle": null
+},
+{
+"text": "1859856 VA",
+"x0": 349,
+"y0": 424,
+"x1": 366,
+"y1": 429,
+"angle": null
+},
+{
+"text": "Lighting",
+"x0": 111,
+"y0": 418,
+"x1": 121,
+"y1": 422,
+"angle": null
+},
+{
+"text": "2997 VA",
+"x0": 205,
+"y0": 418,
+"x1": 217,
+"y1": 422,
+"angle": null
+},
+{
+"text": "125.00%",
+"x0": 241,
+"y0": 418,
+"x1": 253,
+"y1": 422,
+"angle": null
+},
+{
+"text": "3746 VA",
+"x0": 276,
+"y0": 418,
+"x1": 288,
+"y1": 422,
+"angle": null
+},
+{
+"text": "Load Classification",
+"x0": 111,
+"y0": 411,
+"x1": 139,
+"y1": 416,
+"angle": null
+},
+{
+"text": "Connected Load",
+"x0": 199,
+"y0": 411,
+"x1": 223,
+"y1": 416,
+"angle": null
+},
+{
+"text": "Demand Factor",
+"x0": 235,
+"y0": 411,
+"x1": 258,
+"y1": 416,
+"angle": null
+},
+{
+"text": "Estimated Demand",
+"x0": 268,
+"y0": 411,
+"x1": 296,
+"y1": 416,
+"angle": null
+},
+{
+"text": "Panel Totals",
+"x0": 339,
+"y0": 411,
+"x1": 357,
+"y1": 416,
+"angle": null
+},
+{
+"text": "Total Amps:",
+"x0": 294,
+"y0": 392,
+"x1": 311,
+"y1": 398,
+"angle": null
+},
+{
+"text": "2237 A",
+"x0": 319,
+"y0": 393,
+"x1": 329,
+"y1": 397,
+"angle": null
+},
+{
+"text": "Total Conn. Load:",
+"x0": 285,
+"y0": 386,
+"x1": 311,
+"y1": 391,
+"angle": null
+},
+{
+"text": "1859856 VA",
+"x0": 315,
+"y0": 386,
+"x1": 333,
+"y1": 391,
+"angle": null
+},
+{
+"text": "14",
+"x0": 117,
+"y0": 380,
+"x1": 120,
+"y1": 385,
+"angle": null
+},
+{
+"text": "13",
+"x0": 117,
+"y0": 374,
+"x1": 120,
+"y1": 379,
+"angle": null
+},
+{
+"text": "12",
+"x0": 117,
+"y0": 368,
+"x1": 120,
+"y1": 372,
+"angle": null
+},
+{
+"text": "11",
+"x0": 117,
+"y0": 361,
+"x1": 120,
+"y1": 366,
+"angle": null
+},
+{
+"text": "10",
+"x0": 117,
+"y0": 355,
+"x1": 120,
+"y1": 360,
+"angle": null
+},
+{
+"text": "9",
+"x0": 118,
+"y0": 349,
+"x1": 120,
+"y1": 354,
+"angle": null
+},
+{
+"text": "8",
+"x0": 118,
+"y0": 343,
+"x1": 120,
+"y1": 347,
+"angle": null
+},
+{
+"text": "7",
+"x0": 118,
+"y0": 336,
+"x1": 120,
+"y1": 341,
+"angle": null
+},
+{
+"text": "6",
+"x0": 118,
+"y0": 330,
+"x1": 120,
+"y1": 335,
+"angle": null
+},
+{
+"text": "5",
+"x0": 118,
+"y0": 324,
+"x1": 120,
+"y1": 329,
+"angle": null
+},
+{
+"text": "4",
+"x0": 118,
+"y0": 318,
+"x1": 120,
+"y1": 322,
+"angle": null
+},
+{
+"text": "3",
+"x0": 118,
+"y0": 311,
+"x1": 120,
+"y1": 316,
+"angle": null
+},
+{
+"text": "2",
+"x0": 118,
+"y0": 305,
+"x1": 120,
+"y1": 310,
+"angle": null
+},
+{
+"text": "ISACHA",
+"x0": 128,
+"y0": 305,
+"x1": 140,
+"y1": 310,
+"angle": null
+},
+{
+"text": "3",
+"x0": 252,
+"y0": 305,
+"x1": 253,
+"y1": 310,
+"angle": null
+},
+{
+"text": "400 A",
+"x0": 272,
+"y0": 305,
+"x1": 280,
+"y1": 310,
+"angle": null
+},
+{
+"text": "300 A",
+"x0": 296,
+"y0": 305,
+"x1": 304,
+"y1": 310,
+"angle": null
+},
+{
+"text": "151320 VA",
+"x0": 316,
+"y0": 305,
+"x1": 332,
+"y1": 310,
+"angle": null
+},
+{
+"text": "1",
+"x0": 118,
+"y0": 299,
+"x1": 120,
+"y1": 304,
+"angle": null
+},
+{
+"text": "EXISTING LOAD PER PREVIOUSLY ENGINEERED PLANS",
+"x0": 128,
+"y0": 299,
+"x1": 212,
+"y1": 304,
+"angle": null
+},
+{
+"text": "3",
+"x0": 252,
+"y0": 299,
+"x1": 253,
+"y1": 304,
+"angle": null
+},
+{
+"text": "0 A",
+"x0": 274,
+"y0": 299,
+"x1": 279,
+"y1": 304,
+"angle": null
+},
+{
+"text": "0 A",
+"x0": 298,
+"y0": 299,
+"x1": 303,
+"y1": 304,
+"angle": null
+},
+{
+"text": "1708536 VA",
+"x0": 315,
+"y0": 299,
+"x1": 333,
+"y1": 304,
+"angle": null
+},
+{
+"text": "CKT",
+"x0": 115,
+"y0": 293,
+"x1": 122,
+"y1": 298,
+"angle": null
+},
+{
+"text": "Circuit Description",
+"x0": 170,
+"y0": 293,
+"x1": 198,
+"y1": 298,
+"angle": null
+},
+{
+"text": "# of Poles",
+"x0": 245,
+"y0": 293,
+"x1": 260,
+"y1": 298,
+"angle": null
+},
+{
+"text": "Frame Size",
+"x0": 268,
+"y0": 293,
+"x1": 285,
+"y1": 298,
+"angle": null
+},
+{
+"text": "Trip Rating",
+"x0": 292,
+"y0": 293,
+"x1": 309,
+"y1": 298,
+"angle": null
+},
+{
+"text": "Load",
+"x0": 320,
+"y0": 293,
+"x1": 328,
+"y1": 298,
+"angle": null
+},
+{
+"text": "Remarks",
+"x0": 337,
+"y0": 293,
+"x1": 350,
+"y1": 298,
+"angle": null
+},
+{
+"text": "Enclosure:",
+"x0": 153,
+"y0": 267,
+"x1": 169,
+"y1": 273,
+"angle": null
+},
+{
+"text": "MCB Rating:",
+"x0": 317,
+"y0": 267,
+"x1": 335,
+"y1": 273,
+"angle": null
+},
+{
+"text": "4000 A",
+"x0": 337,
+"y0": 268,
+"x1": 347,
+"y1": 272,
+"angle": null
+},
+{
+"text": "Mounting:",
+"x0": 153,
+"y0": 261,
+"x1": 169,
+"y1": 266,
+"angle": null
+},
+{
+"text": "Wires:",
+"x0": 242,
+"y0": 261,
+"x1": 252,
+"y1": 266,
+"angle": null
+},
+{
+"text": "4",
+"x0": 253,
+"y0": 261,
+"x1": 255,
+"y1": 266,
+"angle": null
+},
+{
+"text": "Mains Rating:",
+"x0": 315,
+"y0": 261,
+"x1": 335,
+"y1": 266,
+"angle": null
+},
+{
+"text": "4000 A",
+"x0": 337,
+"y0": 261,
+"x1": 347,
+"y1": 266,
+"angle": null
+},
+{
+"text": "Supply From:",
+"x0": 149,
+"y0": 255,
+"x1": 169,
+"y1": 260,
+"angle": null
+},
+{
+"text": "Phases:",
+"x0": 240,
+"y0": 255,
+"x1": 252,
+"y1": 260,
+"angle": null
+},
+{
+"text": "3",
+"x0": 253,
+"y0": 255,
+"x1": 255,
+"y1": 260,
+"angle": null
+},
+{
+"text": "Mains Type:",
+"x0": 317,
+"y0": 255,
+"x1": 335,
+"y1": 260,
+"angle": null
+},
+{
+"text": "MCB",
+"x0": 337,
+"y0": 255,
+"x1": 344,
+"y1": 260,
+"angle": null
+},
+{
+"text": "Location:",
+"x0": 155,
+"y0": 249,
+"x1": 169,
+"y1": 254,
+"angle": null
+},
+{
+"text": "ELEC E-1-S11",
+"x0": 170,
+"y0": 249,
+"x1": 190,
+"y1": 254,
+"angle": null
+},
+{
+"text": "Volts:",
+"x0": 243,
+"y0": 249,
+"x1": 252,
+"y1": 254,
+"angle": null
+},
+{
+"text": "480Y/277",
+"x0": 253,
+"y0": 249,
+"x1": 267,
+"y1": 254,
+"angle": null
+},
+{
+"text": "A.I.C. Rating:",
+"x0": 316,
+"y0": 249,
+"x1": 335,
+"y1": 254,
+"angle": null
+},
+{
+"text": "65,000",
+"x0": 337,
+"y0": 249,
+"x1": 346,
+"y1": 254,
+"angle": null
+},
+{
+"text": "Ex Switchboard: MSB-SOUTH",
+"x0": 120,
+"y0": 237,
+"x1": 208,
+"y1": 247,
+"angle": null
+},
+{
+"text": "6",
+"x0": 113,
+"y0": 187,
+"x1": 115,
+"y1": 193,
+"angle": null
+},
+{
+"text": "T-ISAC-SA SEC",
+"x0": 120,
+"y0": 187,
+"x1": 145,
+"y1": 193,
+"angle": null
+},
+{
+"text": "5",
+"x0": 170,
+"y0": 187,
+"x1": 172,
+"y1": 193,
+"angle": null
+},
+{
+"text": "12218",
+"x0": 185,
+"y0": 187,
+"x1": 194,
+"y1": 193,
+"angle": null
+},
+{
+"text": "M",
+"x0": 200,
+"y0": 187,
+"x1": 203,
+"y1": 192,
+"angle": null
+},
+{
+"text": "Set(s) of",
+"x0": 216,
+"y0": 187,
+"x1": 229,
+"y1": 193,
+"angle": null
+},
+{
+"text": "#N/A",
+"x0": 276,
+"y0": 187,
+"x1": 284,
+"y1": 193,
+"angle": null
+},
+{
+"text": "208",
+"x0": 293,
+"y0": 187,
+"x1": 299,
+"y1": 193,
+"angle": null
+},
+{
+"text": "75",
+"x0": 328,
+"y0": 187,
+"x1": 331,
+"y1": 193,
+"angle": null
+},
+{
+"text": "5.2",
+"x0": 343,
+"y0": 187,
+"x1": 348,
+"y1": 193,
+"angle": null
+},
+{
+"text": "7.034",
+"x0": 356,
+"y0": 187,
+"x1": 364,
+"y1": 193,
+"angle": null
+},
+{
+"text": "0.12",
+"x0": 370,
+"y0": 187,
+"x1": 377,
+"y1": 193,
+"angle": null
+},
+{
+"text": "3509",
+"x0": 384,
+"y0": 187,
+"x1": 391,
+"y1": 193,
+"angle": null
+},
+{
+"text": "5",
+"x0": 113,
+"y0": 181,
+"x1": 115,
+"y1": 187,
+"angle": null
+},
+{
+"text": "T-ISAC-SA PRI",
+"x0": 120,
+"y0": 181,
+"x1": 144,
+"y1": 187,
+"angle": null
+},
+{
+"text": "2",
+"x0": 170,
+"y0": 181,
+"x1": 172,
+"y1": 187,
+"angle": null
+},
+{
+"text": "12848",
+"x0": 185,
+"y0": 181,
+"x1": 194,
+"y1": 187,
+"angle": null
+},
+{
+"text": "M",
+"x0": 200,
+"y0": 181,
+"x1": 203,
+"y1": 187,
+"angle": null
+},
+{
+"text": "1",
+"x0": 211,
+"y0": 181,
+"x1": 213,
+"y1": 187,
+"angle": null
+},
+{
+"text": "Set(s) of",
+"x0": 216,
+"y0": 181,
+"x1": 229,
+"y1": 187,
+"angle": null
+},
+{
+"text": "2/0",
+"x0": 232,
+"y0": 181,
+"x1": 237,
+"y1": 187,
+"angle": null
+},
+{
+"text": "AL",
+"x0": 261,
+"y0": 181,
+"x1": 265,
+"y1": 187,
+"angle": null
+},
+{
+"text": "7186",
+"x0": 280,
+"y0": 181,
+"x1": 287,
+"y1": 187,
+"angle": null
+},
+{
+"text": "480",
+"x0": 293,
+"y0": 181,
+"x1": 299,
+"y1": 187,
+"angle": null
+},
+{
+"text": "8",
+"x0": 312,
+"y0": 181,
+"x1": 314,
+"y1": 187,
+"angle": null
+},
+{
+"text": "0.052",
+"x0": 356,
+"y0": 181,
+"x1": 364,
+"y1": 187,
+"angle": null
+},
+{
+"text": "0.95",
+"x0": 370,
+"y0": 181,
+"x1": 377,
+"y1": 187,
+"angle": null
+},
+{
+"text": "12218",
+"x0": 383,
+"y0": 181,
+"x1": 392,
+"y1": 187,
+"angle": null
+},
+{
+"text": "4",
+"x0": 113,
+"y0": 176,
+"x1": 115,
+"y1": 181,
+"angle": null
+},
+{
+"text": "T-ISAC-LA/WA SEC",
+"x0": 120,
+"y0": 176,
+"x1": 151,
+"y1": 181,
+"angle": null
+},
+{
+"text": "3",
+"x0": 170,
+"y0": 176,
+"x1": 172,
+"y1": 181,
+"angle": null
+},
+{
+"text": "11925",
+"x0": 185,
+"y0": 176,
+"x1": 194,
+"y1": 181,
+"angle": null
+},
+{
+"text": "M",
+"x0": 200,
+"y0": 175,
+"x1": 203,
+"y1": 181,
+"angle": null
+},
+{
+"text": "Set(s) of",
+"x0": 216,
+"y0": 176,
+"x1": 229,
+"y1": 181,
+"angle": null
+},
+{
+"text": "#N/A",
+"x0": 276,
+"y0": 176,
+"x1": 284,
+"y1": 181,
+"angle": null
+},
+{
+"text": "208",
+"x0": 293,
+"y0": 176,
+"x1": 299,
+"y1": 181,
+"angle": null
+},
+{
+"text": "75",
+"x0": 328,
+"y0": 176,
+"x1": 331,
+"y1": 181,
+"angle": null
+},
+{
+"text": "5.2",
+"x0": 343,
+"y0": 176,
+"x1": 348,
+"y1": 181,
+"angle": null
+},
+{
+"text": "6.866",
+"x0": 356,
+"y0": 176,
+"x1": 364,
+"y1": 181,
+"angle": null
+},
+{
+"text": "0.13",
+"x0": 370,
+"y0": 176,
+"x1": 377,
+"y1": 181,
+"angle": null
+},
+{
+"text": "3499",
+"x0": 384,
+"y0": 176,
+"x1": 391,
+"y1": 181,
+"angle": null
+},
+{
+"text": "3",
+"x0": 113,
+"y0": 170,
+"x1": 115,
+"y1": 175,
+"angle": null
+},
+{
+"text": "T-ISAC-LA/WA PRI",
+"x0": 120,
+"y0": 170,
+"x1": 150,
+"y1": 175,
+"angle": null
+},
+{
+"text": "2",
+"x0": 170,
+"y0": 170,
+"x1": 172,
+"y1": 175,
+"angle": null
+},
+{
+"text": "12848",
+"x0": 185,
+"y0": 170,
+"x1": 194,
+"y1": 175,
+"angle": null
+},
+{
+"text": "M",
+"x0": 200,
+"y0": 170,
+"x1": 203,
+"y1": 175,
+"angle": null
+},
+{
+"text": "1",
+"x0": 211,
+"y0": 170,
+"x1": 213,
+"y1": 175,
+"angle": null
+},
+{
+"text": "Set(s) of",
+"x0": 216,
+"y0": 170,
+"x1": 229,
+"y1": 175,
+"angle": null
+},
+{
+"text": "2/0",
+"x0": 232,
+"y0": 170,
+"x1": 237,
+"y1": 175,
+"angle": null
+},
+{
+"text": "AL",
+"x0": 261,
+"y0": 170,
+"x1": 265,
+"y1": 175,
+"angle": null
+},
+{
+"text": "7186",
+"x0": 280,
+"y0": 170,
+"x1": 287,
+"y1": 175,
+"angle": null
+},
+{
+"text": "480",
+"x0": 293,
+"y0": 170,
+"x1": 299,
+"y1": 175,
+"angle": null
+},
+{
+"text": "12",
+"x0": 311,
+"y0": 170,
+"x1": 315,
+"y1": 175,
+"angle": null
+},
+{
+"text": "0.077",
+"x0": 356,
+"y0": 170,
+"x1": 364,
+"y1": 175,
+"angle": null
+},
+{
+"text": "0.93",
+"x0": 370,
+"y0": 170,
+"x1": 377,
+"y1": 175,
+"angle": null
+},
+{
+"text": "11925",
+"x0": 383,
+"y0": 170,
+"x1": 392,
+"y1": 175,
+"angle": null
+},
+{
+"text": "2",
+"x0": 113,
+"y0": 164,
+"x1": 115,
+"y1": 170,
+"angle": null
+},
+{
+"text": "ISACHA",
+"x0": 120,
+"y0": 164,
+"x1": 133,
+"y1": 170,
+"angle": null
+},
+{
+"text": "1",
+"x0": 170,
+"y0": 164,
+"x1": 172,
+"y1": 170,
+"angle": null
+},
+{
+"text": "25044",
+"x0": 185,
+"y0": 164,
+"x1": 194,
+"y1": 170,
+"angle": null
+},
+{
+"text": "M",
+"x0": 200,
+"y0": 164,
+"x1": 203,
+"y1": 169,
+"angle": null
+},
+{
+"text": "1",
+"x0": 211,
+"y0": 164,
+"x1": 213,
+"y1": 170,
+"angle": null
+},
+{
+"text": "Set(s) of",
+"x0": 216,
+"y0": 164,
+"x1": 229,
+"y1": 170,
+"angle": null
+},
+{
+"text": "500 KCML",
+"x0": 232,
+"y0": 164,
+"x1": 248,
+"y1": 170,
+"angle": null
+},
+{
+"text": "AL",
+"x0": 261,
+"y0": 164,
+"x1": 265,
+"y1": 170,
+"angle": null
+},
+{
+"text": "18755",
+"x0": 278,
+"y0": 164,
+"x1": 287,
+"y1": 170,
+"angle": null
+},
+{
+"text": "480",
+"x0": 293,
+"y0": 164,
+"x1": 299,
+"y1": 170,
+"angle": null
+},
+{
+"text": "197",
+"x0": 310,
+"y0": 164,
+"x1": 316,
+"y1": 170,
+"angle": null
+},
+{
+"text": "0.949",
+"x0": 356,
+"y0": 164,
+"x1": 364,
+"y1": 170,
+"angle": null
+},
+{
+"text": "0.51",
+"x0": 370,
+"y0": 164,
+"x1": 377,
+"y1": 170,
+"angle": null
+},
+{
+"text": "12848",
+"x0": 383,
+"y0": 164,
+"x1": 392,
+"y1": 170,
+"angle": null
+},
+{
+"text": "1",
+"x0": 113,
+"y0": 158,
+"x1": 115,
+"y1": 164,
+"angle": null
+},
+{
+"text": "EXISTING MSB-SOUTH",
+"x0": 120,
+"y0": 158,
+"x1": 157,
+"y1": 164,
+"angle": null
+},
+{
+"text": "25044",
+"x0": 185,
+"y0": 158,
+"x1": 194,
+"y1": 164,
+"angle": null
+},
+{
+"text": "25044",
+"x0": 383,
+"y0": 158,
+"x1": 392,
+"y1": 164,
+"angle": null
+},
+{
+"text": "Point",
+"x0": 110,
+"y0": 152,
+"x1": 119,
+"y1": 158,
+"angle": null
+},
+{
+"text": "Description",
+"x0": 132,
+"y0": 152,
+"x1": 151,
+"y1": 158,
+"angle": null
+},
+{
+"text": "Point)",
+"x0": 166,
+"y0": 152,
+"x1": 176,
+"y1": 158,
+"angle": null
+},
+{
+"text": "(amps)",
+"x0": 182,
+"y0": 152,
+"x1": 193,
+"y1": 158,
+"angle": null
+},
+{
+"text": "Type",
+"x0": 198,
+"y0": 152,
+"x1": 206,
+"y1": 158,
+"angle": null
+},
+{
+"text": "Wire/Bus Size",
+"x0": 216,
+"y0": 152,
+"x1": 239,
+"y1": 158,
+"angle": null
+},
+{
+"text": "Type",
+"x0": 259,
+"y0": 152,
+"x1": 267,
+"y1": 158,
+"angle": null
+},
+{
+"text": "'C' value",
+"x0": 273,
+"y0": 152,
+"x1": 287,
+"y1": 158,
+"angle": null
+},
+{
+"text": "E (volts)",
+"x0": 289,
+"y0": 152,
+"x1": 303,
+"y1": 158,
+"angle": null
+},
+{
+"text": "L (length)",
+"x0": 305,
+"y0": 152,
+"x1": 321,
+"y1": 158,
+"angle": null
+},
+{
+"text": "KVA",
+"x0": 326,
+"y0": 152,
+"x1": 333,
+"y1": 158,
+"angle": null
+},
+{
+"text": "Z",
+"x0": 344,
+"y0": 152,
+"x1": 347,
+"y1": 158,
+"angle": null
+},
+{
+"text": "f",
+"x0": 360,
+"y0": 152,
+"x1": 361,
+"y1": 158,
+"angle": null
+},
+{
+"text": "M",
+"x0": 372,
+"y0": 152,
+"x1": 375,
+"y1": 158,
+"angle": null
+},
+{
+"text": "Isc",
+"x0": 385,
+"y0": 152,
+"x1": 390,
+"y1": 158,
+"angle": null
+},
+{
+"text": "Fault",
+"x0": 110,
+"y0": 145,
+"x1": 118,
+"y1": 150,
+"angle": null
+},
+{
+"text": "Fault Point",
+"x0": 133,
+"y0": 145,
+"x1": 150,
+"y1": 150,
+"angle": null
+},
+{
+"text": "(Fault",
+"x0": 167,
+"y0": 145,
+"x1": 176,
+"y1": 150,
+"angle": null
+},
+{
+"text": "Source I",
+"x0": 180,
+"y0": 145,
+"x1": 194,
+"y1": 150,
+"angle": null
+},
+{
+"text": "Conduit",
+"x0": 196,
+"y0": 145,
+"x1": 208,
+"y1": 150,
+"angle": null
+},
+{
+"text": "Wire/Bus",
+"x0": 257,
+"y0": 145,
+"x1": 271,
+"y1": 150,
+"angle": null
+},
+{
+"text": "X'FMR",
+"x0": 324,
+"y0": 145,
+"x1": 335,
+"y1": 150,
+"angle": null
+},
+{
+"text": "X'FMR",
+"x0": 340,
+"y0": 145,
+"x1": 351,
+"y1": 150,
+"angle": null
+},
+{
+"text": "Source",
+"x0": 165,
+"y0": 138,
+"x1": 177,
+"y1": 143,
+"angle": null
+},
+{
+"text": "SOURCE FAULT VALUE DERIVED FROM PREVIOUSLY ENGINEERED PLANS",
+"x0": 110,
+"y0": 129,
+"x1": 232,
+"y1": 134,
+"angle": null
+},
+{
+"text": "C x E",
+"x0": 232,
+"y0": 120,
+"x1": 240,
+"y1": 125,
+"angle": null
+},
+{
+"text": "100,000xKVA",
+"x0": 322,
+"y0": 120,
+"x1": 344,
+"y1": 125,
+"angle": null
+},
+{
+"text": "Vs",
+"x0": 368,
+"y0": 120,
+"x1": 372,
+"y1": 125,
+"angle": null
+},
+{
+"text": "Isc = Isc x M",
+"x0": 120,
+"y0": 114,
+"x1": 140,
+"y1": 120,
+"angle": null
+},
+{
+"text": "M= 1/(1+f)",
+"x0": 186,
+"y0": 114,
+"x1": 202,
+"y1": 120,
+"angle": null
+},
+{
+"text": "f =",
+"x0": 226,
+"y0": 114,
+"x1": 230,
+"y1": 120,
+"angle": null
+},
+{
+"text": "1.732 x L x I",
+"x0": 232,
+"y0": 114,
+"x1": 251,
+"y1": 120,
+"angle": null
+},
+{
+"text": "XFMR:",
+"x0": 293,
+"y0": 114,
+"x1": 303,
+"y1": 120,
+"angle": null
+},
+{
+"text": "IP(sca)=",
+"x0": 308,
+"y0": 114,
+"x1": 321,
+"y1": 120,
+"angle": null
+},
+{
+"text": "IP(sca)x Vp x%Z",
+"x0": 322,
+"y0": 114,
+"x1": 349,
+"y1": 120,
+"angle": null
+},
+{
+"text": "IS(sca... Vp x M x IS(sca)",
+"x0": 354,
+"y0": 114,
+"x1": 394,
+"y1": 120,
+"angle": null
+},
+{
+"text": "The following calculations are based on the \"Point-by Point\" method where:",
+"x0": 120,
+"y0": 106,
+"x1": 244,
+"y1": 111,
+"angle": null
+},
+{
+"text": "Short-Circuit Calculations",
+"x0": 110,
+"y0": 97,
+"x1": 156,
+"y1": 103,
+"angle": null
+},
+{
+"text": "6",
+"x0": 470,
+"y0": 187,
+"x1": 472,
+"y1": 193,
+"angle": null
+},
+{
+"text": "T-UCCS-SA SEC",
+"x0": 477,
+"y0": 187,
+"x1": 503,
+"y1": 193,
+"angle": null
+},
+{
+"text": "5",
+"x0": 527,
+"y0": 187,
+"x1": 529,
+"y1": 193,
+"angle": null
+},
+{
+"text": "10229",
+"x0": 541,
+"y0": 187,
+"x1": 551,
+"y1": 193,
+"angle": null
+},
+{
+"text": "M",
+"x0": 557,
+"y0": 187,
+"x1": 560,
+"y1": 192,
+"angle": null
+},
+{
+"text": "Set(s) of",
+"x0": 573,
+"y0": 187,
+"x1": 586,
+"y1": 193,
+"angle": null
+},
+{
+"text": "#N/A",
+"x0": 633,
+"y0": 187,
+"x1": 640,
+"y1": 193,
+"angle": null
+},
+{
+"text": "208",
+"x0": 650,
+"y0": 187,
+"x1": 655,
+"y1": 193,
+"angle": null
+},
+{
+"text": "30",
+"x0": 684,
+"y0": 187,
+"x1": 688,
+"y1": 193,
+"angle": null
+},
+{
+"text": "4.1",
+"x0": 700,
+"y0": 187,
+"x1": 704,
+"y1": 193,
+"angle": null
+},
+{
+"text": "11.609",
+"x0": 711,
+"y0": 187,
+"x1": 722,
+"y1": 193,
+"angle": null
+},
+{
+"text": "0.08",
+"x0": 726,
+"y0": 187,
+"x1": 733,
+"y1": 193,
+"angle": null
+},
+{
+"text": "1872",
+"x0": 740,
+"y0": 187,
+"x1": 748,
+"y1": 193,
+"angle": null
+},
+{
+"text": "5",
+"x0": 470,
+"y0": 181,
+"x1": 472,
+"y1": 187,
+"angle": null
+},
+{
+"text": "T-UCCS-SA PRI",
+"x0": 477,
+"y0": 181,
+"x1": 502,
+"y1": 187,
+"angle": null
+},
+{
+"text": "2",
+"x0": 527,
+"y0": 181,
+"x1": 529,
+"y1": 187,
+"angle": null
+},
+{
+"text": "11647",
+"x0": 541,
+"y0": 181,
+"x1": 551,
+"y1": 187,
+"angle": null
+},
+{
+"text": "M",
+"x0": 557,
+"y0": 181,
+"x1": 560,
+"y1": 187,
+"angle": null
+},
+{
+"text": "1",
+"x0": 568,
+"y0": 181,
+"x1": 569,
+"y1": 187,
+"angle": null
+},
+{
+"text": "Set(s) of",
+"x0": 573,
+"y0": 181,
+"x1": 586,
+"y1": 187,
+"angle": null
+},
+{
+"text": "6",
+"x0": 588,
+"y0": 181,
+"x1": 590,
+"y1": 187,
+"angle": null
+},
+{
+"text": "CU",
+"x0": 617,
+"y0": 181,
+"x1": 622,
+"y1": 187,
+"angle": null
+},
+{
+"text": "2425",
+"x0": 636,
+"y0": 181,
+"x1": 644,
+"y1": 187,
+"angle": null
+},
+{
+"text": "480",
+"x0": 650,
+"y0": 181,
+"x1": 655,
+"y1": 187,
+"angle": null
+},
+{
+"text": "8",
+"x0": 668,
+"y0": 181,
+"x1": 670,
+"y1": 187,
+"angle": null
+},
+{
+"text": "0.139",
+"x0": 712,
+"y0": 181,
+"x1": 721,
+"y1": 187,
+"angle": null
+},
+{
+"text": "0.88",
+"x0": 726,
+"y0": 181,
+"x1": 733,
+"y1": 187,
+"angle": null
+},
+{
+"text": "10229",
+"x0": 739,
+"y0": 181,
+"x1": 749,
+"y1": 187,
+"angle": null
+},
+{
+"text": "4",
+"x0": 470,
+"y0": 176,
+"x1": 472,
+"y1": 181,
+"angle": null
+},
+{
+"text": "T-UCCS-LA/LC SEC",
+"x0": 477,
+"y0": 176,
+"x1": 508,
+"y1": 181,
+"angle": null
+},
+{
+"text": "3",
+"x0": 527,
+"y0": 176,
+"x1": 529,
+"y1": 181,
+"angle": null
+},
+{
+"text": "11240",
+"x0": 541,
+"y0": 176,
+"x1": 551,
+"y1": 181,
+"angle": null
+},
+{
+"text": "M",
+"x0": 557,
+"y0": 175,
+"x1": 560,
+"y1": 181,
+"angle": null
+},
+{
+"text": "Set(s) of",
+"x0": 573,
+"y0": 176,
+"x1": 586,
+"y1": 181,
+"angle": null
+},
+{
+"text": "#N/A",
+"x0": 633,
+"y0": 176,
+"x1": 640,
+"y1": 181,
+"angle": null
+},
+{
+"text": "208",
+"x0": 650,
+"y0": 176,
+"x1": 655,
+"y1": 181,
+"angle": null
+},
+{
+"text": "150",
+"x0": 683,
+"y0": 176,
+"x1": 689,
+"y1": 181,
+"angle": null
+},
+{
+"text": "3",
+"x0": 701,
+"y0": 176,
+"x1": 703,
+"y1": 181,
+"angle": null
+},
+{
+"text": "1.867",
+"x0": 712,
+"y0": 176,
+"x1": 721,
+"y1": 181,
+"angle": null
+},
+{
+"text": "0.35",
+"x0": 726,
+"y0": 176,
+"x1": 733,
+"y1": 181,
+"angle": null
+},
+{
+"text": "9048",
+"x0": 740,
+"y0": 176,
+"x1": 748,
+"y1": 181,
+"angle": null
+},
+{
+"text": "3",
+"x0": 470,
+"y0": 170,
+"x1": 472,
+"y1": 175,
+"angle": null
+},
+{
+"text": "T-UCCS-LA/LC PRI",
+"x0": 477,
+"y0": 170,
+"x1": 507,
+"y1": 175,
+"angle": null
+},
+{
+"text": "2",
+"x0": 527,
+"y0": 170,
+"x1": 529,
+"y1": 175,
+"angle": null
+},
+{
+"text": "11647",
+"x0": 541,
+"y0": 170,
+"x1": 551,
+"y1": 175,
+"angle": null
+},
+{
+"text": "M",
+"x0": 557,
+"y0": 170,
+"x1": 560,
+"y1": 175,
+"angle": null
+},
+{
+"text": "1",
+"x0": 568,
+"y0": 170,
+"x1": 569,
+"y1": 175,
+"angle": null
+},
+{
+"text": "Set(s) of",
+"x0": 573,
+"y0": 170,
+"x1": 586,
+"y1": 175,
+"angle": null
+},
+{
+"text": "300 KCML",
+"x0": 588,
+"y0": 170,
+"x1": 604,
+"y1": 175,
+"angle": null
+},
+{
+"text": "AL",
+"x0": 617,
+"y0": 170,
+"x1": 622,
+"y1": 175,
+"angle": null
+},
+{
+"text": "13909",
+"x0": 634,
+"y0": 170,
+"x1": 644,
+"y1": 175,
+"angle": null
+},
+{
+"text": "480",
+"x0": 650,
+"y0": 170,
+"x1": 655,
+"y1": 175,
+"angle": null
+},
+{
+"text": "12",
+"x0": 667,
+"y0": 170,
+"x1": 671,
+"y1": 175,
+"angle": null
+},
+{
+"text": "0.036",
+"x0": 712,
+"y0": 170,
+"x1": 721,
+"y1": 175,
+"angle": null
+},
+{
+"text": "0.97",
+"x0": 726,
+"y0": 170,
+"x1": 733,
+"y1": 175,
+"angle": null
+},
+{
+"text": "11240",
+"x0": 739,
+"y0": 170,
+"x1": 749,
+"y1": 175,
+"angle": null
+},
+{
+"text": "2",
+"x0": 470,
+"y0": 164,
+"x1": 472,
+"y1": 170,
+"angle": null
+},
+{
+"text": "UCCSHA",
+"x0": 477,
+"y0": 164,
+"x1": 491,
+"y1": 170,
+"angle": null
+},
+{
+"text": "1",
+"x0": 527,
+"y0": 164,
+"x1": 529,
+"y1": 170,
+"angle": null
+},
+{
+"text": "22000",
+"x0": 541,
+"y0": 164,
+"x1": 551,
+"y1": 170,
+"angle": null
+},
+{
+"text": "M",
+"x0": 557,
+"y0": 164,
+"x1": 560,
+"y1": 169,
+"angle": null
+},
+{
+"text": "1",
+"x0": 568,
+"y0": 164,
+"x1": 569,
+"y1": 170,
+"angle": null
+},
+{
+"text": "Set(s) of",
+"x0": 573,
+"y0": 164,
+"x1": 586,
+"y1": 170,
+"angle": null
+},
+{
+"text": "500 KCML",
+"x0": 588,
+"y0": 164,
+"x1": 604,
+"y1": 170,
+"angle": null
+},
+{
+"text": "AL",
+"x0": 617,
+"y0": 164,
+"x1": 622,
+"y1": 170,
+"angle": null
+},
+{
+"text": "18755",
+"x0": 634,
+"y0": 164,
+"x1": 644,
+"y1": 170,
+"angle": null
+},
+{
+"text": "480",
+"x0": 650,
+"y0": 164,
+"x1": 655,
+"y1": 170,
+"angle": null
+},
+{
+"text": "210",
+"x0": 666,
+"y0": 164,
+"x1": 672,
+"y1": 170,
+"angle": null
+},
+{
+"text": "0.889",
+"x0": 712,
+"y0": 164,
+"x1": 721,
+"y1": 170,
+"angle": null
+},
+{
+"text": "0.53",
+"x0": 726,
+"y0": 164,
+"x1": 733,
+"y1": 170,
+"angle": null
+},
+{
+"text": "11647",
+"x0": 739,
+"y0": 164,
+"x1": 749,
+"y1": 170,
+"angle": null
+},
+{
+"text": "1",
+"x0": 470,
+"y0": 158,
+"x1": 472,
+"y1": 164,
+"angle": null
+},
+{
+"text": "EXISTING MSB-NORTH",
+"x0": 477,
+"y0": 158,
+"x1": 514,
+"y1": 164,
+"angle": null
+},
+{
+"text": "25044",
+"x0": 541,
+"y0": 158,
+"x1": 551,
+"y1": 164,
+"angle": null
+},
+{
+"text": "22000",
+"x0": 739,
+"y0": 158,
+"x1": 749,
+"y1": 164,
+"angle": null
+},
+{
+"text": "Point",
+"x0": 467,
+"y0": 152,
+"x1": 475,
+"y1": 158,
+"angle": null
+},
+{
+"text": "Description",
+"x0": 489,
+"y0": 152,
+"x1": 507,
+"y1": 158,
+"angle": null
+},
+{
+"text": "Point)",
+"x0": 523,
+"y0": 152,
+"x1": 533,
+"y1": 158,
+"angle": null
+},
+{
+"text": "(amps)",
+"x0": 538,
+"y0": 152,
+"x1": 549,
+"y1": 158,
+"angle": null
+},
+{
+"text": "Type",
+"x0": 554,
+"y0": 152,
+"x1": 562,
+"y1": 158,
+"angle": null
+},
+{
+"text": "Wire/Bus Size",
+"x0": 573,
+"y0": 152,
+"x1": 595,
+"y1": 158,
+"angle": null
+},
+{
+"text": "Type",
+"x0": 615,
+"y0": 152,
+"x1": 623,
+"y1": 158,
+"angle": null
+},
+{
+"text": "'C' value",
+"x0": 630,
+"y0": 152,
+"x1": 643,
+"y1": 158,
+"angle": null
+},
+{
+"text": "E (volts)",
+"x0": 646,
+"y0": 152,
+"x1": 659,
+"y1": 158,
+"angle": null
+},
+{
+"text": "L (length)",
+"x0": 662,
+"y0": 152,
+"x1": 677,
+"y1": 158,
+"angle": null
+},
+{
+"text": "KVA",
+"x0": 682,
+"y0": 152,
+"x1": 690,
+"y1": 158,
+"angle": null
+},
+{
+"text": "Z",
+"x0": 701,
+"y0": 152,
+"x1": 703,
+"y1": 158,
+"angle": null
+},
+{
+"text": "f",
+"x0": 716,
+"y0": 152,
+"x1": 717,
+"y1": 158,
+"angle": null
+},
+{
+"text": "M",
+"x0": 728,
+"y0": 152,
+"x1": 731,
+"y1": 158,
+"angle": null
+},
+{
+"text": "Isc",
+"x0": 742,
+"y0": 152,
+"x1": 746,
+"y1": 158,
+"angle": null
+},
+{
+"text": "Fault",
+"x0": 467,
+"y0": 145,
+"x1": 475,
+"y1": 150,
+"angle": null
+},
+{
+"text": "Fault Point",
+"x0": 489,
+"y0": 145,
+"x1": 507,
+"y1": 150,
+"angle": null
+},
+{
+"text": "(Fault",
+"x0": 523,
+"y0": 145,
+"x1": 532,
+"y1": 150,
+"angle": null
+},
+{
+"text": "Source I",
+"x0": 537,
+"y0": 145,
+"x1": 550,
+"y1": 150,
+"angle": null
+},
+{
+"text": "Conduit",
+"x0": 552,
+"y0": 145,
+"x1": 564,
+"y1": 150,
+"angle": null
+},
+{
+"text": "Wire/Bus",
+"x0": 613,
+"y0": 145,
+"x1": 628,
+"y1": 150,
+"angle": null
+},
+{
+"text": "X'FMR",
+"x0": 681,
+"y0": 145,
+"x1": 691,
+"y1": 150,
+"angle": null
+},
+{
+"text": "X'FMR",
+"x0": 697,
+"y0": 145,
+"x1": 707,
+"y1": 150,
+"angle": null
+},
+{
+"text": "Source",
+"x0": 522,
+"y0": 138,
+"x1": 534,
+"y1": 143,
+"angle": null
+},
+{
+"text": "SOURCE FAULT VALUE DERIVED FROM PREVIOUSLY ENGINEERED PLANS",
+"x0": 466,
+"y0": 129,
+"x1": 589,
+"y1": 134,
+"angle": null
+},
+{
+"text": "C x E",
+"x0": 588,
+"y0": 120,
+"x1": 597,
+"y1": 125,
+"angle": null
+},
+{
+"text": "100,000xKVA",
+"x0": 679,
+"y0": 120,
+"x1": 700,
+"y1": 125,
+"angle": null
+},
+{
+"text": "Vs",
+"x0": 724,
+"y0": 120,
+"x1": 729,
+"y1": 125,
+"angle": null
+},
+{
+"text": "Isc = Isc x M",
+"x0": 477,
+"y0": 114,
+"x1": 497,
+"y1": 120,
+"angle": null
+},
+{
+"text": "M= 1/(1+f)",
+"x0": 542,
+"y0": 114,
+"x1": 558,
+"y1": 120,
+"angle": null
+},
+{
+"text": "f =",
+"x0": 583,
+"y0": 114,
+"x1": 587,
+"y1": 120,
+"angle": null
+},
+{
+"text": "1.732 x L x I",
+"x0": 588,
+"y0": 114,
+"x1": 607,
+"y1": 120,
+"angle": null
+},
+{
+"text": "XFMR:",
+"x0": 649,
+"y0": 114,
+"x1": 660,
+"y1": 120,
+"angle": null
+},
+{
+"text": "IP(sca)=",
+"x0": 664,
+"y0": 114,
+"x1": 677,
+"y1": 120,
+"angle": null
+},
+{
+"text": "IP(sca)x Vp x%Z",
+"x0": 679,
+"y0": 114,
+"x1": 705,
+"y1": 120,
+"angle": null
+},
+{
+"text": "IS(sca... Vp x M x IS(sca)",
+"x0": 711,
+"y0": 114,
+"x1": 750,
+"y1": 120,
+"angle": null
+},
+{
+"text": "The following calculations are based on the \"Point-by Point\" method where:",
+"x0": 477,
+"y0": 106,
+"x1": 600,
+"y1": 111,
+"angle": null
+},
+{
+"text": "Short-Circuit Calculations",
+"x0": 466,
+"y0": 97,
+"x1": 512,
+"y1": 103,
+"angle": null
+},
+{
+"text": "1)",
+"x0": 111,
+"y0": 196,
+"x1": 113,
+"y1": 201,
+"angle": null
+},
+{
+"text": "ELCTRICAL EQUIPMENT AIC RATING SHALL EXCEED CACULATED FAULT VALUE",
+"x0": 116,
+"y0": 196,
+"x1": 220,
+"y1": 201,
+"angle": null
+},
+{
+"text": "2)",
+"x0": 111,
+"y0": 201,
+"x1": 113,
+"y1": 206,
+"angle": null
+},
+{
+"text": "ELECTRICAL EQUIPMENT FED FROM A TRANSFORMER SECONDARY RESULTING IN LESS THAN 10000 Isc SHALL BE RATED 10kAIC",
+"x0": 116,
+"y0": 201,
+"x1": 287,
+"y1": 206,
+"angle": null
+},
+{
+"text": "1)",
+"x0": 467,
+"y0": 196,
+"x1": 470,
+"y1": 201,
+"angle": null
+},
+{
+"text": "ELCTRICAL EQUIPMENT AIC RATING SHALL EXCEED CACULATED FAULT VALUE",
+"x0": 473,
+"y0": 196,
+"x1": 577,
+"y1": 201,
+"angle": null
+},
+{
+"text": "2)",
+"x0": 467,
+"y0": 201,
+"x1": 470,
+"y1": 206,
+"angle": null
+},
+{
+"text": "ELECTRICAL EQUIPMENT FED FROM A TRANSFORMER SECONDARY RESULTING IN LESS THAN 10000 Isc SHALL BE RATED 10kAIC",
+"x0": 473,
+"y0": 201,
+"x1": 643,
+"y1": 206,
+"angle": null
+},
+{
+"text": "A### INDICATES ALUMINUM CONDUCTORS",
+"x0": 831,
+"y0": 760,
+"x1": 886,
+"y1": 765,
+"angle": null
+},
+{
+"text": "DESIGN DEVELOPMENT",
+"x0": 907,
+"y0": 610,
+"x1": 937,
+"y1": 615,
+"angle": null
+},
+{
+"text": "23DEC2020",
+"x0": 967,
+"y0": 610,
+"x1": 981,
+"y1": 615,
+"angle": null
+},
+{
+"text": "CONSTRUCTION DOCUMENTS",
+"x0": 907,
+"y0": 604,
+"x1": 945,
+"y1": 609,
+"angle": null
+},
+{
+"text": "15APR2021",
+"x0": 967,
+"y0": 604,
+"x1": 981,
+"y1": 609,
+"angle": null
+},
+{
+"text": "BID SET",
+"x0": 907,
+"y0": 598,
+"x1": 917,
+"y1": 603,
+"angle": null
+},
+{
+"text": "04MAY2021",
+"x0": 967,
+"y0": 598,
+"x1": 981,
+"y1": 603,
+"angle": null
+},
+{
+"text": "Exp 10-31-21",
+"x0": 934,
+"y0": 717,
+"x1": 957,
+"y1": 722,
+"angle": null
+},
+{
+"text": "5-4-21",
+"x0": 940,
+"y0": 693,
+"x1": 952,
+"y1": 699,
+"angle": null
+},
+{
+"text": "SMITHGROUP",
+"x0": 906,
+"y0": 268,
+"x1": 975,
+"y1": 286,
+"angle": null
+},
+{
+"text": "46278",
+"x0": 940,
+"y0": 682,
+"x1": 953,
+"y1": 691,
+"angle": 6.8
+},
+{
+"text": "UCCS",
+"x0": 902,
+"y0": 55,
+"x1": 993,
+"y1": 102,
+"angle": null
+},
+{
+"text": "22",
+"x0": 277,
+"y0": 549,
+"x1": 283,
+"y1": 556,
+"angle": null
+},
+{
+"text": "4",
+"x0": 466,
+"y0": 689,
+"x1": 471,
+"y1": 693,
+"angle": null
+},
+{
+"text": "O",
+"x0": 587,
+"y0": 551,
+"x1": 589,
+"y1": 554,
+"angle": 90.0
+},
+{
+"text": "4",
+"x0": 80,
+"y0": 689,
+"x1": 85,
+"y1": 693,
+"angle": null
+},
+{
+"text": "\u25cf",
+"x0": 550,
+"y0": 551,
+"x1": 553,
+"y1": 554,
+"angle": null
+},
+{
+"text": "\u25cf",
+"x0": 231,
+"y0": 551,
+"x1": 234,
+"y1": 554,
+"angle": null
+},
+{
+"text": "\u25cf",
+"x0": 578,
+"y0": 551,
+"x1": 580,
+"y1": 554,
+"angle": 90.0
+},
+{
+"text": "\u25cf",
+"x0": 694,
+"y0": 551,
+"x1": 697,
+"y1": 554,
+"angle": null
+},
+{
+"text": "\u25cf",
+"x0": 372,
+"y0": 551,
+"x1": 374,
+"y1": 554,
+"angle": 90.0
+},
+{
+"text": "\u25cf",
+"x0": 191,
+"y0": 551,
+"x1": 194,
+"y1": 554,
+"angle": null
+},
+{
+"text": "C",
+"x0": 690,
+"y0": 765,
+"x1": 693,
+"y1": 770,
+"angle": 90.0
+},
+{
+"text": "C",
+"x0": 690,
+"y0": 760,
+"x1": 693,
+"y1": 765,
+"angle": 90.0
+},
+{
+"text": "O",
+"x0": 561,
+"y0": 551,
+"x1": 564,
+"y1": 554,
+"angle": null
+}
+]
+}
