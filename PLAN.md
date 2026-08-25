@@ -12,7 +12,7 @@ which is the authority for every matching claim below.
 | `system_prompt.md` — prompt, slot contract, precedence + tiebreak rules | **drafted** | not yet exercised against a dataset |
 | runner (`find_errors.py`, not `agent.py` — the grader only reads `run.sh`) | **done** | offline stub run on the practice set → F1 1.000 |
 | `run.sh` | **done** — no `set -e`, install is best-effort | `bash run.sh` end to end → F1 1.000 |
-| value-diff candidate generator | not started | — |
+| value-diff candidate generator | **done** — appended to the built prompt as a hint, not a slot | schedules 0 delta tokens, drawings 39 known glue artifacts |
 | verifier / dedupe / output validator | **done** | `python3 find_errors.py --demo` → `self-check ok` |
 
 ## Decision log
