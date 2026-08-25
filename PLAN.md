@@ -10,10 +10,21 @@ which is the authority for every matching claim below.
 |---|---|---|
 | `grade_output.py` — local grader, port of `src/grade.ts` | **done** | `python3 grade_output.py --demo` → `self-check ok` |
 | `system_prompt.md` — prompt, slot contract, precedence + tiebreak rules | **drafted** | not yet exercised against a dataset |
-| `agent.py` — runner: enumerate → map → fill slots → call → validate → write | not started | — |
-| `run.sh` | still the sample baseline (`find_errors.py`) | — |
+| runner (`find_errors.py`, not `agent.py` — the grader only reads `run.sh`) | **done** | offline stub run on the practice set → F1 1.000 |
+| `run.sh` | **done** — no `set -e`, install is best-effort | `bash run.sh` end to end → F1 1.000 |
 | value-diff candidate generator | not started | — |
-| verifier / dedupe / output validator | not started | — |
+| verifier / dedupe / output validator | **done** | `python3 find_errors.py --demo` → `self-check ok` |
+
+## Decision log
+
+| Decision | Alternatives | Why |
+|---|---|---|
+| Per-candidate verify, run concurrently (`VERIFY_WORKERS=4`) | one batched verify call | Batching tested worse — a plausible false candidate crowded out a genuine one. Isolation is the property that matters; N sequential full-corpus round trips against a 600 s kill is just latency, so a thread pool removes it without touching semantics. |
+| Stage lines early, one bounded SUMMARY block last | verbose progress logging | `readLogTail` (src/runs.ts:340) returns only the final 4000 chars, after the run ends. Printing detail first makes truncation eat the detail, never the summary. |
+| `write_output` at second zero, again after candidates | write once at the end | A kill during the verify loop previously left no file at all. A file that exists scores; one that does not cannot. |
+| Deterministic `validate()` between every LLM stage | trust the model's self-check | The model reaches for the pack's folder names and for the prompt's own invented examples (`HVACSchedule.pdf`). Those can never match a key entry and cost precision outright. |
+| No `set -e` in `run.sh`; pypdf install is best-effort | `set -e` + unconditional install | pypdf ships in the image (Dockerfile:12). With `set -e`, one transient pypi.org failure ended the run before anything wrote an output file. |
+| Dedupe key = first non-integer anchor, else the integer tuple | anchor set, or first anchor | A bare integer is a page number; keying on it collapsed every finding on a page into one. Caught by the self-check, not by review. |
 
 ## Assumptions
 

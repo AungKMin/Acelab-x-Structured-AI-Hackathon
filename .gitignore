@@ -25,3 +25,6 @@ ultimate-what-to-do-hackathon.md
 
 
 __pycache__/
+
+# Local test runs of find_errors.py (OUTPUT_PATH defaults to ./output.json)
+/output*.json

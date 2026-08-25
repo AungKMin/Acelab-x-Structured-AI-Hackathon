@@ -37,13 +37,22 @@ filenames, so the runner must map them before filling any slot:
 | `InteriorsSchedule.pdf` | `3_Finishes_Product_Schedule` | 3 |
 | `MEPSchedule.pdf` | `4_Plumbing_Product_Schedule` | 2 |
 
-Never hardcode these names — enumerate `$DATASET_DIR` and match on the table,
-falling back to page count (7/3/2 is unique, verified against `documents.csv`).
-A runtime file matching no folder gets its text from the PDF directly.
+Never hardcode these names — enumerate `$DATASET_DIR` and match on the table
+first. An unrecognized file name falls back to page count **only when the
+full page-count multiset of every file in `$DATASET_DIR` matches the pack's**
+— i.e. the dataset is plainly this corpus renamed, not merely one file that
+happens to share a page count with one pack document. Otherwise a stranger
+PDF would be served another document's text under its own name. A runtime
+file that still matches no folder gets its text read straight from its own PDF.
 
-**One call per run.** The prompt is filled once with the whole corpus. Do not
-shard by page — `cross-document-conflict` and `missing-item` both require the
-full set in one context.
+**One generation call, one verify call.** This prompt is filled once with the
+whole corpus for candidate generation — do not shard by page, since
+`cross-document-conflict` and `missing-item` both require the full set in one
+context. A second, separate call then adversarially re-checks each candidate
+against the same material (built inline in `find_errors.py`, not from this
+file) and drops anything it can't point to direct textual support for — in
+particular a value that's real text somewhere in the corpus but attached to a
+different entity, tag, or document than the candidate is about.
 
 **Evaluating a change to this prompt.** Run against
 `examples/practice-dataset/`, then `python3 grade_output.py output.json
@@ -61,9 +70,20 @@ quote from the text given to you.
 | category | means |
 |---|---|
 | `cross-document-conflict` | Two documents state different values for the same item (tag, room, spec section, equipment mark). |
-| `code-violation` | A value contradicts a cited code, standard, or spec requirement — ADA 302, NEC 110.26, UL 2196, ASSE 1070, WaterSense, LEED, or a `NN NN NN` MasterFormat section. |
-| `unit-error` | Wrong unit, wrong magnitude, or an impossible conversion — gpf vs gpm vs Lpf, kVA vs kW, A vs kAIC, inches vs feet. |
+| `code-violation` | A value contradicts an **external** standard — ADA 302, NEC 110.26, UL 2196, ASSE 1070, WaterSense, LEED. Not a spec section: a spec section is one of your own documents, so a value contradicting one is `cross-document-conflict`, never `code-violation`. |
+| `unit-error` | Right dimension, wrong unit or magnitude — gpf vs gpm vs Lpf, kVA vs kW, A vs kAIC, inches vs feet, a value off by a factor of ten. This wins over `cross-document-conflict` whenever the two values measure the same thing in different units or scales, whatever document states the correct one. |
 | `missing-item` | A referenced item has no definition anywhere: a tag on a plan absent from the schedule, a keynote number with no keynote text, a finish code with no product row. |
+
+**Choose the category with this test, in order — the first that fits wins:**
+
+1. Is it a **unit or magnitude** mismatch — same dimension, wrong scale (gpf vs gpm, `5.0` vs `0.5`, kVA vs kW)? → `unit-error`. This applies **even when a code or spec is what states the correct value** — a flow rate that is 10x too high is a unit-error citing that spec, not a code-violation.
+2. Does a **spec section, drawing, or schedule in this document set** state a conflicting value? → `cross-document-conflict`. A `NN NN NN` MasterFormat spec section is one of your documents, not a code.
+3. Does the value contradict an **external** code or standard (ADA, NEC, UL, ASSE, WaterSense, LEED)? → `code-violation`.
+4. Is the item **referenced but defined nowhere**? → `missing-item`.
+
+A wrong value is **never** `missing-item`. `missing-item` means the definition is
+absent, not incorrect. If a schedule row exists and its value is wrong, the
+category is 1, 2, or 3 — never 4.
 
 ## Context sources
 
@@ -86,8 +106,9 @@ runtime documents come from — not a paraphrase. Quote them verbatim.
    `rooms_found`, `door_tags_found`, `finish_codes_found`, `fire_ratings_found`,
    `grid_lines_found`, `keynote_numbers_found`, `schedule_names`,
    `schedule_columns`, `spec_sections`, `code_references`, `key_dimensions`,
-   `details_on_page`, and `notes_sections` that were detected. A code present on
-   one page and absent from every schedule is a `missing-item` candidate.
+   `details_on_page`, `notes_sections`, and `schedule_type` (the page's own
+   classification, e.g. `finishes_schedule`) that were detected. A code present
+   on one page and absent from every schedule is a `missing-item` candidate.
 
 Never cite a source not listed above. In particular the extraction pack's
 `title_blocks.csv` and `symbols.csv` do not exist, and its `text_spans/` and
@@ -128,7 +149,16 @@ Work through all seven steps before emitting anything.
    schedule row as `missing-item` just because no drawing you were given
    references it.
 3. **Values against cited requirements.** Where a row cites a spec section or a
-   code, check the stated value against what that requirement demands.
+   code, check the stated value against what that requirement demands **for
+   that same fixture, tag, or entity** — never against a number that belongs to
+   a *different* fixture, tag, or entity, even one in the same schedule or
+   document that happens to share a unit. The required value may legitimately
+   live in a different document than the row you're checking (that's what
+   makes it a `cross-document-conflict`) — what disqualifies a number is a
+   mismatched **entity**, not a different document. A remark saying a fixture
+   "shall be WaterSense labeled" or "shall comply with" a code, with no number
+   given anywhere for that specific fixture, is not by itself a provable
+   violation — you have nothing to compare against.
 4. **Unit sanity.** Flow (gpf / gpm / Lpf), electrical (VA / kVA / A / kAIC),
    dimensions (feet–inches). Check both the unit and the order of magnitude, and
    check every stated conversion.
@@ -142,7 +172,8 @@ Work through all seven steps before emitting anything.
    - `location` contains the page number as a bare integer.
    - `description` quotes the wrong value **and** the correct value verbatim.
    - `category` is one of the four exact strings.
-   - No two reports describe the same underlying error.
+   - No two surviving reports share document + category + the same equipment
+     mark, tag, or spec section (see "One report per error" below).
 
 You are done when every page has been through steps 1–6 and every surviving
 finding has passed step 7. Do not stop early and do not pad toward a count.
@@ -162,10 +193,12 @@ Return **only** a JSON object. No prose, no code fence, no commentary.
   the **equipment mark or code** (`WC-1`, `CPT-6`, `A225-3`), the **wrong value**,
   the **correct value**, and the **spec or code section** if one is involved.
   Those literal strings and the page number are the only things the match is
-  made on, so transcribe them exactly — `45 min`, not `45-minute`; `22 40 00`, not `224000`.
+  made on, so transcribe them exactly — `200 cfm`, not `200CFM`; `23 21 23`, not `232123`.
 - `category` — one of the four strings above, exactly.
-- **One report per error.** A repeated finding cannot raise recall and does lower
-  precision. Deduplicate before returning.
+- **One report per error.** Two reports describe the same underlying error when
+  they share `document` + `category` + the same equipment mark, tag, or spec
+  section. A repeated finding cannot raise recall and does lower precision — keep
+  only the report with the strongest quoted evidence and drop the rest.
 - If you find no error you can quote, return `{"errors": []}` and nothing else.
 - If the context appears truncated mid-document, report what you verified from
   the complete portion and return valid JSON regardless. Never return partial
@@ -173,26 +206,39 @@ Return **only** a JSON object. No prose, no code fence, no commentary.
 
 ## Examples
 
-These two come from a **different, unrelated practice document set**. They show
-the required shape only. `schedule.pdf` and `spec.pdf` are **not** in your
-document list — never emit those names.
+All three are **invented** — a fictional set that appears in no dataset. The
+shape and calibration matter, not the facts. `HVACSchedule.pdf` and
+`panel-schedule.pdf` are **not** in your document list; never emit those names,
+and never emit `AHU-3`, `P-2`, or `MSB-WEST`. Every value you report must come
+from the documents given to you below.
 
 ```
 {"errors": [
-  {"document": "schedule.pdf",
+  {"document": "HVACSchedule.pdf",
    "category": "cross-document-conflict",
-   "location": "page 1, DOOR SCHEDULE, D-202",
-   "description": "Door schedule rates D-202 (Mechanical 101) at 45 min; spec 08 11 00 requires 90-minute doors at mechanical rooms."},
-  {"document": "schedule.pdf",
+   "location": "page 4, AIR HANDLER SCHEDULE, AHU-3",
+   "description": "Air handler schedule rates AHU-3 outdoor air at 200 cfm; the mechanical plan on page 2 tags the same unit at 450 cfm."},
+  {"document": "HVACSchedule.pdf",
+   "category": "code-violation",
+   "location": "page 4, PUMP SCHEDULE, P-2",
+   "description": "Pump schedule specifies P-2 with a bronze impeller; spec 23 21 23 requires stainless steel impellers on all domestic-water pumps."},
+  {"document": "panel-schedule.pdf",
    "category": "unit-error",
-   "location": "page 1, FIXTURE SCHEDULE, L-1",
-   "description": "Fixture schedule lists lavatory L-1 at 5.0 gpm; spec 22 40 00 requires 0.5 gpm aerators."}
+   "location": "page 5, ELECTRICAL PANEL SCHEDULE, MSB-WEST",
+   "description": "Panel schedule rates switchboard MSB-WEST at 65kAIC; spec 26 24 13 requires a minimum of 100kAIC at that bus."}
 ]}
 ```
 
-Each names the page as an integer, carries the equipment mark, quotes both the
-wrong and the right value, cites the spec section, and attributes the error to
-the document that contains it — the schedule, not the spec that contradicts it.
+All three name the page as an integer, carry the equipment mark, quote both the
+wrong and the right value, cite the code/spec basis where one exists, and
+attribute the error to the document that contains it — never the document that
+merely proves it wrong.
+
+**MSB-WEST is `unit-error`, not `code-violation`, even though a spec is cited** —
+because the mismatch is a magnitude gap in the same quantity (kAIC), not a
+different requirement being violated. This is the confusion category 1 exists
+to prevent: a spec citing the correct number never promotes a magnitude
+mismatch to `code-violation`.
 
 ---
 
