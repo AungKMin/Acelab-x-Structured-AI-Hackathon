@@ -17,3 +17,11 @@ assets/datasets/validation/
 
 # Provisioned event keys — never commit
 team-keys.csv
+
+
+CLAUDE.md
+ultimate-what-to-do-hackathon.md
+
+
+
+__pycache__/
